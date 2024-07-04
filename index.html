@@ -154,18 +154,7 @@
                 <p class="slider" >
                     <input class="mdl-slider mdl-js-slider" type="range" min="0" id="y_offset" max="1000" value="780" tabindex="0" onclick="update_chart()">
                 </p>
-                <script>
-                    $("#y_offset").click(function(){
-                    $.post("sql_requests.php",
-                    {
-                        name: "Donald Duck",
-                        city: "Duckburg"
-                    },
-                    function(data, status){
-                        alert("Data: " + data + "\nStatus: " + status);
-                    });
-                    });
-                </script>
+                
             </div>
             <div class="price_adjustment">
                 <h1 class="price-description">Decrease speed</h1>
