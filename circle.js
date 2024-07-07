@@ -1,17 +1,20 @@
 export default class circle {
     
-    constructor(name, links) {
+    constructor(name, links, size) {
       this.x = 50+Math.random()*800;
       this.y = 50+Math.random()*800;
       this.vx = 2;
       this.vy = 2;
-      this.radius = 5;
+      this.radius = size;
       this.color = "grey";
       this.dragging = false;
       this.name = name;
-      this.links = links
+      this.links = links;
+      this.attraction = 800/document.getElementById("gravity").value;
+      this.rejection = document.getElementById("rejection")/100*this.attraction;
     }
     draw_me() {
+        
         const canvas = document.getElementById("canvas");
         const ctx = canvas.getContext("2d");
         ctx.beginPath();
@@ -41,10 +44,10 @@ export default class circle {
 
     follow(parent){
       var distance = Math.sqrt((parent.x-this.x)**2 + (parent.y-this.y)**2);
-      if (distance > 200) {
+      if (distance > this.attraction) {
           this.x = this.x - this.vx*((this.x-parent.x)/(Math.abs(this.x-parent.x) + Math.abs(this.y-parent.y)))
           this.y = this.y - this.vy*((this.y-parent.y)/(Math.abs(this.x-parent.x) + Math.abs(this.y-parent.y)))
-      } else if (distance < 100 ){
+      } else if (distance < this.rejection ){
           this.x = this.x + this.vx*((this.x-parent.x)/(Math.abs(this.x-parent.x) + Math.abs(this.y-parent.y)))
           this.y = this.y + this.vy*((this.y-parent.y)/(Math.abs(this.x-parent.x) + Math.abs(this.y-parent.y)))
       }
@@ -62,4 +65,16 @@ export default class circle {
         const dy = y - this.y;
         return dx * dx + dy * dy <= this.radius * this.radius;
       }
+    
+    change_circle_gravity(){
+        this.attraction = 800/document.getElementById("gravity").value;
+    }
+
+    change_circle_rejection(){
+        this.rejection = document.getElementById("rejection")/100*this.attraction;
+    }
+
+    change_circle_size(){
+        this.radius = document.getElementById("circle_size").value;
+    }
   }

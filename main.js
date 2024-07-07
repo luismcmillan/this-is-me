@@ -6,6 +6,7 @@ if (jsoncontent) {
 
 console.log(jsoncontent[2].links.length);
 const canvas = document.getElementById("canvas");
+var circle_size = document.getElementById("circle_size").value;
 const ctx = canvas.getContext("2d");
 ctx.strokeStyle = "gray";
 let raf;
@@ -20,14 +21,13 @@ var counter = 0;
 for (const element of jsoncontent) {
   map.set(element.name, counter);
   counter++;
-  balls.push(new circle(element.name, element.links));
+  balls.push(new circle(element.name, element.links,circle_size));
 }
 //Creates connectivity matrix
 let matrix = Array.from({ length: 313 }, () => Array(313).fill(0));
 for (let i = 0; i < matrix.length; i++) {
   let links = jsoncontent[i].links;
   for (let j = 0; j < jsoncontent[i].links.length; j++) {
-    console.log(map.get(links[j]));
     matrix[i][map.get(links[j])] = 1;
   }
 }
@@ -161,6 +161,8 @@ function draw() {
   }
 
   for (const element of balls) {
+    element.change_circle_gravity();
+    element.change_circle_size();
     draw_me(element);
   }
   raf = window.requestAnimationFrame(draw);
@@ -177,34 +179,39 @@ async function loadJson() {
 }
 
 canvas.addEventListener("mousemove", (e) => {
-  if(text_is_given){
-    clear();
-    draw_all_lines(matrix);
-  }
-  
-    
-  const rect = canvas.getBoundingClientRect();
-  const mouse_x = e.clientX - rect.left;
-  const mouse_y = e.clientY - rect.top;
-  var found_hovered = false;
-  for (const element of balls) {
-    element.hovered = element.isPointInside(mouse_x, mouse_y);
-    if (element.isPointInside(mouse_x, mouse_y)) {
-      found_hovered = true;
-      general_hovered = true;
-      if (element.dragging == true) {
-        element.x = mouse_x;
-        element.y = mouse_y;
-      }
+    if(text_is_given){
+        clear();
+        draw_all_lines(matrix);
     }
-  }
-  general_hovered = found_hovered ? true : false;
-  for (const element of balls) {
-    draw_me(element);
-  }
+    const rect = canvas.getBoundingClientRect();
+    const mouse_x = e.clientX - rect.left;
+    const mouse_y = e.clientY - rect.top;
+    var found_hovered = false;
+    for (const element of balls) {
+        element.hovered = element.isPointInside(mouse_x, mouse_y);
+        if (element.isPointInside(mouse_x, mouse_y)) {
+        found_hovered = true;
+        general_hovered = true;
+        if (element.dragging == true) {
+            element.x = mouse_x;
+            element.y = mouse_y;
+        }
+        }
+    }
+    general_hovered = found_hovered ? true : false;
+    for (const element of balls) {
+        draw_me(element);
+    }
 });
 
 canvas.addEventListener("click", (e) => {
+  if (!running) {
+    raf = window.requestAnimationFrame(draw);
+    running = true;
+  }
+});
+
+document.getElementById("myModal"),addEventListener("click", (e) => {
   if (!running) {
     raf = window.requestAnimationFrame(draw);
     running = true;
@@ -246,3 +253,10 @@ canvas.addEventListener("mouseup", (e) => {
     element.dragging = false;
   }
 });
+
+
+
+
+  
+
+
