@@ -1,0 +1,2347 @@
+[
+    {
+        "name": "Active Directory (AD)",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Advanced Identity/Active Directory (AD).md",
+        "links": []
+    },
+    {
+        "name": "HTML Heading Elements",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/HTML Heading Elements.md",
+        "links": ["HTML Hypertext Markup Language"]
+    },
+    {
+        "name": "Date & Time",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Date & Time/Date & Time.md",
+        "links": [
+            "LocalDate",
+            "LocalTime",
+            "LocalDateTime",
+            "Period",
+            "DateTimeFormatter"
+        ]
+    },
+    {
+        "name": "The List Element",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/The List Element.md",
+        "links": ["HTML Hypertext Markup Language"]
+    },
+    {
+        "name": "Security & Compliance Summary",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/Security & Compliance Summary.md",
+        "links": [
+            "AWS Shield",
+            "AWS WAF - Web Application Firewall",
+            "AWS KMS (Key Management Service)",
+            "CloudHSM",
+            "AWS Certificate Manager (ACM)",
+            "AWS Artifact",
+            "AWS  GuardDuty",
+            "Amazon Inspector",
+            "AWS Network Firewall",
+            "AWS Config",
+            "Amazon Macie",
+            "AWS CloudTrail",
+            "AWS Security Hub",
+            "Amazon Detective",
+            "AWS Abuse",
+            "Root user",
+            "IAM Access Analyzer",
+            "AWS Firewall Manager"
+        ]
+    },
+    {
+        "name": "Disaster Recovery Strategies",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Other Services/Disaster Recovery Strategies.md",
+        "links": [
+            "Pasted image 20240525180113.png",
+            "Pasted image 20240525180145.png",
+            "Pasted image 20240525180223.png",
+            "Pasted image 20240525180352.png"
+        ]
+    },
+    {
+        "name": "AWS Glue",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/AWS Glue.md",
+        "links": ["Pasted image 20240522154942.png"]
+    },
+    {
+        "name": "CloudFormation",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/CloudFormation.md",
+        "links": []
+    },
+    {
+        "name": "LocalDateTime",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Date & Time/LocalDateTime.md",
+        "links": ["Date & Time"]
+    },
+    {
+        "name": "AWS Budgets",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Budgets.md",
+        "links": [
+            "EC2 - Elastic Compute Cloud",
+            "Amazon ElastiCache",
+            "Amazon RDS",
+            "Redshift"
+        ]
+    },
+    {
+        "name": "AWS Artifact",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS Artifact.md",
+        "links": []
+    },
+    {
+        "name": "AWS Right sizing",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/AWS Right sizing.md",
+        "links": [
+            "EC2 - Elastic Compute Cloud",
+            "CloudWatch",
+            "Cost Explorer",
+            "Trusted Advisor"
+        ]
+    },
+    {
+        "name": "Why use an Elastic Load Balancer",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/ELB & ASG/Why use an Elastic Load Balancer.md",
+        "links": [
+            "Pasted image 20240522094827.png",
+            "Auto Scaling Group"
+        ]
+    },
+    {
+        "name": "AWS WAF - Web Application Firewall",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS WAF - Web Application Firewall.md",
+        "links": [
+            "Amazon API Gateway",
+            "CloudFront",
+            "IP Addresses in AWS"
+        ]
+    },
+    {
+        "name": "Billing and Costing Tools - Summary",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Billing and Costing Tools - Summary.md",
+        "links": [
+            "AWS Compute Optimizer",
+            "AWS Pricing Calculator",
+            "AWS Billing Dashboard",
+            "Cost Allocation Tags",
+            "Cost and Usage Reports",
+            "Cost Explorer",
+            "Billing Alarms",
+            "AWS Budgets",
+            "Savings Plan",
+            "AWS Cost Anomaly Detection"
+        ]
+    },
+    {
+        "name": "String",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/String/String.md",
+        "links": [
+            "Pasted image 20240609124429.png",
+            "Pasted image 20240609125024.png",
+            "Pasted image 20240609125250.png",
+            "Immutable Strings"
+        ]
+    },
+    {
+        "name": "AWS CodeStar",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Pipeline/AWS CodeStar.md",
+        "links": [
+            "AWS CodeCommit",
+            "AWS CodePipeline",
+            "AWS CodeBuild",
+            "AWS CodeDeploy",
+            "AWS Elastic Beanstalk",
+            "EC2 - Elastic Compute Cloud",
+            "AWS Cloud9"
+        ]
+    },
+    {
+        "name": "AWS WaveLength",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/AWS WaveLength.md",
+        "links": [
+            "ML",
+            "Pasted image 20240523182734.png"
+        ]
+    },
+    {
+        "name": "Functional Interface",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Functional Interface.md",
+        "links": ["Interfaces"]
+    },
+    {
+        "name": "Trusted Advisor",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Trusted Advisor.md",
+        "links": []
+    },
+    {
+        "name": "Summary",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/Summary.md",
+        "links": [
+            "Amazon Route 53",
+            "CloudFront",
+            "S3 Transfer Acceleration",
+            "AWS Global Accelerator",
+            "AWS Outposts",
+            "AWS WaveLength",
+            "AWS Local Zones"
+        ]
+    },
+    {
+        "name": "Amazon S3 - Versioning",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/Amazon S3 - Versioning.md",
+        "links": []
+    },
+    {
+        "name": "Git Cloning",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/Git Cloning.md",
+        "links": []
+    },
+    {
+        "name": "AWS Network Firewall",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS Network Firewall.md",
+        "links": [
+            "VPC Summary",
+            "Site to Site VPN & Direct Connect",
+            "Pasted image 20240524125857.png"
+        ]
+    },
+    {
+        "name": "SQL Basics",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/SQL/SQL Basics.md",
+        "links": []
+    },
+    {
+        "name": "Amazon RDS",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon RDS/Amazon RDS.md",
+        "links": [
+            "EC2 - Elastic Compute Cloud",
+            "EBS (Elastic Block Store) Volume"
+        ]
+    },
+    {
+        "name": "AWS Compute Optimizer",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Compute Optimizer.md",
+        "links": [
+            "EC2 - Elastic Compute Cloud",
+            "EBS (Elastic Block Store) Volume",
+            "Lambda"
+        ]
+    },
+    {
+        "name": "Font Properties",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/CSS/Font Properties.md",
+        "links": ["CSS Cascading Style Sheets"]
+    },
+    {
+        "name": "jQuery ready",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery ready.md",
+        "links": ["jQuery"]
+    },
+    {
+        "name": "EC2 Instance Store",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/EC2 Instance Store.md",
+        "links": []
+    },
+    {
+        "name": "Scaling Groups - Scaling Strategies",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/ELB & ASG/Scaling Groups - Scaling Strategies.md",
+        "links": []
+    },
+    {
+        "name": "AWS Batch",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Other compute Services/AWS Batch.md",
+        "links": [
+            "EC2 - Elastic Compute Cloud",
+            "Docker",
+            "ECS - Elastic Container Service",
+            "Pasted image 20240523091956.png",
+            "Docker",
+            "EBS (Elastic Block Store) Volume"
+        ]
+    },
+    {
+        "name": "Operational Excellence",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/Operational Excellence.md",
+        "links": ["Pasted image 20240525182745.png"]
+    },
+    {
+        "name": "jQuery Manipulating Text",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery Manipulating Text.md",
+        "links": []
+    },
+    {
+        "name": "AWS Organizations",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Organizations.md",
+        "links": [
+            "EC2 - Elastic Compute Cloud",
+            "Service Control Policies (SCP)",
+            "VPC Summary",
+            "Pasted image 20240524172025.png",
+            "Pasted image 20240524172115.png",
+            "AWS CloudTrail",
+            "Amazon S3",
+            "CloudWatch"
+        ]
+    },
+    {
+        "name": "Amazon Neptune",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon Neptune.md",
+        "links": ["Pasted image 20240522153903.png"]
+    },
+    {
+        "name": "Other Services",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Other Services/Other Services.md",
+        "links": [
+            "AWS IQ",
+            "AWS IoT Core",
+            "Amazon WorkSpaces",
+            "AWS rePost",
+            "AWS Service Catalog",
+            "Amazon AppStream 2.0",
+            "AWS Customer Carbon Footprint Tool",
+            "AWS Device Farm"
+        ]
+    },
+    {
+        "name": "Generating a new SSH key and adding it to the ssh-agent",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/Generating a new SSH key and adding it to the ssh-agent.md",
+        "links": ["GIT"]
+    },
+    {
+        "name": "AWS STS (Security Token Service)",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Advanced Identity/AWS STS (Security Token Service).md",
+        "links": [
+            "EC2 - Elastic Compute Cloud",
+            "Pasted image 20240525120235.png"
+        ]
+    },
+    {
+        "name": "Lambda Expressions",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Lambda/Lambda Expressions.md",
+        "links": [
+            "Anonymous Class",
+            "Lambda syntax",
+            "Predicate"
+        ]
+    },
+    {
+        "name": "AWS Basic Support Plan",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Basic Support Plan.md",
+        "links": [
+            "Trusted Advisor",
+            "AWS Health Dashboard"
+        ]
+    },
+    {
+        "name": "Amazon Kendra",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/Amazon Kendra.md",
+        "links": [
+            "ML",
+            "Pasted image 20240524164955.png"
+        ]
+    },
+    {
+        "name": "Node.js",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Node.js.md",
+        "links": ["Node.js Shell Commands"]
+    },
+    {
+        "name": "Security Groups",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/Security Groups.md",
+        "links": [
+            "Pasted image 20240421180626.png",
+            "Pasted image 20240421182245.png"
+        ]
+    },
+    {
+        "name": "Git Forking and Pull Requests",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/Git Forking and Pull Requests.md",
+        "links": ["Pasted image 20240702183809.png"]
+    },
+    {
+        "name": "Java Shell Commands",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Shell/Java Shell Commands.md",
+        "links": [
+            "Shell",
+            "Java",
+            "pom.xml"
+        ]
+    },
+    {
+        "name": "Amazon EventBridge",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Monitoring Section/Amazon EventBridge.md",
+        "links": [
+            "Pasted image 20240524091337.png",
+            "Pasted image 20240524091421.png",
+            "Pasted image 20240524091703.png",
+            "Pasted image 20240524094034.png"
+        ]
+    },
+    {
+        "name": "Java.io",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java.io/Java.io.md",
+        "links": [
+            "Writing Files",
+            "Reading Files"
+        ]
+    },
+    {
+        "name": "AWS CodePipeline",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Pipeline/AWS CodePipeline.md",
+        "links": [
+            "AWS CodeCommit",
+            "AWS CodeBuild",
+            "AWS CodeDeploy",
+            "AWS Elastic Beanstalk",
+            "CloudFormation",
+            "Pasted image 20240523104509.png"
+        ]
+    },
+    {
+        "name": "Interfaces",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Interfaces.md",
+        "links": [
+            "Abstract Classes",
+            "Pasted image 20240613202538.png",
+            "Default Methods",
+            "Default Methods",
+            "Static methods",
+            "Static methods",
+            "Implementing Interfaces",
+            "Implementing Interfaces",
+            "Marker Interface",
+            "Marker Interface",
+            "Functional Interface",
+            "Functional Interface"
+        ]
+    },
+    {
+        "name": "Advanced Identity - Summary",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Advanced Identity/Advanced Identity - Summary.md",
+        "links": [
+            "IAM",
+            "AWS Organizations",
+            "AWS STS (Security Token Service)",
+            "Amazon Cognito",
+            "AWS Directory Services",
+            "AWS IAM Identity Center"
+        ]
+    },
+    {
+        "name": "GIT Shell Commands",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Shell/GIT Shell Commands.md",
+        "links": [
+            "GIT",
+            "GitHub and Remote Repositories",
+            "Gitignore",
+            "Git Cloning",
+            "Git Branching and Merging",
+            "Git Forking and Pull Requests"
+        ]
+    },
+    {
+        "name": "Shell",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Shell/Shell.md",
+        "links": [
+            "reporting.sh",
+            "Umgebungsvariablen setzen",
+            "Java Shell Commands",
+            "GIT Shell Commands",
+            "Node.js Shell Commands",
+            "Important linux commands"
+        ]
+    },
+    {
+        "name": "Important linux commands",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Shell/Important linux commands.md",
+        "links": ["Shell"]
+    },
+    {
+        "name": "Docker",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Container/Docker.md",
+        "links": [
+            "Pasted image 20240522225458.png",
+            "ECR - Elastic Container Registry",
+            "ECS - Elastic Container Service",
+            "Fargate"
+        ]
+    },
+    {
+        "name": "Global Application Architecture",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/Global Application Architecture.md",
+        "links": [
+            "Pasted image 20240523183814.png",
+            "Pasted image 20240523183835.png",
+            "Pasted image 20240523183909.png",
+            "Pasted image 20240523183930.png"
+        ]
+    },
+    {
+        "name": "Anchor Elements",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/Anchor Elements.md",
+        "links": [
+            "HTML Hypertext Markup Language",
+            "HTML Attributes"
+        ]
+    },
+    {
+        "name": "Amazon ElastiCache",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon ElastiCache.md",
+        "links": ["Pasted image 20240522145907.png"]
+    },
+    {
+        "name": "AWS Enterprise Support Plan",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Enterprise Support Plan.md",
+        "links": ["AWS Business Support Plan"]
+    },
+    {
+        "name": "NPM Server Foundation",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/NPM Server Foundation.md",
+        "links": []
+    },
+    {
+        "name": "pom.xml",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Maven/pom.xml.md",
+        "links": []
+    },
+    {
+        "name": "AWS CodeCommit",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Pipeline/AWS CodeCommit.md",
+        "links": []
+    },
+    {
+        "name": "jQuery Adding and Removing Elements",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery Adding and Removing Elements.md",
+        "links": []
+    },
+    {
+        "name": "AWS Control Tower",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Control Tower.md",
+        "links": [
+            "AWS Organizations",
+            "Service Control Policies (SCP)"
+        ]
+    },
+    {
+        "name": "AWS IoT Core",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Other Services/AWS IoT Core.md",
+        "links": ["Pasted image 20240525173303.png"]
+    },
+    {
+        "name": "Amazon Detective",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/Amazon Detective.md",
+        "links": [
+            "AWS  GuardDuty",
+            "Amazon Macie",
+            "AWS Security Hub",
+            "ML",
+            "VPC Flow Logs",
+            "AWS CloudTrail",
+            "AWS  GuardDuty"
+        ]
+    },
+    {
+        "name": "jQuery Manipulating Styles",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery Manipulating Styles.md",
+        "links": []
+    },
+    {
+        "name": "Umgebungsvariablen setzen",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Shell/Umgebungsvariablen setzen.md",
+        "links": ["Shell"]
+    },
+    {
+        "name": "AWS X-Ray",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Monitoring Section/AWS X-Ray.md",
+        "links": ["Pasted image 20240524095401.png"]
+    },
+    {
+        "name": "jQuery Manipulating  Attributes",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery Manipulating  Attributes.md",
+        "links": []
+    },
+    {
+        "name": "jQuery",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery.md",
+        "links": [
+            "JavaScript",
+            "CDN",
+            "jQuery ready",
+            "jQuery Selecting Elements",
+            "jQuery Manipulating Styles",
+            "jQuery Manipulating Text",
+            "jQuery Manipulating  Attributes",
+            "jQuery Event Listeners",
+            "jQuery Adding and Removing Elements"
+        ]
+    },
+    {
+        "name": "Amazon S3 - Replication (CRR & SRR)",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/Amazon S3 - Replication (CRR & SRR).md",
+        "links": []
+    },
+    {
+        "name": "Savings Plan",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Savings Plan.md",
+        "links": []
+    },
+    {
+        "name": "Self Closing Tags",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/Self Closing Tags.md",
+        "links": [
+            "HTML Hypertext Markup Language",
+            "Image Elements"
+        ]
+    },
+    {
+        "name": "VPC Flow Logs",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/VPC Flow Logs.md",
+        "links": [
+            "Amazon S3",
+            "CloudWatch",
+            "Amazon Kinesis"
+        ]
+    },
+    {
+        "name": "EC2 Instance Connect",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/EC2 Instance Connect.md",
+        "links": []
+    },
+    {
+        "name": "Support Plans",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Support Plans.md",
+        "links": [
+            "AWS Basic Support Plan",
+            "AWS Developer Support Plan",
+            "AWS Business Support Plan",
+            "AWS Enterprise On-Ramp Support Plan",
+            "AWS Enterprise Support Plan"
+        ]
+    },
+    {
+        "name": "Site to Site VPN & Direct Connect",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/Site to Site VPN & Direct Connect.md",
+        "links": [
+            "Pasted image 20240524120116.png",
+            "Pasted image 20240524115616.png"
+        ]
+    },
+    {
+        "name": "REST API",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/REST API.md",
+        "links": [
+            "REST GET Route",
+            "REST POST Route",
+            "REST PUT Route",
+            "REST PATCH Route",
+            "REST DELETE Route"
+        ]
+    },
+    {
+        "name": "Amazon SageMaker",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/Amazon SageMaker.md",
+        "links": [
+            "ML",
+            "Pasted image 20240524164354.png"
+        ]
+    },
+    {
+        "name": "Amazon Aurora",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon Aurora.md",
+        "links": []
+    },
+    {
+        "name": "Static methods",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Static methods.md",
+        "links": [
+            "Interfaces",
+            "Default Methods",
+            "Static Imports"
+        ]
+    },
+    {
+        "name": "Cost Explorer",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Cost Explorer.md",
+        "links": [
+            "Savings Plan",
+            "Pasted image 20240525102720.png",
+            "Pasted image 20240525102745.png"
+        ]
+    },
+    {
+        "name": "Higher Order Functions and Passing Functions as Arguments",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Higher Order Functions and Passing Functions as Arguments.md",
+        "links": [
+            "DOM Document Object Model",
+            "JavaScript"
+        ]
+    },
+    {
+        "name": "LocalTime",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Date & Time/LocalTime.md",
+        "links": ["Date & Time"]
+    },
+    {
+        "name": "Account Best Practices - Summary",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Account Best Practices - Summary.md",
+        "links": [
+            "AWS Organizations",
+            "Service Control Policies (SCP)",
+            "AWS Control Tower",
+            "Cost Allocation Tags",
+            "AWS Config",
+            "Trusted Advisor",
+            "Global Application Architecture",
+            "AWS Well-Architected Tool"
+        ]
+    },
+    {
+        "name": "package.json",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/package.json.md",
+        "links": ["NPM Node Package Manager"]
+    },
+    {
+        "name": "AWS rePost",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/AWS rePost.md",
+        "links": []
+    },
+    {
+        "name": "The Java Platform",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/The Java Platform.md",
+        "links": [
+            "Pasted image 20240531105128.png",
+            "The Java Platform Cont."
+        ]
+    },
+    {
+        "name": "Abstract Classes",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Abstract Classes.md",
+        "links": []
+    },
+    {
+        "name": "Amazon Transcribe",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/Amazon Transcribe.md",
+        "links": []
+    },
+    {
+        "name": "AWS Cloud Adoption Framework (AWS CAF)",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/AWS Cloud Adoption Framework (AWS CAF).md",
+        "links": ["Disaster Recovery Strategies"]
+    },
+    {
+        "name": "Amazon S3 - Security",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/Amazon S3 - Security.md",
+        "links": []
+    },
+    {
+        "name": "Implementing Interfaces",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Implementing Interfaces.md",
+        "links": ["Interfaces"]
+    },
+    {
+        "name": "Amazon CloudWatch Alarms",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Monitoring Section/Amazon CloudWatch Alarms.md",
+        "links": []
+    },
+    {
+        "name": "AWS Pricing Calculator",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Pricing Calculator.md",
+        "links": ["Pasted image 20240525101425.png"]
+    },
+    {
+        "name": "AWS Billing Dashboard",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Billing Dashboard.md",
+        "links": ["Pasted image 20240525101526.png"]
+    },
+    {
+        "name": "Amazon Personalize",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/Amazon Personalize.md",
+        "links": [
+            "ML",
+            "Pasted image 20240524165409.png"
+        ]
+    },
+    {
+        "name": "Well Architected Framework",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/Well Architected Framework.md",
+        "links": [
+            "Operational Excellence",
+            "Security",
+            "Reliability",
+            "Performance Efficiency",
+            "Cost Optimization",
+            "Sustainability"
+        ]
+    },
+    {
+        "name": "AWS Enterprise On-Ramp Support Plan",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Enterprise On-Ramp Support Plan.md",
+        "links": ["AWS Business Support Plan"]
+    },
+    {
+        "name": "Amazon QuickSight",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon QuickSight.md",
+        "links": []
+    },
+    {
+        "name": "CSS Cascading Style Sheets",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/CSS/CSS Cascading Style Sheets.md",
+        "links": [
+            "HTML Hypertext Markup Language",
+            "CSS Selectors",
+            "Font Properties"
+        ]
+    },
+    {
+        "name": "AWS Elastic Beanstalk",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/AWS Elastic Beanstalk.md",
+        "links": [
+            "EC2 - Elastic Compute Cloud",
+            "Auto Scaling Group",
+            "Amazon RDS"
+        ]
+    },
+    {
+        "name": "CloudFront",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/CloudFront.md",
+        "links": [
+            "Pasted image 20240523151341.png",
+            "Pasted image 20240523151656.png",
+            "CloudFront - Pricing Storage"
+        ]
+    },
+    {
+        "name": "AWS Service Catalog",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Service Catalog.md",
+        "links": ["Pasted image 20240524182001.png"]
+    },
+    {
+        "name": "Predicate",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Lambda/Predicate.md",
+        "links": [
+            "Lambda Expressions",
+            "functional interface",
+            "Generics"
+        ]
+    },
+    {
+        "name": "AWS Config",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS Config.md",
+        "links": [
+            "Amazon S3",
+            "Amazon Athena",
+            "Amazon SNS - Simple Notification Service"
+        ]
+    },
+    {
+        "name": "Marker Interface",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Marker Interface.md",
+        "links": ["Interfaces"]
+    },
+    {
+        "name": "Changing Styles of HTML Elements",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Changing Styles of HTML Elements.md",
+        "links": ["CSS Cascading Style Sheets"]
+    },
+    {
+        "name": "AWS Organization - Consolidated Billing",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Organization - Consolidated Billing.md",
+        "links": ["Pasted image 20240524180850.png"]
+    },
+    {
+        "name": "Git Branching and Merging",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/Git Branching and Merging.md",
+        "links": []
+    },
+    {
+        "name": "Express Shell Commands",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Express Shell Commands.md",
+        "links": [
+            "Express",
+            "Shell",
+            "NPM Shell Commands",
+            "package.json"
+        ]
+    },
+    {
+        "name": "Period",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Date & Time/Period.md",
+        "links": ["Date & Time"]
+    },
+    {
+        "name": "AWS IAM Identity Center",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Advanced Identity/AWS IAM Identity Center.md",
+        "links": [
+            "AWS Organizations",
+            "Active Directory (AD)"
+        ]
+    },
+    {
+        "name": "AWS Amplify",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Other Services/AWS Amplify.md",
+        "links": [
+            "AWS Elastic Beanstalk",
+            "Pasted image 20240525174843.png"
+        ]
+    },
+    {
+        "name": "Sustainability",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/Sustainability.md",
+        "links": ["Pasted image 20240525225825.png"]
+    },
+    {
+        "name": "JavaScript Events",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript Events.md",
+        "links": ["JavaScript"]
+    },
+    {
+        "name": "Amazon Translate",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/Amazon Translate.md",
+        "links": []
+    },
+    {
+        "name": "CSS Selectors",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/CSS/CSS Selectors.md",
+        "links": ["CSS Cascading Style Sheets"]
+    },
+    {
+        "name": "JavaScript EventListeners",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/JavaScript EventListeners.md",
+        "links": [
+            "DOM Document Object Model",
+            "JavaScript"
+        ]
+    },
+    {
+        "name": "Cost and Usage Reports",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Cost and Usage Reports.md",
+        "links": [
+            "Amazon Athena",
+            "Redshift",
+            "Amazon QuickSight"
+        ]
+    },
+    {
+        "name": "Amazon QLDB",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon QLDB.md",
+        "links": []
+    },
+    {
+        "name": "JavaScript Basics",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript Basics.md",
+        "links": ["JavaScript"]
+    },
+    {
+        "name": "Amazon S3",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/Amazon S3.md",
+        "links": [
+            "S3 Storage Classes",
+            "Amazon S3 - Buckets",
+            "Amazon S3 - Objects",
+            "Amazon S3 - Security",
+            "Amazon S3 - Static Website Hosting",
+            "Amazon S3 - Versioning",
+            "Amazon S3 - Replication (CRR & SRR)",
+            "AWS Storage Gateway",
+            "Shared Responibility Model for S3"
+        ]
+    },
+    {
+        "name": "Amazon Managed Blockchain",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon Managed Blockchain.md",
+        "links": []
+    },
+    {
+        "name": "S3 Storage Classes",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/S3 Storage Classes.md",
+        "links": ["AWS Snow Family"]
+    },
+    {
+        "name": "AWS Service Quotas",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Service Quotas.md",
+        "links": [
+            "Amazon CloudWatch Alarms",
+            "Pasted image 20240525103949.png"
+        ]
+    },
+    {
+        "name": "Java Development Kit (JDK)",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/Java Development Kit (JDK).md",
+        "links": []
+    },
+    {
+        "name": "LocalDate",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Date & Time/LocalDate.md",
+        "links": ["Date & Time"]
+    },
+    {
+        "name": "CloudFront - Pricing Storage",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/CloudFront - Pricing Storage.md",
+        "links": []
+    },
+    {
+        "name": "REST PATCH Route",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/REST PATCH Route.md",
+        "links": ["NPM Server Foundation"]
+    },
+    {
+        "name": "DMS - Database Migration Service",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/DMS - Database Migration Service.md",
+        "links": ["Pasted image 20240522155700.png"]
+    },
+    {
+        "name": "Billing and Costing Tools",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Billing and Costing Tools.md",
+        "links": [
+            "AWS Pricing Calculator",
+            "AWS Billing Dashboard",
+            "Cost Allocation Tags",
+            "Cost and Usage Reports",
+            "Cost Explorer",
+            "Billing Alarms",
+            "AWS Budgets"
+        ]
+    },
+    {
+        "name": "VPC Summary",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/VPC Summary.md",
+        "links": [
+            "VPC & Subnets",
+            "Internet Gateway",
+            "NAT Gateway",
+            "VPC Peering",
+            "IP Addresses in AWS",
+            "VPC Endpoints",
+            "AWS PrivateLink",
+            "VPC Flow Logs",
+            "AWS Client VPN",
+            "Site to Site VPN & Direct Connect",
+            "Transit Gateway"
+        ]
+    },
+    {
+        "name": "Amazon Timestream",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon Timestream.md",
+        "links": []
+    },
+    {
+        "name": "AWS Firewall Manager",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS Firewall Manager.md",
+        "links": [
+            "Network ACL & Security Groups",
+            "EC2 - Elastic Compute Cloud",
+            "AWS WAF - Web Application Firewall",
+            "AWS Shield",
+            "AWS Network Firewall"
+        ]
+    },
+    {
+        "name": "Amazon AppStream 2.0",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Other Services/Amazon AppStream 2.0.md",
+        "links": []
+    },
+    {
+        "name": "Lambda syntax",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Lambda/Lambda syntax.md",
+        "links": [
+            "Lambda Expressions",
+            "Pasted image 20240626145032.png"
+        ]
+    },
+    {
+        "name": "JavaScript Errors",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript Errors.md",
+        "links": ["JavaScript"]
+    },
+    {
+        "name": "jQuery Selecting Elements",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery Selecting Elements.md",
+        "links": []
+    },
+    {
+        "name": "IAM Access Analyzer",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/IAM Access Analyzer.md",
+        "links": [
+            "Amazon S3",
+            "IAM Roles for Services",
+            "AWS KMS (Key Management Service)",
+            "Lambda",
+            "SQS - Simple Queue Service",
+            "AWS Secrets Manager",
+            "Pasted image 20240524153955.png"
+        ]
+    },
+    {
+        "name": "EFS - Elastic File System",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/EFS - Elastic File System.md",
+        "links": []
+    },
+    {
+        "name": "EBS (Elastic Block Store) Volume",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/EBS/EBS (Elastic Block Store) Volume.md",
+        "links": ["EBS Snapshots"]
+    },
+    {
+        "name": "Amazon FSx",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/Amazon FSx.md",
+        "links": []
+    },
+    {
+        "name": "Deployment - Summary",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Deployment - Summary.md",
+        "links": [
+            "CloudFormation",
+            "AWS Elastic Beanstalk",
+            "AWS CodeDeploy",
+            "AWS Systems Manager (SSM)",
+            "AWS CodeCommit",
+            "AWS CodeBuild",
+            "AWS CodeDeploy",
+            "AWS CodePipeline",
+            "AWS CodeArtifact",
+            "AWS CodeStar",
+            "AWS Cloud9",
+            "AWS Cloud Development Kit (CDK)"
+        ]
+    },
+    {
+        "name": "AWS Backup",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Other Services/AWS Backup.md",
+        "links": [
+            "AWS Organizations",
+            "Pasted image 20240525175752.png"
+        ]
+    },
+    {
+        "name": "VPC Endpoints",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/VPC Endpoints.md",
+        "links": [
+            "Pasted image 20240524114623.png",
+            "Amazon S3",
+            "DynamoDB",
+            "VPC Summary"
+        ]
+    },
+    {
+        "name": "Deployment Models of the Cloud",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/General/Deployment Models of the Cloud.md",
+        "links": []
+    },
+    {
+        "name": "Amazon Cognito",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Advanced Identity/Amazon Cognito.md",
+        "links": ["Pasted image 20240525120448.png"]
+    },
+    {
+        "name": "Permissions",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/IAM/Permissions.md",
+        "links": [
+            "Policies Structure",
+            "Pasted image 20240408203701.png",
+            "IAM Best Practices"
+        ]
+    },
+    {
+        "name": "Transit Gateway",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/Transit Gateway.md",
+        "links": []
+    },
+    {
+        "name": "AWS AppSync",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Other Services/AWS AppSync.md",
+        "links": [
+            "DynamoDB",
+            "AWS Amplify"
+        ]
+    },
+    {
+        "name": "Serverless",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Other compute Services/Serverless.md",
+        "links": []
+    },
+    {
+        "name": "JavaScript",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript.md",
+        "links": [
+            "JavaScript Basics",
+            "JavaScript Loops",
+            "JavaScript Data Types",
+            "JavaScript Arrays",
+            "JavaScript Global Functions",
+            "JavaScript Events",
+            "JavaScript JSON",
+            "JavaScript Errors",
+            "jQuery"
+        ]
+    },
+    {
+        "name": "NPM Node Package Manager",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/NPM Node Package Manager.md",
+        "links": [
+            "Node.js",
+            "NPM Shell Commands",
+            "package.json"
+        ]
+    },
+    {
+        "name": "Amazon Athena",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon Athena.md",
+        "links": []
+    },
+    {
+        "name": "Amazon ForeCast",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/Amazon ForeCast.md",
+        "links": [
+            "ML",
+            "Pasted image 20240524164622.png"
+        ]
+    },
+    {
+        "name": "Amazon EMR - Elastic MapReduce",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon EMR - Elastic MapReduce.md",
+        "links": []
+    },
+    {
+        "name": "IAM",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/IAM/IAM.md",
+        "links": [
+            "IAM Access advicer",
+            "Pasted image 20240408202615.png",
+            "IAM Security Tools",
+            "IAM Roles for Services",
+            "Permissions",
+            "IAM Best Practices"
+        ]
+    },
+    {
+        "name": "Pricing Models in AWS",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Pricing Models in AWS.md",
+        "links": [
+            "Pasted image 20240525095620.png",
+            "IAM",
+            "VPC Summary",
+            "AWS Organization - Consolidated Billing",
+            "AWS Elastic Beanstalk",
+            "CloudFormation",
+            "Auto Scaling Group",
+            "EC2 - Elastic Compute Cloud",
+            "Compute Pricing - EC2",
+            "Lambda",
+            "ECS - Elastic Container Service",
+            "Fargate",
+            "S3 - Storage Pricing",
+            "EFS - Elastic File System",
+            "S3 - Storage Pricing",
+            "EBS - Storage Pricing",
+            "RDS - Database Pricing",
+            "CloudFront - Pricing Storage"
+        ]
+    },
+    {
+        "name": "AWS CodeBuild",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Pipeline/AWS CodeBuild.md",
+        "links": ["Pasted image 20240523103755.png"]
+    },
+    {
+        "name": "AWS Directory Services",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Advanced Identity/AWS Directory Services.md",
+        "links": [
+            "Active Directory (AD)",
+            "Pasted image 20240525130046.png"
+        ]
+    },
+    {
+        "name": "Monitoring Summary",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Monitoring Section/Monitoring Summary.md",
+        "links": [
+            "CloudWatch",
+            "AWS CloudTrail",
+            "AWS X-Ray",
+            "AWS Health Dashboard",
+            "AWS Health Dashboard",
+            "Amazon CodeGuru"
+        ]
+    },
+    {
+        "name": "The Java Platform Cont.",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/The Java Platform Cont..md",
+        "links": ["Pasted image 20240531113256.png"]
+    },
+    {
+        "name": "Default Methods",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Default Methods.md",
+        "links": ["Interfaces"]
+    },
+    {
+        "name": "Amazon WorkSpaces",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Other Services/Amazon WorkSpaces.md",
+        "links": [
+            "Pasted image 20240525171504.png",
+            "Pasted image 20240525172053.png"
+        ]
+    },
+    {
+        "name": "AWS Shield",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS Shield.md",
+        "links": [
+            "EC2 - Elastic Compute Cloud",
+            "CloudFront",
+            "AWS Global Accelerator",
+            "Amazon Route 53"
+        ]
+    },
+    {
+        "name": "JavaScript Data Types",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript Data Types.md",
+        "links": ["JavaScript"]
+    },
+    {
+        "name": "Service Control Policies (SCP)",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Service Control Policies (SCP).md",
+        "links": [
+            "IAM",
+            "Pasted image 20240524180035.png"
+        ]
+    },
+    {
+        "name": "Adding Javascript to Website",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Adding Javascript to Website.md",
+        "links": ["JavaScript"]
+    },
+    {
+        "name": "EC2 Shared Responsibility Model",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/EC2 Shared Responsibility Model.md",
+        "links": []
+    },
+    {
+        "name": "CloudHSM",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/CloudHSM.md",
+        "links": [
+            "AWS KMS (Key Management Service)",
+            "CloudHSM",
+            "Pasted image 20240524142802.png"
+        ]
+    },
+    {
+        "name": "RDS Deployments Options",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/RDS Deployments Options.md",
+        "links": []
+    },
+    {
+        "name": "Amazon Lightsail",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Other compute Services/Amazon Lightsail.md",
+        "links": []
+    },
+    {
+        "name": "AWS Health Dashboard",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Monitoring Section/AWS Health Dashboard.md",
+        "links": ["Pasted image 20240524101002.png"]
+    },
+    {
+        "name": "GIT",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/GIT.md",
+        "links": [
+            "GIT Shell Commands",
+            "GitHub and Remote Repositories",
+            "Gitignore",
+            "Git Cloning",
+            "Git Branching and Merging",
+            "Git Forking and Pull Requests",
+            "Generating a new SSH key and adding it to the ssh-agent"
+        ]
+    },
+    {
+        "name": "AWS Developer Support Plan",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Developer Support Plan.md",
+        "links": [
+            "AWS Basic Support Plan",
+            "Support Plans"
+        ]
+    },
+    {
+        "name": "CloudWatch",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Monitoring Section/CloudWatch.md",
+        "links": [
+            "Pasted image 20240524085440.png",
+            "EC2 - Elastic Compute Cloud",
+            "Amazon CloudWatch Alarms"
+        ]
+    },
+    {
+        "name": "Amazon Kinesis",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Integrations/Amazon Kinesis.md",
+        "links": [
+            "ML",
+            "Pasted image 20240523193108.png"
+        ]
+    },
+    {
+        "name": "Amazon Macie",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/Amazon Macie.md",
+        "links": ["Pasted image 20240524151829.png"]
+    },
+    {
+        "name": "IAM Best Practices",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/IAM/IAM Best Practices.md",
+        "links": []
+    },
+    {
+        "name": "AWS Global Accelerator",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/AWS Global Accelerator.md",
+        "links": [
+            "Pasted image 20240523173701.png",
+            "Pasted image 20240523173354.png"
+        ]
+    },
+    {
+        "name": "Middleware",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Middleware.md",
+        "links": ["Express"]
+    },
+    {
+        "name": "DocumentDB",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/DocumentDB.md",
+        "links": []
+    },
+    {
+        "name": "Immutable Strings",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/String/Immutable Strings.md",
+        "links": [
+            "Pasted image 20240609125934.png",
+            "Pasted image 20240609130133.png"
+        ]
+    },
+    {
+        "name": "AWS Customer Carbon Footprint Tool",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/AWS Customer Carbon Footprint Tool.md",
+        "links": []
+    },
+    {
+        "name": "AWS Secrets Manager",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS Secrets Manager.md",
+        "links": [
+            "Lambda",
+            "Amazon RDS",
+            "AWS KMS (Key Management Service)"
+        ]
+    },
+    {
+        "name": "Node.js Shell Commands",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Node.js Shell Commands.md",
+        "links": [
+            "Node.js",
+            "Shell",
+            "JavaScript",
+            "NPM Shell Commands",
+            "Express Shell Commands"
+        ]
+    },
+    {
+        "name": "ML",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/ML.md",
+        "links": [
+            "Amazon Recognition",
+            "Amazon Transcribe",
+            "Amazon Polly",
+            "Amazon Translate",
+            "Amazon Lex & Connect",
+            "Amazon Comprehend",
+            "Amazon SageMaker",
+            "Amazon ForeCast",
+            "Amazon Kendra",
+            "Amazon Personalize",
+            "Amazon Textract"
+        ]
+    },
+    {
+        "name": "Amazon Recognition",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/Amazon Recognition.md",
+        "links": ["ML"]
+    },
+    {
+        "name": "Redshift",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Redshift.md",
+        "links": []
+    },
+    {
+        "name": "AWS Cost Anomaly Detection",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Cost Anomaly Detection.md",
+        "links": [
+            "ML",
+            "Pasted image 20240525103713.png"
+        ]
+    },
+    {
+        "name": "Classic Ports to know",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/Classic Ports to know.md",
+        "links": []
+    },
+    {
+        "name": "Amazon Comprehend",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/Amazon Comprehend.md",
+        "links": ["ML"]
+    },
+    {
+        "name": "JavaScript Global Functions",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript Global Functions.md",
+        "links": ["JavaScript"]
+    },
+    {
+        "name": "EBS Snapshots",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/EBS/EBS Snapshots.md",
+        "links": []
+    },
+    {
+        "name": "Systems Manager parameter Store",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Systems Manager parameter Store.md",
+        "links": ["Pasted image 20240523112755.png"]
+    },
+    {
+        "name": "Scalability vs Elasticity vs Agility vs Availability",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/ELB & ASG/Scalability vs Elasticity vs Agility vs Availability.md",
+        "links": [
+            "Auto Scaling Group",
+            "Why use an Elastic Load Balancer"
+        ]
+    },
+    {
+        "name": "Types of Cloud Computing",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/General/Types of Cloud Computing.md",
+        "links": ["Pasted image 20240408190310.png"]
+    },
+    {
+        "name": "AWS Outposts",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/AWS Outposts.md",
+        "links": ["Pasted image 20240523174658.png"]
+    },
+    {
+        "name": "Penetration Testing on AWS Cloud",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/Penetration Testing on AWS Cloud.md",
+        "links": [
+            "EC2 - Elastic Compute Cloud",
+            "Amazon RDS",
+            "CloudFront",
+            "Amazon Aurora",
+            "Amazon API Gateway",
+            "Lambda",
+            "Amazon Lightsail",
+            "AWS Elastic Beanstalk",
+            "Amazon Route 53"
+        ]
+    },
+    {
+        "name": "REST POST Route",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/REST POST Route.md",
+        "links": ["NPM Server Foundation"]
+    },
+    {
+        "name": "Billing Alarms",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Billing Alarms.md",
+        "links": ["AWS Budgets"]
+    },
+    {
+        "name": "Lambda",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Other compute Services/Lambda.md",
+        "links": [
+            "Serverless",
+            "Pasted image 20240522232940.png"
+        ]
+    },
+    {
+        "name": "AWS CodeDeploy",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Pipeline/AWS CodeDeploy.md",
+        "links": ["EC2 - Elastic Compute Cloud"]
+    },
+    {
+        "name": "Gitignore",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/Gitignore.md",
+        "links": []
+    },
+    {
+        "name": "RDS - Database Pricing",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon RDS/RDS - Database Pricing.md",
+        "links": []
+    },
+    {
+        "name": "Text Manipulation and the Text Content Property",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Text Manipulation and the Text Content Property.md",
+        "links": [
+            "DOM Document Object Model",
+            "JavaScript"
+        ]
+    },
+    {
+        "name": "DynamoDB",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/DynamoDB.md",
+        "links": [
+            "Pasted image 20240522150728.png",
+            "DynamoDB Accelerator - DAX",
+            "DynamoDB - Global Tables"
+        ]
+    },
+    {
+        "name": "Amazon Inspector",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/Amazon Inspector.md",
+        "links": [
+            "Pasted image 20240524150500.png",
+            "EC2 - Elastic Compute Cloud",
+            "AWS Systems Manager (SSM)",
+            "ECR - Elastic Container Registry",
+            "Lambda",
+            "Amazon EventBridge"
+        ]
+    },
+    {
+        "name": "AWS Resource Access Manager (AWS RAM)",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Resource Access Manager (AWS RAM).md",
+        "links": [
+            "AWS Organizations",
+            "Amazon Aurora",
+            "VPC Summary",
+            "Transit Gateway",
+            "Amazon Route 53",
+            "EC2 - Elastic Compute Cloud",
+            "Pasted image 20240524181708.png"
+        ]
+    },
+    {
+        "name": "Policies Structure",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/IAM/Policies Structure.md",
+        "links": ["IAM Best Practices"]
+    },
+    {
+        "name": "Compute Pricing - EC2",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/Compute Pricing - EC2.md",
+        "links": []
+    },
+    {
+        "name": "AWS Device Farm",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Other Services/AWS Device Farm.md",
+        "links": ["Pasted image 20240525175500.png"]
+    },
+    {
+        "name": "AMI (Amazon Machine Image)",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/AMI (Amazon Machine Image).md",
+        "links": ["EC2 - Elastic Compute Cloud"]
+    },
+    {
+        "name": "DOM Document Object Model",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/DOM Document Object Model.md",
+        "links": [
+            "Adding Javascript to Website",
+            "Selecting HTML Elements with JavaScript",
+            "Changing Styles of HTML Elements",
+            "Text Manipulation and the Text Content Property"
+        ]
+    },
+    {
+        "name": "ECR - Elastic Container Registry",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Container/ECR - Elastic Container Registry.md",
+        "links": []
+    },
+    {
+        "name": "Writing Files",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java.io/Writing Files.md",
+        "links": ["Java.io"]
+    },
+    {
+        "name": "Reliability",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/Reliability.md",
+        "links": ["Pasted image 20240525224331.png"]
+    },
+    {
+        "name": "EC2 Instances Purchasing Options",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/EC2 Instances Purchasing Options.md",
+        "links": []
+    },
+    {
+        "name": "NPM Shell Commands",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/NPM Shell Commands.md",
+        "links": ["Node.js"]
+    },
+    {
+        "name": "Security",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/Security.md",
+        "links": [
+            "IAM",
+            "Pasted image 20240525223734.png"
+        ]
+    },
+    {
+        "name": "AWS PrivateLink",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/AWS PrivateLink.md",
+        "links": ["Pasted image 20240524115225.png"]
+    },
+    {
+        "name": "Express",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Express.md",
+        "links": [
+            "Middleware",
+            "Express Shell Commands",
+            "NPM Server Foundation",
+            "HTTP Requests"
+        ]
+    },
+    {
+        "name": "DynamoDB Accelerator - DAX",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/DynamoDB Accelerator - DAX.md",
+        "links": ["Pasted image 20240522151255.png"]
+    },
+    {
+        "name": "Selecting HTML Elements with JavaScript",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Selecting HTML Elements with JavaScript.md",
+        "links": [
+            "HTML Hypertext Markup Language",
+            "JavaScript"
+        ]
+    },
+    {
+        "name": "HTML Paragraph Elements",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/HTML Paragraph Elements.md",
+        "links": ["HTML Hypertext Markup Language"]
+    },
+    {
+        "name": "AWS KMS (Key Management Service)",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS KMS (Key Management Service).md",
+        "links": [
+            "EBS (Elastic Block Store) Volume",
+            "Amazon S3",
+            "Redshift",
+            "Amazon RDS",
+            "EFS - Elastic File System",
+            "AWS CloudTrail",
+            "Amazon S3",
+            "AWS Storage Gateway",
+            "CloudHSM"
+        ]
+    },
+    {
+        "name": "VPC Peering",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/VPC Peering.md",
+        "links": []
+    },
+    {
+        "name": "IP Addresses in AWS",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/IP Addresses in AWS.md",
+        "links": []
+    },
+    {
+        "name": "AWS Certificate Manager (ACM)",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS Certificate Manager (ACM).md",
+        "links": [
+            "CloudFront",
+            "Pasted image 20240524143857.png"
+        ]
+    },
+    {
+        "name": "AWS CodeArtifact",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Pipeline/AWS CodeArtifact.md",
+        "links": []
+    },
+    {
+        "name": "NAT Gateway",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/NAT Gateway.md",
+        "links": ["Pasted image 20240524110028.png"]
+    },
+    {
+        "name": "DateTimeFormatter",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Date & Time/DateTimeFormatter.md",
+        "links": ["Date & Time"]
+    },
+    {
+        "name": "REST PUT Route",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/REST PUT Route.md",
+        "links": ["NPM Server Foundation"]
+    },
+    {
+        "name": "REST DELETE Route",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/REST DELETE Route.md",
+        "links": ["NPM Server Foundation"]
+    },
+    {
+        "name": "ECS - Elastic Container Service",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Container/ECS - Elastic Container Service.md",
+        "links": []
+    },
+    {
+        "name": "AWS Client VPN",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/AWS Client VPN.md",
+        "links": [
+            "EC2 - Elastic Compute Cloud",
+            "VPC Summary",
+            "Pasted image 20240524120537.png"
+        ]
+    },
+    {
+        "name": "Root user",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/Root user.md",
+        "links": []
+    },
+    {
+        "name": "Amazon CodeGuru",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Monitoring Section/Amazon CodeGuru.md",
+        "links": [
+            "ML",
+            "Pasted image 20240524100043.png"
+        ]
+    },
+    {
+        "name": "JavaScript Arrays",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript Arrays.md",
+        "links": ["JavaScript"]
+    },
+    {
+        "name": "AWS Business Support Plan",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Business Support Plan.md",
+        "links": [
+            "Trusted Advisor",
+            "Support Plans"
+        ]
+    },
+    {
+        "name": "Internet Gateway",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/Internet Gateway.md",
+        "links": [
+            "VPC Summary",
+            "Pasted image 20240524110028.png"
+        ]
+    },
+    {
+        "name": "AWS Storage Gateway",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/AWS Storage Gateway.md",
+        "links": []
+    },
+    {
+        "name": "Amazon S3 - Buckets",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/Amazon S3 - Buckets.md",
+        "links": []
+    },
+    {
+        "name": "Amazon Textract",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/Amazon Textract.md",
+        "links": [
+            "ML",
+            "Pasted image 20240524165604.png"
+        ]
+    },
+    {
+        "name": "DDoS Protection, WAF & Shield",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/DDoS Protection, WAF & Shield.md",
+        "links": [
+            "Pasted image 20240524124023.png",
+            "AWS Shield",
+            "AWS Shield",
+            "AWS WAF - Web Application Firewall",
+            "CloudFront",
+            "Amazon Route 53",
+            "Pasted image 20240524124525.png"
+        ]
+    },
+    {
+        "name": "Cost Optimization",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/Cost Optimization.md",
+        "links": [
+            "CloudWatch",
+            "Pasted image 20240525225207.png"
+        ]
+    },
+    {
+        "name": "Maven",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Maven/Maven.md",
+        "links": ["pom.xml"]
+    },
+    {
+        "name": "Nesting and Indentation",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/Nesting and Indentation.md",
+        "links": ["HTML Hypertext Markup Language"]
+    },
+    {
+        "name": "EC2 - Elastic Compute Cloud",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/EC2 - Elastic Compute Cloud.md",
+        "links": [
+            "EBS (Elastic Block Store) Volume",
+            "EC2 Instance Types - Overview",
+            "Security Groups",
+            "Classic Ports to know",
+            "EC2 Instance Connect",
+            "EC2 Instances Purchasing Options",
+            "EC2 Shared Responsibility Model",
+            "AMI (Amazon Machine Image)",
+            "EC2 Instance Store",
+            "Amazon FSx",
+            "EFS - Elastic File System",
+            "Why use an Elastic Load Balancer"
+        ]
+    },
+    {
+        "name": "AWS IQ",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/AWS IQ.md",
+        "links": ["Pasted image 20240525232134.png"]
+    },
+    {
+        "name": "Java DataBase Connection (JDBC)",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/Java DataBase Connection (JDBC).md",
+        "links": ["SQL Basics"]
+    },
+    {
+        "name": "jQuery Event Listeners",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery Event Listeners.md",
+        "links": ["JavaScript EventListeners"]
+    },
+    {
+        "name": "S3 Transfer Acceleration",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/S3 Transfer Acceleration.md",
+        "links": ["Pasted image 20240523152257.png"]
+    },
+    {
+        "name": "AWS Abuse",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS Abuse.md",
+        "links": []
+    },
+    {
+        "name": "Amazon API Gateway",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Other compute Services/Amazon API Gateway.md",
+        "links": ["Pasted image 20240523091329.png"]
+    },
+    {
+        "name": "Image Elements",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/Image Elements.md",
+        "links": ["HTML Hypertext Markup Language"]
+    },
+    {
+        "name": "Performance Efficiency",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/Performance Efficiency.md",
+        "links": ["Pasted image 20240525224726.png"]
+    },
+    {
+        "name": "Lernplan",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/Lernplan.md",
+        "links": ["Java"]
+    },
+    {
+        "name": "Reading Files",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java.io/Reading Files.md",
+        "links": ["Java.io"]
+    },
+    {
+        "name": "Network ACL & Security Groups",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/Network ACL & Security Groups.md",
+        "links": [
+            "Security Groups",
+            "EC2 - Elastic Compute Cloud",
+            "Pasted image 20240524111544.png",
+            "Pasted image 20240524111703.png"
+        ]
+    },
+    {
+        "name": "AWS Application Composer",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Other Services/AWS Application Composer.md",
+        "links": ["CloudFormation"]
+    },
+    {
+        "name": "AWS Step Functions",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Other Services/AWS Step Functions.md",
+        "links": [
+            "Lambda",
+            "EC2 - Elastic Compute Cloud",
+            "ECS - Elastic Container Service",
+            "Amazon API Gateway",
+            "SQS - Simple Queue Service",
+            "Pasted image 20240525180755.png"
+        ]
+    },
+    {
+        "name": "AWS Global Infrastructure",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/General/AWS Global Infrastructure.md",
+        "links": []
+    },
+    {
+        "name": "REST GET Route",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/REST GET Route.md",
+        "links": ["NPM Server Foundation"]
+    },
+    {
+        "name": "Fargate",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Container/Fargate.md",
+        "links": []
+    },
+    {
+        "name": "Amazon Aurora Serverless",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon Aurora Serverless.md",
+        "links": []
+    },
+    {
+        "name": "EC2 Instance Types - Overview",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/EC2 Instance Types - Overview.md",
+        "links": []
+    },
+    {
+        "name": "Amazon S3 - Static Website Hosting",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/Amazon S3 - Static Website Hosting.md",
+        "links": []
+    },
+    {
+        "name": "AWS  GuardDuty",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS  GuardDuty.md",
+        "links": [
+            "AWS CloudTrail",
+            "AWS CloudTrail",
+            "VPC Summary",
+            "AWS CloudTrail",
+            "VPC Flow Logs",
+            "Amazon RDS",
+            "Amazon Aurora",
+            "EBS (Elastic Block Store) Volume",
+            "Lambda",
+            "Amazon EventBridge",
+            "Amazon SNS - Simple Notification Service",
+            "Pasted image 20240524150212.png"
+        ]
+    },
+    {
+        "name": "HTML Boilerplate",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/HTML Boilerplate.md",
+        "links": ["HTML Hypertext Markup Language"]
+    },
+    {
+        "name": "IAM Security Tools",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/IAM/IAM Security Tools.md",
+        "links": ["IAM Best Practices"]
+    },
+    {
+        "name": "Static Imports",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Static Imports.md",
+        "links": ["Static methods"]
+    },
+    {
+        "name": "SQS - Simple Queue Service",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Integrations/SQS - Simple Queue Service.md",
+        "links": [
+            "Pasted image 20240523192024.png",
+            "Pasted image 20240523192431.png",
+            "Pasted image 20240523192524.png"
+        ]
+    },
+    {
+        "name": "Java",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/Java.md",
+        "links": [
+            "Lernplan",
+            "The Java Platform",
+            "Hello World",
+            "Java Development Kit (JDK)",
+            "Java Shell Commands",
+            "Java DataBase Connection (JDBC)",
+            "Abstract Classes",
+            "Interfaces",
+            "Java.io",
+            "Date & Time",
+            "String",
+            "Passing by Value"
+        ]
+    },
+    {
+        "name": "AWS Cloud9",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Pipeline/AWS Cloud9.md",
+        "links": ["Pasted image 20240523111346.png"]
+    },
+    {
+        "name": "Passing by Value",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/Passing by Value.md",
+        "links": [
+            "Pasted image 20240609131605.png",
+            "Pasted image 20240609132244.png",
+            "Pasted image 20240609132500.png",
+            "Pasted image 20240609132849.png",
+            "Pasted image 20240609133445.png",
+            "Pasted image 20240609133622.png",
+            "Pasted image 20240609131110.png"
+        ]
+    },
+    {
+        "name": "DynamoDB - Global Tables",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/DynamoDB - Global Tables.md",
+        "links": ["Pasted image 20240522151723.png"]
+    },
+    {
+        "name": "AWS Snow Family",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/AWS Snow Family.md",
+        "links": []
+    },
+    {
+        "name": "Databases & Analytics Summary",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Databases & Analytics Summary.md",
+        "links": [
+            "Amazon RDS",
+            "Amazon Aurora",
+            "Amazon Aurora Serverless",
+            "RDS Deployments Options",
+            "Amazon ElastiCache",
+            "DynamoDB",
+            "DynamoDB Accelerator - DAX",
+            "DynamoDB - Global Tables",
+            "Redshift",
+            "Amazon EMR - Elastic MapReduce",
+            "Amazon Athena",
+            "Amazon QuickSight",
+            "DocumentDB",
+            "Amazon QLDB",
+            "Amazon Managed Blockchain",
+            "AWS Glue",
+            "DMS - Database Migration Service",
+            "Amazon Neptune",
+            "Amazon Timestream"
+        ]
+    },
+    {
+        "name": "AWS Cloud Development Kit (CDK)",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/AWS Cloud Development Kit (CDK).md",
+        "links": [
+            "Pasted image 20240523100950.png",
+            "Pasted image 20240523101030.png"
+        ]
+    },
+    {
+        "name": "Amazon Polly",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/Amazon Polly.md",
+        "links": []
+    },
+    {
+        "name": "Amazon Route 53",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/Amazon Route 53.md",
+        "links": [
+            "Pasted image 20240523120021.png",
+            "Pasted image 20240523120153.png",
+            "Pasted image 20240523120255.png",
+            "Pasted image 20240523120408.png",
+            "Pasted image 20240523120459.png"
+        ]
+    },
+    {
+        "name": "AWS Security Hub",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS Security Hub.md",
+        "links": [
+            "AWS Config",
+            "AWS  GuardDuty",
+            "Amazon Inspector",
+            "Amazon Macie",
+            "IAM",
+            "AWS Systems Manager (SSM)",
+            "AWS Firewall Manager",
+            "AWS Health Dashboard",
+            "AWS Config",
+            "Pasted image 20240524152331.png"
+        ]
+    },
+    {
+        "name": "EBS - Storage Pricing",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/EBS/EBS - Storage Pricing.md",
+        "links": ["EBS Snapshots"]
+    },
+    {
+        "name": "Hello World",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/Hello World.md",
+        "links": []
+    },
+    {
+        "name": "Cloud Computing",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/General/Cloud Computing.md",
+        "links": [
+            "Types of Cloud Computing",
+            "Deployment Models of the Cloud",
+            "AWS Global Infrastructure",
+            "IAM",
+            "EC2 - Elastic Compute Cloud",
+            "Amazon S3",
+            "AWS Cloud Adoption Framework (AWS CAF)",
+            "Other Services"
+        ]
+    },
+    {
+        "name": "IAM Roles for Services",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/IAM/IAM Roles for Services.md",
+        "links": [
+            "Pasted image 20240419213831.png",
+            "IAM Best Practices"
+        ]
+    },
+    {
+        "name": "Auto Scaling Group",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/ELB & ASG/Auto Scaling Group.md",
+        "links": [
+            "EC2 - Elastic Compute Cloud",
+            "Scaling Groups - Scaling Strategies"
+        ]
+    },
+    {
+        "name": "Cost Allocation Tags",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Cost Allocation Tags.md",
+        "links": []
+    },
+    {
+        "name": "Amazon Lex & Connect",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/Amazon Lex & Connect.md",
+        "links": ["Pasted image 20240524163406.png"]
+    },
+    {
+        "name": "Summary",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Integrations/Summary.md",
+        "links": [
+            "SQS - Simple Queue Service",
+            "Amazon SNS - Simple Notification Service",
+            "Amazon Kinesis",
+            "Amazon MQ"
+        ]
+    },
+    {
+        "name": "AWS Local Zones",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/AWS Local Zones.md",
+        "links": [
+            "VPC Summary",
+            "EC2 - Elastic Compute Cloud",
+            "Amazon RDS",
+            "ECS - Elastic Container Service",
+            "EBS (Elastic Block Store) Volume",
+            "Amazon ElastiCache",
+            "Site to Site VPN & Direct Connect",
+            "Pasted image 20240523183124.png"
+        ]
+    },
+    {
+        "name": "IAM Access advicer",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/IAM Access advicer.md",
+        "links": []
+    },
+    {
+        "name": "Amazon S3 - Objects",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/Amazon S3 - Objects.md",
+        "links": []
+    },
+    {
+        "name": "JavaScript Loops",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript Loops.md",
+        "links": ["JavaScript"]
+    },
+    {
+        "name": "Amazon SNS - Simple Notification Service",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Integrations/Amazon SNS - Simple Notification Service.md",
+        "links": [
+            "Pasted image 20240523193357.png",
+            "Pasted image 20240523193744.png"
+        ]
+    },
+    {
+        "name": "S3 - Storage Pricing",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/S3 - Storage Pricing.md",
+        "links": ["S3 Transfer Acceleration"]
+    },
+    {
+        "name": "AWS Well-Architected Tool",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/AWS Well-Architected Tool.md",
+        "links": []
+    },
+    {
+        "name": "HTML Attributes",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/HTML Attributes.md",
+        "links": ["HTML Hypertext Markup Language"]
+    },
+    {
+        "name": "HTTP Requests",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/HTTP Requests.md",
+        "links": ["Express"]
+    },
+    {
+        "name": "VPC & Subnets",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/VPC & Subnets.md",
+        "links": [
+            "Pasted image 20240524105553.png",
+            "Pasted image 20240524105423.png"
+        ]
+    },
+    {
+        "name": "Amazon CloudWatch Logs",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Monitoring Section/Amazon CloudWatch Logs.md",
+        "links": [
+            "AWS Elastic Beanstalk",
+            "ECS - Elastic Container Service",
+            "Lambda",
+            "AWS CloudTrail",
+            "EC2 - Elastic Compute Cloud",
+            "Amazon Route 53",
+            "Permissions",
+            "Pasted image 20240524091012.png"
+        ]
+    },
+    {
+        "name": "Manipulating HTML Element Attributes",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Manipulating HTML Element Attributes.md",
+        "links": [
+            "DOM Document Object Model",
+            "JavaScript"
+        ]
+    },
+    {
+        "name": "HTML Hypertext Markup Language",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/HTML Hypertext Markup Language.md",
+        "links": [
+            "HTML Heading Elements",
+            "HTML Paragraph Elements",
+            "HTML Attributes",
+            "HTML Boilerplate",
+            "Anchor Elements",
+            "Image Elements",
+            "Nesting and Indentation",
+            "Self Closing Tags",
+            "The List Element"
+        ]
+    },
+    {
+        "name": "AWS CloudTrail",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Monitoring Section/AWS CloudTrail.md",
+        "links": [
+            "Amazon CloudWatch Logs",
+            "Amazon S3"
+        ]
+    },
+    {
+        "name": "GitHub and Remote Repositories",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/GitHub and Remote Repositories.md",
+        "links": [
+            "Pasted image 20240702175113.png",
+            "Pasted image 20240702175928.png"
+        ]
+    },
+    {
+        "name": "Amazon MQ",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Integrations/Amazon MQ.md",
+        "links": [
+            "SQS - Simple Queue Service",
+            "Amazon SNS - Simple Notification Service"
+        ]
+    },
+    {
+        "name": "reporting.sh",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Shell/reporting.sh.md",
+        "links": ["Shell"]
+    },
+    {
+        "name": "AWS Systems Manager (SSM)",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/AWS Systems Manager (SSM).md",
+        "links": [
+            "EC2 - Elastic Compute Cloud",
+            "Systems Manager parameter Store",
+            "Pasted image 20240523112017.png",
+            "Pasted image 20240523112516.png"
+        ]
+    },
+    {
+        "name": "Shared Responibility Model for S3",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/Shared Responibility Model for S3.md",
+        "links": []
+    },
+    {
+        "name": "JavaScript JSON",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript JSON.md",
+        "links": ["JavaScript"]
+    }
+]
