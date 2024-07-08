@@ -1,13 +1,14 @@
 import circle from "./circle.js";
 const jsoncontent = await loadJson();
-if (jsoncontent) {
-  console.log("Name der ersten Person:", jsoncontent.length);
-}
 
-console.log(jsoncontent[2].links.length);
+
+
 const canvas = document.getElementById("canvas");
 var circle_size = document.getElementById("circle_size").value;
 const ctx = canvas.getContext("2d");
+var ctx_width = canvas.getAttribute('width');
+var ctx_height = canvas.getAttribute('height');
+console.log(ctx_width,500);
 ctx.strokeStyle = "gray";
 let raf;
 let general_hovered = false;
@@ -18,10 +19,15 @@ const balls = [];
 const map = new Map();
 var counter = 0;
 //Creates all circles
-for (const element of jsoncontent) {
-  map.set(element.name, counter);
+for(var i=0; i < jsoncontent.length; i++){
+  map.set(jsoncontent[i].name, counter);
   counter++;
-  balls.push(new circle(element.name, element.links,circle_size));
+  
+  balls.push(new circle(jsoncontent[i].name, ctx_width/2 + ctx_width*0.45*Math.sin(i/jsoncontent.length*2*Math.PI),ctx_height/2 + ctx_width*0.45*Math.cos(i/jsoncontent.length*2*Math.PI),jsoncontent[i].links,circle_size));
+  
+}
+for (const element of jsoncontent) {
+  
 }
 //Creates connectivity matrix
 let matrix = Array.from({ length: 313 }, () => Array(313).fill(0));
@@ -156,6 +162,7 @@ function draw() {
     for (let j = 0; j < matrix.length; j++) {
       if (matrix[j][i] == 1) {
         balls[i].follow(balls[j]);
+        balls[j].follow(balls[i]);
       }
     }
   }

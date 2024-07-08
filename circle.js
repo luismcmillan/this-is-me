@@ -1,8 +1,8 @@
 export default class circle {
     
-    constructor(name, links, size) {
-      this.x = 50+Math.random()*800;
-      this.y = 50+Math.random()*800;
+    constructor(name,x, y, links, size) {
+      this.x = x;
+      this.y = y;
       this.vx = 2;
       this.vy = 2;
       this.radius = size;
