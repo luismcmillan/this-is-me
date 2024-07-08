@@ -1,13 +1,70 @@
 [
     {
-        "name": "Active Directory (AD)",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Advanced Identity/Active Directory (AD).md",
-        "links": []
+        "name": "Font Properties",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/CSS/Font Properties.md",
+        "links": ["CSS Cascading Style Sheets"]
     },
     {
-        "name": "HTML Heading Elements",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/HTML Heading Elements.md",
-        "links": ["HTML Hypertext Markup Language"]
+        "name": "CSS Cascading Style Sheets",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/CSS/CSS Cascading Style Sheets.md",
+        "links": [
+            "HTML Hypertext Markup Language",
+            "CSS Selectors",
+            "Font Properties"
+        ]
+    },
+    {
+        "name": "CSS Selectors",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/CSS/CSS Selectors.md",
+        "links": ["CSS Cascading Style Sheets"]
+    },
+    {
+        "name": "Java Shell Commands",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Shell/Java Shell Commands.md",
+        "links": [
+            "Shell",
+            "Java",
+            "pom.xml"
+        ]
+    },
+    {
+        "name": "GIT Shell Commands",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Shell/GIT Shell Commands.md",
+        "links": [
+            "GIT",
+            "GitHub and Remote Repositories",
+            "Gitignore",
+            "Git Cloning",
+            "Git Branching and Merging",
+            "Git Forking and Pull Requests"
+        ]
+    },
+    {
+        "name": "Shell",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Shell/Shell.md",
+        "links": [
+            "reporting.sh",
+            "Umgebungsvariablen setzen",
+            "Java Shell Commands",
+            "GIT Shell Commands",
+            "Node.js Shell Commands",
+            "Important linux commands"
+        ]
+    },
+    {
+        "name": "Important linux commands",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Shell/Important linux commands.md",
+        "links": ["Shell"]
+    },
+    {
+        "name": "Umgebungsvariablen setzen",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Shell/Umgebungsvariablen setzen.md",
+        "links": ["Shell"]
+    },
+    {
+        "name": "reporting.sh",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Shell/reporting.sh.md",
+        "links": ["Shell"]
     },
     {
         "name": "Date & Time",
@@ -21,9 +78,275 @@
         ]
     },
     {
+        "name": "LocalDateTime",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Date & Time/LocalDateTime.md",
+        "links": ["Date & Time"]
+    },
+    {
+        "name": "Functional Interface",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Functional Interface.md",
+        "links": ["Interfaces"]
+    },
+    {
+        "name": "Lambda Expressions",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Lambda/Lambda Expressions.md",
+        "links": [
+            "Anonymous Class",
+            "Lambda syntax",
+            "Predicate"
+        ]
+    },
+    {
+        "name": "Java.io",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java.io/Java.io.md",
+        "links": [
+            "Writing Files",
+            "Reading Files"
+        ]
+    },
+    {
+        "name": "Interfaces",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Interfaces.md",
+        "links": [
+            "Abstract Classes",
+            "Pasted image 20240613202538.png",
+            "Default Methods",
+            "Default Methods",
+            "Static methods",
+            "Static methods",
+            "Implementing Interfaces",
+            "Implementing Interfaces",
+            "Marker Interface",
+            "Marker Interface",
+            "Functional Interface",
+            "Functional Interface"
+        ]
+    },
+    {
+        "name": "pom.xml",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Maven/pom.xml.md",
+        "links": []
+    },
+    {
+        "name": "Static methods",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Static methods.md",
+        "links": [
+            "Interfaces",
+            "Default Methods",
+            "Static Imports"
+        ]
+    },
+    {
+        "name": "LocalTime",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Date & Time/LocalTime.md",
+        "links": ["Date & Time"]
+    },
+    {
+        "name": "The Java Platform",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/The Java Platform.md",
+        "links": [
+            "Pasted image 20240531105128.png",
+            "The Java Platform Cont."
+        ]
+    },
+    {
+        "name": "Abstract Classes",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Abstract Classes.md",
+        "links": []
+    },
+    {
+        "name": "Implementing Interfaces",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Implementing Interfaces.md",
+        "links": ["Interfaces"]
+    },
+    {
+        "name": "Predicate",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Lambda/Predicate.md",
+        "links": [
+            "Lambda Expressions",
+            "functional interface",
+            "Generics"
+        ]
+    },
+    {
+        "name": "Marker Interface",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Marker Interface.md",
+        "links": ["Interfaces"]
+    },
+    {
+        "name": "Period",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Date & Time/Period.md",
+        "links": ["Date & Time"]
+    },
+    {
+        "name": "Java Development Kit (JDK)",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/Java Development Kit (JDK).md",
+        "links": []
+    },
+    {
+        "name": "LocalDate",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Date & Time/LocalDate.md",
+        "links": ["Date & Time"]
+    },
+    {
+        "name": "Lambda syntax",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Lambda/Lambda syntax.md",
+        "links": [
+            "Lambda Expressions",
+            "Pasted image 20240626145032.png"
+        ]
+    },
+    {
+        "name": "The Java Platform Cont.",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/The Java Platform Cont..md",
+        "links": ["Pasted image 20240531113256.png"]
+    },
+    {
+        "name": "Default Methods",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Default Methods.md",
+        "links": ["Interfaces"]
+    },
+    {
+        "name": "Writing Files",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java.io/Writing Files.md",
+        "links": ["Java.io"]
+    },
+    {
+        "name": "DateTimeFormatter",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Date & Time/DateTimeFormatter.md",
+        "links": ["Date & Time"]
+    },
+    {
+        "name": "Maven",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Maven/Maven.md",
+        "links": ["pom.xml"]
+    },
+    {
+        "name": "Java DataBase Connection (JDBC)",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/Java DataBase Connection (JDBC).md",
+        "links": ["SQL Basics"]
+    },
+    {
+        "name": "Lernplan",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/Lernplan.md",
+        "links": ["Java"]
+    },
+    {
+        "name": "Reading Files",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java.io/Reading Files.md",
+        "links": ["Java.io"]
+    },
+    {
+        "name": "Static Imports",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Static Imports.md",
+        "links": ["Static methods"]
+    },
+    {
+        "name": "Java",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/Java.md",
+        "links": [
+            "Lernplan",
+            "The Java Platform",
+            "Hello World",
+            "Java Development Kit (JDK)",
+            "Java Shell Commands",
+            "Java DataBase Connection (JDBC)",
+            "Abstract Classes",
+            "Interfaces",
+            "Java.io",
+            "Date & Time",
+            "String",
+            "Passing by Value"
+        ]
+    },
+    {
+        "name": "Passing by Value",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/Passing by Value.md",
+        "links": [
+            "Pasted image 20240609131605.png",
+            "Pasted image 20240609132244.png",
+            "Pasted image 20240609132500.png",
+            "Pasted image 20240609132849.png",
+            "Pasted image 20240609133445.png",
+            "Pasted image 20240609133622.png",
+            "Pasted image 20240609131110.png"
+        ]
+    },
+    {
+        "name": "Hello World",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/Hello World.md",
+        "links": []
+    },
+    {
+        "name": "HTML Heading Elements",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/HTML Heading Elements.md",
+        "links": ["HTML Hypertext Markup Language"]
+    },
+    {
         "name": "The List Element",
         "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/The List Element.md",
         "links": ["HTML Hypertext Markup Language"]
+    },
+    {
+        "name": "Anchor Elements",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/Anchor Elements.md",
+        "links": [
+            "HTML Hypertext Markup Language",
+            "HTML Attributes"
+        ]
+    },
+    {
+        "name": "Self Closing Tags",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/Self Closing Tags.md",
+        "links": [
+            "HTML Hypertext Markup Language",
+            "Image Elements"
+        ]
+    },
+    {
+        "name": "HTML Paragraph Elements",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/HTML Paragraph Elements.md",
+        "links": ["HTML Hypertext Markup Language"]
+    },
+    {
+        "name": "Nesting and Indentation",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/Nesting and Indentation.md",
+        "links": ["HTML Hypertext Markup Language"]
+    },
+    {
+        "name": "Image Elements",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/Image Elements.md",
+        "links": ["HTML Hypertext Markup Language"]
+    },
+    {
+        "name": "HTML Boilerplate",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/HTML Boilerplate.md",
+        "links": ["HTML Hypertext Markup Language"]
+    },
+    {
+        "name": "HTML Attributes",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/HTML Attributes.md",
+        "links": ["HTML Hypertext Markup Language"]
+    },
+    {
+        "name": "HTML Hypertext Markup Language",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/HTML Hypertext Markup Language.md",
+        "links": [
+            "HTML Heading Elements",
+            "HTML Paragraph Elements",
+            "HTML Attributes",
+            "HTML Boilerplate",
+            "Anchor Elements",
+            "Image Elements",
+            "Nesting and Indentation",
+            "Self Closing Tags",
+            "The List Element"
+        ]
+    },
+    {
+        "name": "Active Directory (AD)",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Advanced Identity/Active Directory (AD).md",
+        "links": []
     },
     {
         "name": "Security & Compliance Summary",
@@ -68,11 +391,6 @@
         "name": "CloudFormation",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/CloudFormation.md",
         "links": []
-    },
-    {
-        "name": "LocalDateTime",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Date & Time/LocalDateTime.md",
-        "links": ["Date & Time"]
     },
     {
         "name": "AWS Budgets",
@@ -133,13 +451,11 @@
         ]
     },
     {
-        "name": "String",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/String/String.md",
+        "name": "AWS WaveLength",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/AWS WaveLength.md",
         "links": [
-            "Pasted image 20240609124429.png",
-            "Pasted image 20240609125024.png",
-            "Pasted image 20240609125250.png",
-            "Immutable Strings"
+            "ML",
+            "Pasted image 20240523182734.png"
         ]
     },
     {
@@ -154,19 +470,6 @@
             "EC2 - Elastic Compute Cloud",
             "AWS Cloud9"
         ]
-    },
-    {
-        "name": "AWS WaveLength",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/AWS WaveLength.md",
-        "links": [
-            "ML",
-            "Pasted image 20240523182734.png"
-        ]
-    },
-    {
-        "name": "Functional Interface",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Functional Interface.md",
-        "links": ["Interfaces"]
     },
     {
         "name": "Trusted Advisor",
@@ -192,11 +495,6 @@
         "links": []
     },
     {
-        "name": "Git Cloning",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/Git Cloning.md",
-        "links": []
-    },
-    {
         "name": "AWS Network Firewall",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS Network Firewall.md",
         "links": [
@@ -204,11 +502,6 @@
             "Site to Site VPN & Direct Connect",
             "Pasted image 20240524125857.png"
         ]
-    },
-    {
-        "name": "SQL Basics",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/SQL/SQL Basics.md",
-        "links": []
     },
     {
         "name": "Amazon RDS",
@@ -228,19 +521,14 @@
         ]
     },
     {
-        "name": "Font Properties",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/CSS/Font Properties.md",
-        "links": ["CSS Cascading Style Sheets"]
-    },
-    {
-        "name": "jQuery ready",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery ready.md",
-        "links": ["jQuery"]
-    },
-    {
         "name": "EC2 Instance Store",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/EC2 Instance Store.md",
         "links": []
+    },
+    {
+        "name": "Operational Excellence",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/Operational Excellence.md",
+        "links": ["Pasted image 20240525182745.png"]
     },
     {
         "name": "Scaling Groups - Scaling Strategies",
@@ -258,16 +546,6 @@
             "Docker",
             "EBS (Elastic Block Store) Volume"
         ]
-    },
-    {
-        "name": "Operational Excellence",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/Operational Excellence.md",
-        "links": ["Pasted image 20240525182745.png"]
-    },
-    {
-        "name": "jQuery Manipulating Text",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery Manipulating Text.md",
-        "links": []
     },
     {
         "name": "AWS Organizations",
@@ -303,25 +581,11 @@
         ]
     },
     {
-        "name": "Generating a new SSH key and adding it to the ssh-agent",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/Generating a new SSH key and adding it to the ssh-agent.md",
-        "links": ["GIT"]
-    },
-    {
         "name": "AWS STS (Security Token Service)",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Advanced Identity/AWS STS (Security Token Service).md",
         "links": [
             "EC2 - Elastic Compute Cloud",
             "Pasted image 20240525120235.png"
-        ]
-    },
-    {
-        "name": "Lambda Expressions",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Lambda/Lambda Expressions.md",
-        "links": [
-            "Anonymous Class",
-            "Lambda syntax",
-            "Predicate"
         ]
     },
     {
@@ -341,30 +605,11 @@
         ]
     },
     {
-        "name": "Node.js",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Node.js.md",
-        "links": ["Node.js Shell Commands"]
-    },
-    {
         "name": "Security Groups",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/Security Groups.md",
         "links": [
             "Pasted image 20240421180626.png",
             "Pasted image 20240421182245.png"
-        ]
-    },
-    {
-        "name": "Git Forking and Pull Requests",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/Git Forking and Pull Requests.md",
-        "links": ["Pasted image 20240702183809.png"]
-    },
-    {
-        "name": "Java Shell Commands",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Shell/Java Shell Commands.md",
-        "links": [
-            "Shell",
-            "Java",
-            "pom.xml"
         ]
     },
     {
@@ -375,14 +620,6 @@
             "Pasted image 20240524091421.png",
             "Pasted image 20240524091703.png",
             "Pasted image 20240524094034.png"
-        ]
-    },
-    {
-        "name": "Java.io",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java.io/Java.io.md",
-        "links": [
-            "Writing Files",
-            "Reading Files"
         ]
     },
     {
@@ -398,24 +635,6 @@
         ]
     },
     {
-        "name": "Interfaces",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Interfaces.md",
-        "links": [
-            "Abstract Classes",
-            "Pasted image 20240613202538.png",
-            "Default Methods",
-            "Default Methods",
-            "Static methods",
-            "Static methods",
-            "Implementing Interfaces",
-            "Implementing Interfaces",
-            "Marker Interface",
-            "Marker Interface",
-            "Functional Interface",
-            "Functional Interface"
-        ]
-    },
-    {
         "name": "Advanced Identity - Summary",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Advanced Identity/Advanced Identity - Summary.md",
         "links": [
@@ -426,35 +645,6 @@
             "AWS Directory Services",
             "AWS IAM Identity Center"
         ]
-    },
-    {
-        "name": "GIT Shell Commands",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Shell/GIT Shell Commands.md",
-        "links": [
-            "GIT",
-            "GitHub and Remote Repositories",
-            "Gitignore",
-            "Git Cloning",
-            "Git Branching and Merging",
-            "Git Forking and Pull Requests"
-        ]
-    },
-    {
-        "name": "Shell",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Shell/Shell.md",
-        "links": [
-            "reporting.sh",
-            "Umgebungsvariablen setzen",
-            "Java Shell Commands",
-            "GIT Shell Commands",
-            "Node.js Shell Commands",
-            "Important linux commands"
-        ]
-    },
-    {
-        "name": "Important linux commands",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Shell/Important linux commands.md",
-        "links": ["Shell"]
     },
     {
         "name": "Docker",
@@ -477,14 +667,6 @@
         ]
     },
     {
-        "name": "Anchor Elements",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/Anchor Elements.md",
-        "links": [
-            "HTML Hypertext Markup Language",
-            "HTML Attributes"
-        ]
-    },
-    {
         "name": "Amazon ElastiCache",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon ElastiCache.md",
         "links": ["Pasted image 20240522145907.png"]
@@ -495,23 +677,8 @@
         "links": ["AWS Business Support Plan"]
     },
     {
-        "name": "NPM Server Foundation",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/NPM Server Foundation.md",
-        "links": []
-    },
-    {
-        "name": "pom.xml",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Maven/pom.xml.md",
-        "links": []
-    },
-    {
         "name": "AWS CodeCommit",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Pipeline/AWS CodeCommit.md",
-        "links": []
-    },
-    {
-        "name": "jQuery Adding and Removing Elements",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery Adding and Removing Elements.md",
         "links": []
     },
     {
@@ -541,39 +708,9 @@
         ]
     },
     {
-        "name": "jQuery Manipulating Styles",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery Manipulating Styles.md",
-        "links": []
-    },
-    {
-        "name": "Umgebungsvariablen setzen",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Shell/Umgebungsvariablen setzen.md",
-        "links": ["Shell"]
-    },
-    {
         "name": "AWS X-Ray",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Monitoring Section/AWS X-Ray.md",
         "links": ["Pasted image 20240524095401.png"]
-    },
-    {
-        "name": "jQuery Manipulating  Attributes",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery Manipulating  Attributes.md",
-        "links": []
-    },
-    {
-        "name": "jQuery",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery.md",
-        "links": [
-            "JavaScript",
-            "CDN",
-            "jQuery ready",
-            "jQuery Selecting Elements",
-            "jQuery Manipulating Styles",
-            "jQuery Manipulating Text",
-            "jQuery Manipulating  Attributes",
-            "jQuery Event Listeners",
-            "jQuery Adding and Removing Elements"
-        ]
     },
     {
         "name": "Amazon S3 - Replication (CRR & SRR)",
@@ -584,14 +721,6 @@
         "name": "Savings Plan",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Savings Plan.md",
         "links": []
-    },
-    {
-        "name": "Self Closing Tags",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/Self Closing Tags.md",
-        "links": [
-            "HTML Hypertext Markup Language",
-            "Image Elements"
-        ]
     },
     {
         "name": "VPC Flow Logs",
@@ -627,15 +756,9 @@
         ]
     },
     {
-        "name": "REST API",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/REST API.md",
-        "links": [
-            "REST GET Route",
-            "REST POST Route",
-            "REST PUT Route",
-            "REST PATCH Route",
-            "REST DELETE Route"
-        ]
+        "name": "Amazon Aurora",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon Aurora.md",
+        "links": []
     },
     {
         "name": "Amazon SageMaker",
@@ -646,20 +769,6 @@
         ]
     },
     {
-        "name": "Amazon Aurora",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon Aurora.md",
-        "links": []
-    },
-    {
-        "name": "Static methods",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Static methods.md",
-        "links": [
-            "Interfaces",
-            "Default Methods",
-            "Static Imports"
-        ]
-    },
-    {
         "name": "Cost Explorer",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Cost Explorer.md",
         "links": [
@@ -667,19 +776,6 @@
             "Pasted image 20240525102720.png",
             "Pasted image 20240525102745.png"
         ]
-    },
-    {
-        "name": "Higher Order Functions and Passing Functions as Arguments",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Higher Order Functions and Passing Functions as Arguments.md",
-        "links": [
-            "DOM Document Object Model",
-            "JavaScript"
-        ]
-    },
-    {
-        "name": "LocalTime",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Date & Time/LocalTime.md",
-        "links": ["Date & Time"]
     },
     {
         "name": "Account Best Practices - Summary",
@@ -696,26 +792,8 @@
         ]
     },
     {
-        "name": "package.json",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/package.json.md",
-        "links": ["NPM Node Package Manager"]
-    },
-    {
         "name": "AWS rePost",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/AWS rePost.md",
-        "links": []
-    },
-    {
-        "name": "The Java Platform",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/The Java Platform.md",
-        "links": [
-            "Pasted image 20240531105128.png",
-            "The Java Platform Cont."
-        ]
-    },
-    {
-        "name": "Abstract Classes",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Abstract Classes.md",
         "links": []
     },
     {
@@ -732,11 +810,6 @@
         "name": "Amazon S3 - Security",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/Amazon S3 - Security.md",
         "links": []
-    },
-    {
-        "name": "Implementing Interfaces",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Implementing Interfaces.md",
-        "links": ["Interfaces"]
     },
     {
         "name": "Amazon CloudWatch Alarms",
@@ -784,15 +857,6 @@
         "links": []
     },
     {
-        "name": "CSS Cascading Style Sheets",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/CSS/CSS Cascading Style Sheets.md",
-        "links": [
-            "HTML Hypertext Markup Language",
-            "CSS Selectors",
-            "Font Properties"
-        ]
-    },
-    {
         "name": "AWS Elastic Beanstalk",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/AWS Elastic Beanstalk.md",
         "links": [
@@ -816,15 +880,6 @@
         "links": ["Pasted image 20240524182001.png"]
     },
     {
-        "name": "Predicate",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Lambda/Predicate.md",
-        "links": [
-            "Lambda Expressions",
-            "functional interface",
-            "Generics"
-        ]
-    },
-    {
         "name": "AWS Config",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS Config.md",
         "links": [
@@ -834,39 +889,14 @@
         ]
     },
     {
-        "name": "Marker Interface",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Marker Interface.md",
-        "links": ["Interfaces"]
-    },
-    {
-        "name": "Changing Styles of HTML Elements",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Changing Styles of HTML Elements.md",
-        "links": ["CSS Cascading Style Sheets"]
-    },
-    {
         "name": "AWS Organization - Consolidated Billing",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Organization - Consolidated Billing.md",
         "links": ["Pasted image 20240524180850.png"]
     },
     {
-        "name": "Git Branching and Merging",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/Git Branching and Merging.md",
-        "links": []
-    },
-    {
-        "name": "Express Shell Commands",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Express Shell Commands.md",
-        "links": [
-            "Express",
-            "Shell",
-            "NPM Shell Commands",
-            "package.json"
-        ]
-    },
-    {
-        "name": "Period",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Date & Time/Period.md",
-        "links": ["Date & Time"]
+        "name": "Sustainability",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/Sustainability.md",
+        "links": ["Pasted image 20240525225825.png"]
     },
     {
         "name": "AWS IAM Identity Center",
@@ -885,32 +915,9 @@
         ]
     },
     {
-        "name": "Sustainability",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/Sustainability.md",
-        "links": ["Pasted image 20240525225825.png"]
-    },
-    {
-        "name": "JavaScript Events",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript Events.md",
-        "links": ["JavaScript"]
-    },
-    {
         "name": "Amazon Translate",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/Amazon Translate.md",
         "links": []
-    },
-    {
-        "name": "CSS Selectors",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/CSS/CSS Selectors.md",
-        "links": ["CSS Cascading Style Sheets"]
-    },
-    {
-        "name": "JavaScript EventListeners",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/JavaScript EventListeners.md",
-        "links": [
-            "DOM Document Object Model",
-            "JavaScript"
-        ]
     },
     {
         "name": "Cost and Usage Reports",
@@ -925,11 +932,6 @@
         "name": "Amazon QLDB",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon QLDB.md",
         "links": []
-    },
-    {
-        "name": "JavaScript Basics",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript Basics.md",
-        "links": ["JavaScript"]
     },
     {
         "name": "Amazon S3",
@@ -965,24 +967,9 @@
         ]
     },
     {
-        "name": "Java Development Kit (JDK)",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/Java Development Kit (JDK).md",
-        "links": []
-    },
-    {
-        "name": "LocalDate",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Date & Time/LocalDate.md",
-        "links": ["Date & Time"]
-    },
-    {
         "name": "CloudFront - Pricing Storage",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/CloudFront - Pricing Storage.md",
         "links": []
-    },
-    {
-        "name": "REST PATCH Route",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/REST PATCH Route.md",
-        "links": ["NPM Server Foundation"]
     },
     {
         "name": "DMS - Database Migration Service",
@@ -1041,24 +1028,6 @@
         "links": []
     },
     {
-        "name": "Lambda syntax",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Lambda/Lambda syntax.md",
-        "links": [
-            "Lambda Expressions",
-            "Pasted image 20240626145032.png"
-        ]
-    },
-    {
-        "name": "JavaScript Errors",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript Errors.md",
-        "links": ["JavaScript"]
-    },
-    {
-        "name": "jQuery Selecting Elements",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery Selecting Elements.md",
-        "links": []
-    },
-    {
         "name": "IAM Access Analyzer",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/IAM Access Analyzer.md",
         "links": [
@@ -1082,11 +1051,6 @@
         "links": ["EBS Snapshots"]
     },
     {
-        "name": "Amazon FSx",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/Amazon FSx.md",
-        "links": []
-    },
-    {
         "name": "Deployment - Summary",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Deployment - Summary.md",
         "links": [
@@ -1103,6 +1067,11 @@
             "AWS Cloud9",
             "AWS Cloud Development Kit (CDK)"
         ]
+    },
+    {
+        "name": "Amazon FSx",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/Amazon FSx.md",
+        "links": []
     },
     {
         "name": "AWS Backup",
@@ -1158,30 +1127,6 @@
         "name": "Serverless",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Other compute Services/Serverless.md",
         "links": []
-    },
-    {
-        "name": "JavaScript",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript.md",
-        "links": [
-            "JavaScript Basics",
-            "JavaScript Loops",
-            "JavaScript Data Types",
-            "JavaScript Arrays",
-            "JavaScript Global Functions",
-            "JavaScript Events",
-            "JavaScript JSON",
-            "JavaScript Errors",
-            "jQuery"
-        ]
-    },
-    {
-        "name": "NPM Node Package Manager",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/NPM Node Package Manager.md",
-        "links": [
-            "Node.js",
-            "NPM Shell Commands",
-            "package.json"
-        ]
     },
     {
         "name": "Amazon Athena",
@@ -1263,16 +1208,6 @@
         ]
     },
     {
-        "name": "The Java Platform Cont.",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/The Java Platform Cont..md",
-        "links": ["Pasted image 20240531113256.png"]
-    },
-    {
-        "name": "Default Methods",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Default Methods.md",
-        "links": ["Interfaces"]
-    },
-    {
         "name": "Amazon WorkSpaces",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Other Services/Amazon WorkSpaces.md",
         "links": [
@@ -1291,22 +1226,12 @@
         ]
     },
     {
-        "name": "JavaScript Data Types",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript Data Types.md",
-        "links": ["JavaScript"]
-    },
-    {
         "name": "Service Control Policies (SCP)",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Service Control Policies (SCP).md",
         "links": [
             "IAM",
             "Pasted image 20240524180035.png"
         ]
-    },
-    {
-        "name": "Adding Javascript to Website",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Adding Javascript to Website.md",
-        "links": ["JavaScript"]
     },
     {
         "name": "EC2 Shared Responsibility Model",
@@ -1338,24 +1263,19 @@
         "links": ["Pasted image 20240524101002.png"]
     },
     {
-        "name": "GIT",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/GIT.md",
-        "links": [
-            "GIT Shell Commands",
-            "GitHub and Remote Repositories",
-            "Gitignore",
-            "Git Cloning",
-            "Git Branching and Merging",
-            "Git Forking and Pull Requests",
-            "Generating a new SSH key and adding it to the ssh-agent"
-        ]
-    },
-    {
         "name": "AWS Developer Support Plan",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Developer Support Plan.md",
         "links": [
             "AWS Basic Support Plan",
             "Support Plans"
+        ]
+    },
+    {
+        "name": "Amazon Kinesis",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Integrations/Amazon Kinesis.md",
+        "links": [
+            "ML",
+            "Pasted image 20240523193108.png"
         ]
     },
     {
@@ -1365,14 +1285,6 @@
             "Pasted image 20240524085440.png",
             "EC2 - Elastic Compute Cloud",
             "Amazon CloudWatch Alarms"
-        ]
-    },
-    {
-        "name": "Amazon Kinesis",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Integrations/Amazon Kinesis.md",
-        "links": [
-            "ML",
-            "Pasted image 20240523193108.png"
         ]
     },
     {
@@ -1394,22 +1306,9 @@
         ]
     },
     {
-        "name": "Middleware",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Middleware.md",
-        "links": ["Express"]
-    },
-    {
         "name": "DocumentDB",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/DocumentDB.md",
         "links": []
-    },
-    {
-        "name": "Immutable Strings",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/String/Immutable Strings.md",
-        "links": [
-            "Pasted image 20240609125934.png",
-            "Pasted image 20240609130133.png"
-        ]
     },
     {
         "name": "AWS Customer Carbon Footprint Tool",
@@ -1426,15 +1325,9 @@
         ]
     },
     {
-        "name": "Node.js Shell Commands",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Node.js Shell Commands.md",
-        "links": [
-            "Node.js",
-            "Shell",
-            "JavaScript",
-            "NPM Shell Commands",
-            "Express Shell Commands"
-        ]
+        "name": "Redshift",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Redshift.md",
+        "links": []
     },
     {
         "name": "ML",
@@ -1459,11 +1352,6 @@
         "links": ["ML"]
     },
     {
-        "name": "Redshift",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Redshift.md",
-        "links": []
-    },
-    {
         "name": "AWS Cost Anomaly Detection",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Cost Anomaly Detection.md",
         "links": [
@@ -1480,11 +1368,6 @@
         "name": "Amazon Comprehend",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/Amazon Comprehend.md",
         "links": ["ML"]
-    },
-    {
-        "name": "JavaScript Global Functions",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript Global Functions.md",
-        "links": ["JavaScript"]
     },
     {
         "name": "EBS Snapshots",
@@ -1530,11 +1413,6 @@
         ]
     },
     {
-        "name": "REST POST Route",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/REST POST Route.md",
-        "links": ["NPM Server Foundation"]
-    },
-    {
         "name": "Billing Alarms",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Billing Alarms.md",
         "links": ["AWS Budgets"]
@@ -1553,22 +1431,9 @@
         "links": ["EC2 - Elastic Compute Cloud"]
     },
     {
-        "name": "Gitignore",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/Gitignore.md",
-        "links": []
-    },
-    {
         "name": "RDS - Database Pricing",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon RDS/RDS - Database Pricing.md",
         "links": []
-    },
-    {
-        "name": "Text Manipulation and the Text Content Property",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Text Manipulation and the Text Content Property.md",
-        "links": [
-            "DOM Document Object Model",
-            "JavaScript"
-        ]
     },
     {
         "name": "DynamoDB",
@@ -1625,39 +1490,14 @@
         "links": ["EC2 - Elastic Compute Cloud"]
     },
     {
-        "name": "DOM Document Object Model",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/DOM Document Object Model.md",
-        "links": [
-            "Adding Javascript to Website",
-            "Selecting HTML Elements with JavaScript",
-            "Changing Styles of HTML Elements",
-            "Text Manipulation and the Text Content Property"
-        ]
-    },
-    {
         "name": "ECR - Elastic Container Registry",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Container/ECR - Elastic Container Registry.md",
         "links": []
     },
     {
-        "name": "Writing Files",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java.io/Writing Files.md",
-        "links": ["Java.io"]
-    },
-    {
         "name": "Reliability",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/Reliability.md",
         "links": ["Pasted image 20240525224331.png"]
-    },
-    {
-        "name": "EC2 Instances Purchasing Options",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/EC2 Instances Purchasing Options.md",
-        "links": []
-    },
-    {
-        "name": "NPM Shell Commands",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/NPM Shell Commands.md",
-        "links": ["Node.js"]
     },
     {
         "name": "Security",
@@ -1668,37 +1508,19 @@
         ]
     },
     {
+        "name": "EC2 Instances Purchasing Options",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/EC2 Instances Purchasing Options.md",
+        "links": []
+    },
+    {
         "name": "AWS PrivateLink",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/AWS PrivateLink.md",
         "links": ["Pasted image 20240524115225.png"]
     },
     {
-        "name": "Express",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Express.md",
-        "links": [
-            "Middleware",
-            "Express Shell Commands",
-            "NPM Server Foundation",
-            "HTTP Requests"
-        ]
-    },
-    {
         "name": "DynamoDB Accelerator - DAX",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/DynamoDB Accelerator - DAX.md",
         "links": ["Pasted image 20240522151255.png"]
-    },
-    {
-        "name": "Selecting HTML Elements with JavaScript",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Selecting HTML Elements with JavaScript.md",
-        "links": [
-            "HTML Hypertext Markup Language",
-            "JavaScript"
-        ]
-    },
-    {
-        "name": "HTML Paragraph Elements",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/HTML Paragraph Elements.md",
-        "links": ["HTML Hypertext Markup Language"]
     },
     {
         "name": "AWS KMS (Key Management Service)",
@@ -1716,6 +1538,14 @@
         ]
     },
     {
+        "name": "AWS Certificate Manager (ACM)",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS Certificate Manager (ACM).md",
+        "links": [
+            "CloudFront",
+            "Pasted image 20240524143857.png"
+        ]
+    },
+    {
         "name": "VPC Peering",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/VPC Peering.md",
         "links": []
@@ -1724,14 +1554,6 @@
         "name": "IP Addresses in AWS",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/IP Addresses in AWS.md",
         "links": []
-    },
-    {
-        "name": "AWS Certificate Manager (ACM)",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS Certificate Manager (ACM).md",
-        "links": [
-            "CloudFront",
-            "Pasted image 20240524143857.png"
-        ]
     },
     {
         "name": "AWS CodeArtifact",
@@ -1744,23 +1566,13 @@
         "links": ["Pasted image 20240524110028.png"]
     },
     {
-        "name": "DateTimeFormatter",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Date & Time/DateTimeFormatter.md",
-        "links": ["Date & Time"]
-    },
-    {
-        "name": "REST PUT Route",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/REST PUT Route.md",
-        "links": ["NPM Server Foundation"]
-    },
-    {
-        "name": "REST DELETE Route",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/REST DELETE Route.md",
-        "links": ["NPM Server Foundation"]
-    },
-    {
         "name": "ECS - Elastic Container Service",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Container/ECS - Elastic Container Service.md",
+        "links": []
+    },
+    {
+        "name": "Root user",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/Root user.md",
         "links": []
     },
     {
@@ -1773,22 +1585,12 @@
         ]
     },
     {
-        "name": "Root user",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/Root user.md",
-        "links": []
-    },
-    {
         "name": "Amazon CodeGuru",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Monitoring Section/Amazon CodeGuru.md",
         "links": [
             "ML",
             "Pasted image 20240524100043.png"
         ]
-    },
-    {
-        "name": "JavaScript Arrays",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript Arrays.md",
-        "links": ["JavaScript"]
     },
     {
         "name": "AWS Business Support Plan",
@@ -1825,6 +1627,14 @@
         ]
     },
     {
+        "name": "Cost Optimization",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/Cost Optimization.md",
+        "links": [
+            "CloudWatch",
+            "Pasted image 20240525225207.png"
+        ]
+    },
+    {
         "name": "DDoS Protection, WAF & Shield",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/DDoS Protection, WAF & Shield.md",
         "links": [
@@ -1836,24 +1646,6 @@
             "Amazon Route 53",
             "Pasted image 20240524124525.png"
         ]
-    },
-    {
-        "name": "Cost Optimization",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/Cost Optimization.md",
-        "links": [
-            "CloudWatch",
-            "Pasted image 20240525225207.png"
-        ]
-    },
-    {
-        "name": "Maven",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Maven/Maven.md",
-        "links": ["pom.xml"]
-    },
-    {
-        "name": "Nesting and Indentation",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/Nesting and Indentation.md",
-        "links": ["HTML Hypertext Markup Language"]
     },
     {
         "name": "EC2 - Elastic Compute Cloud",
@@ -1879,16 +1671,6 @@
         "links": ["Pasted image 20240525232134.png"]
     },
     {
-        "name": "Java DataBase Connection (JDBC)",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/Java DataBase Connection (JDBC).md",
-        "links": ["SQL Basics"]
-    },
-    {
-        "name": "jQuery Event Listeners",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery Event Listeners.md",
-        "links": ["JavaScript EventListeners"]
-    },
-    {
         "name": "S3 Transfer Acceleration",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/S3 Transfer Acceleration.md",
         "links": ["Pasted image 20240523152257.png"]
@@ -1904,24 +1686,9 @@
         "links": ["Pasted image 20240523091329.png"]
     },
     {
-        "name": "Image Elements",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/Image Elements.md",
-        "links": ["HTML Hypertext Markup Language"]
-    },
-    {
         "name": "Performance Efficiency",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/Performance Efficiency.md",
         "links": ["Pasted image 20240525224726.png"]
-    },
-    {
-        "name": "Lernplan",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/Lernplan.md",
-        "links": ["Java"]
-    },
-    {
-        "name": "Reading Files",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java.io/Reading Files.md",
-        "links": ["Java.io"]
     },
     {
         "name": "Network ACL & Security Groups",
@@ -1939,6 +1706,11 @@
         "links": ["CloudFormation"]
     },
     {
+        "name": "AWS Global Infrastructure",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/General/AWS Global Infrastructure.md",
+        "links": []
+    },
+    {
         "name": "AWS Step Functions",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Other Services/AWS Step Functions.md",
         "links": [
@@ -1949,16 +1721,6 @@
             "SQS - Simple Queue Service",
             "Pasted image 20240525180755.png"
         ]
-    },
-    {
-        "name": "AWS Global Infrastructure",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/General/AWS Global Infrastructure.md",
-        "links": []
-    },
-    {
-        "name": "REST GET Route",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/REST GET Route.md",
-        "links": ["NPM Server Foundation"]
     },
     {
         "name": "Fargate",
@@ -1999,19 +1761,9 @@
         ]
     },
     {
-        "name": "HTML Boilerplate",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/HTML Boilerplate.md",
-        "links": ["HTML Hypertext Markup Language"]
-    },
-    {
         "name": "IAM Security Tools",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/IAM/IAM Security Tools.md",
         "links": ["IAM Best Practices"]
-    },
-    {
-        "name": "Static Imports",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Static Imports.md",
-        "links": ["Static methods"]
     },
     {
         "name": "SQS - Simple Queue Service",
@@ -2023,40 +1775,9 @@
         ]
     },
     {
-        "name": "Java",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/Java.md",
-        "links": [
-            "Lernplan",
-            "The Java Platform",
-            "Hello World",
-            "Java Development Kit (JDK)",
-            "Java Shell Commands",
-            "Java DataBase Connection (JDBC)",
-            "Abstract Classes",
-            "Interfaces",
-            "Java.io",
-            "Date & Time",
-            "String",
-            "Passing by Value"
-        ]
-    },
-    {
         "name": "AWS Cloud9",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Pipeline/AWS Cloud9.md",
         "links": ["Pasted image 20240523111346.png"]
-    },
-    {
-        "name": "Passing by Value",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/Passing by Value.md",
-        "links": [
-            "Pasted image 20240609131605.png",
-            "Pasted image 20240609132244.png",
-            "Pasted image 20240609132500.png",
-            "Pasted image 20240609132849.png",
-            "Pasted image 20240609133445.png",
-            "Pasted image 20240609133622.png",
-            "Pasted image 20240609131110.png"
-        ]
     },
     {
         "name": "DynamoDB - Global Tables",
@@ -2102,11 +1823,6 @@
         ]
     },
     {
-        "name": "Amazon Polly",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/Amazon Polly.md",
-        "links": []
-    },
-    {
         "name": "Amazon Route 53",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/Amazon Route 53.md",
         "links": [
@@ -2116,6 +1832,11 @@
             "Pasted image 20240523120408.png",
             "Pasted image 20240523120459.png"
         ]
+    },
+    {
+        "name": "Amazon Polly",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/Amazon Polly.md",
+        "links": []
     },
     {
         "name": "AWS Security Hub",
@@ -2134,16 +1855,6 @@
         ]
     },
     {
-        "name": "EBS - Storage Pricing",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/EBS/EBS - Storage Pricing.md",
-        "links": ["EBS Snapshots"]
-    },
-    {
-        "name": "Hello World",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/Hello World.md",
-        "links": []
-    },
-    {
         "name": "Cloud Computing",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/General/Cloud Computing.md",
         "links": [
@@ -2158,12 +1869,9 @@
         ]
     },
     {
-        "name": "IAM Roles for Services",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/IAM/IAM Roles for Services.md",
-        "links": [
-            "Pasted image 20240419213831.png",
-            "IAM Best Practices"
-        ]
+        "name": "EBS - Storage Pricing",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/EBS/EBS - Storage Pricing.md",
+        "links": ["EBS Snapshots"]
     },
     {
         "name": "Auto Scaling Group",
@@ -2171,6 +1879,14 @@
         "links": [
             "EC2 - Elastic Compute Cloud",
             "Scaling Groups - Scaling Strategies"
+        ]
+    },
+    {
+        "name": "IAM Roles for Services",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/IAM/IAM Roles for Services.md",
+        "links": [
+            "Pasted image 20240419213831.png",
+            "IAM Best Practices"
         ]
     },
     {
@@ -2218,9 +1934,9 @@
         "links": []
     },
     {
-        "name": "JavaScript Loops",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript Loops.md",
-        "links": ["JavaScript"]
+        "name": "S3 - Storage Pricing",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/S3 - Storage Pricing.md",
+        "links": ["S3 Transfer Acceleration"]
     },
     {
         "name": "Amazon SNS - Simple Notification Service",
@@ -2231,24 +1947,9 @@
         ]
     },
     {
-        "name": "S3 - Storage Pricing",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/S3 - Storage Pricing.md",
-        "links": ["S3 Transfer Acceleration"]
-    },
-    {
         "name": "AWS Well-Architected Tool",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/AWS Well-Architected Tool.md",
         "links": []
-    },
-    {
-        "name": "HTML Attributes",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/HTML Attributes.md",
-        "links": ["HTML Hypertext Markup Language"]
-    },
-    {
-        "name": "HTTP Requests",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/HTTP Requests.md",
-        "links": ["Express"]
     },
     {
         "name": "VPC & Subnets",
@@ -2273,42 +1974,11 @@
         ]
     },
     {
-        "name": "Manipulating HTML Element Attributes",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Manipulating HTML Element Attributes.md",
-        "links": [
-            "DOM Document Object Model",
-            "JavaScript"
-        ]
-    },
-    {
-        "name": "HTML Hypertext Markup Language",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/HTML Hypertext Markup Language.md",
-        "links": [
-            "HTML Heading Elements",
-            "HTML Paragraph Elements",
-            "HTML Attributes",
-            "HTML Boilerplate",
-            "Anchor Elements",
-            "Image Elements",
-            "Nesting and Indentation",
-            "Self Closing Tags",
-            "The List Element"
-        ]
-    },
-    {
         "name": "AWS CloudTrail",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Monitoring Section/AWS CloudTrail.md",
         "links": [
             "Amazon CloudWatch Logs",
             "Amazon S3"
-        ]
-    },
-    {
-        "name": "GitHub and Remote Repositories",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/GitHub and Remote Repositories.md",
-        "links": [
-            "Pasted image 20240702175113.png",
-            "Pasted image 20240702175928.png"
         ]
     },
     {
@@ -2318,11 +1988,6 @@
             "SQS - Simple Queue Service",
             "Amazon SNS - Simple Notification Service"
         ]
-    },
-    {
-        "name": "reporting.sh",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Shell/reporting.sh.md",
-        "links": ["Shell"]
     },
     {
         "name": "AWS Systems Manager (SSM)",
@@ -2340,8 +2005,343 @@
         "links": []
     },
     {
+        "name": "jQuery ready",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery ready.md",
+        "links": ["jQuery"]
+    },
+    {
+        "name": "jQuery Manipulating Text",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery Manipulating Text.md",
+        "links": []
+    },
+    {
+        "name": "Node.js",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Node.js.md",
+        "links": ["Node.js Shell Commands"]
+    },
+    {
+        "name": "NPM Server Foundation",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/NPM Server Foundation.md",
+        "links": []
+    },
+    {
+        "name": "jQuery Adding and Removing Elements",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery Adding and Removing Elements.md",
+        "links": []
+    },
+    {
+        "name": "jQuery Manipulating Styles",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery Manipulating Styles.md",
+        "links": []
+    },
+    {
+        "name": "jQuery Manipulating  Attributes",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery Manipulating  Attributes.md",
+        "links": []
+    },
+    {
+        "name": "jQuery",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery.md",
+        "links": [
+            "JavaScript",
+            "CDN",
+            "jQuery ready",
+            "jQuery Selecting Elements",
+            "jQuery Manipulating Styles",
+            "jQuery Manipulating Text",
+            "jQuery Manipulating  Attributes",
+            "jQuery Event Listeners",
+            "jQuery Adding and Removing Elements"
+        ]
+    },
+    {
+        "name": "REST API",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/REST API.md",
+        "links": [
+            "REST GET Route",
+            "REST POST Route",
+            "REST PUT Route",
+            "REST PATCH Route",
+            "REST DELETE Route"
+        ]
+    },
+    {
+        "name": "Higher Order Functions and Passing Functions as Arguments",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Higher Order Functions and Passing Functions as Arguments.md",
+        "links": [
+            "DOM Document Object Model",
+            "JavaScript"
+        ]
+    },
+    {
+        "name": "package.json",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/package.json.md",
+        "links": ["NPM Node Package Manager"]
+    },
+    {
+        "name": "Changing Styles of HTML Elements",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Changing Styles of HTML Elements.md",
+        "links": ["CSS Cascading Style Sheets"]
+    },
+    {
+        "name": "Express Shell Commands",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Express Shell Commands.md",
+        "links": [
+            "Express",
+            "Shell",
+            "NPM Shell Commands",
+            "package.json"
+        ]
+    },
+    {
+        "name": "JavaScript EventListeners",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/JavaScript EventListeners.md",
+        "links": [
+            "DOM Document Object Model",
+            "JavaScript"
+        ]
+    },
+    {
+        "name": "REST PATCH Route",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/REST PATCH Route.md",
+        "links": ["NPM Server Foundation"]
+    },
+    {
+        "name": "jQuery Selecting Elements",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery Selecting Elements.md",
+        "links": []
+    },
+    {
+        "name": "NPM Node Package Manager",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/NPM Node Package Manager.md",
+        "links": [
+            "Node.js",
+            "NPM Shell Commands",
+            "package.json"
+        ]
+    },
+    {
+        "name": "Adding Javascript to Website",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Adding Javascript to Website.md",
+        "links": ["JavaScript"]
+    },
+    {
+        "name": "Middleware",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Middleware.md",
+        "links": ["Express"]
+    },
+    {
+        "name": "Node.js Shell Commands",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Node.js Shell Commands.md",
+        "links": [
+            "Node.js",
+            "Shell",
+            "JavaScript",
+            "NPM Shell Commands",
+            "Express Shell Commands"
+        ]
+    },
+    {
+        "name": "REST POST Route",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/REST POST Route.md",
+        "links": ["NPM Server Foundation"]
+    },
+    {
+        "name": "Text Manipulation and the Text Content Property",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Text Manipulation and the Text Content Property.md",
+        "links": [
+            "DOM Document Object Model",
+            "JavaScript"
+        ]
+    },
+    {
+        "name": "DOM Document Object Model",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/DOM Document Object Model.md",
+        "links": [
+            "Adding Javascript to Website",
+            "Selecting HTML Elements with JavaScript",
+            "Changing Styles of HTML Elements",
+            "Text Manipulation and the Text Content Property"
+        ]
+    },
+    {
+        "name": "NPM Shell Commands",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/NPM Shell Commands.md",
+        "links": ["Node.js"]
+    },
+    {
+        "name": "Express",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Express.md",
+        "links": [
+            "Middleware",
+            "Express Shell Commands",
+            "NPM Server Foundation",
+            "HTTP Requests"
+        ]
+    },
+    {
+        "name": "Selecting HTML Elements with JavaScript",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Selecting HTML Elements with JavaScript.md",
+        "links": [
+            "HTML Hypertext Markup Language",
+            "JavaScript"
+        ]
+    },
+    {
+        "name": "REST PUT Route",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/REST PUT Route.md",
+        "links": ["NPM Server Foundation"]
+    },
+    {
+        "name": "REST DELETE Route",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/REST DELETE Route.md",
+        "links": ["NPM Server Foundation"]
+    },
+    {
+        "name": "jQuery Event Listeners",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery Event Listeners.md",
+        "links": ["JavaScript EventListeners"]
+    },
+    {
+        "name": "REST GET Route",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/REST GET Route.md",
+        "links": ["NPM Server Foundation"]
+    },
+    {
+        "name": "HTTP Requests",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/HTTP Requests.md",
+        "links": ["Express"]
+    },
+    {
+        "name": "Manipulating HTML Element Attributes",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Manipulating HTML Element Attributes.md",
+        "links": [
+            "DOM Document Object Model",
+            "JavaScript"
+        ]
+    },
+    {
+        "name": "String",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/String/String.md",
+        "links": [
+            "Pasted image 20240609124429.png",
+            "Pasted image 20240609125024.png",
+            "Pasted image 20240609125250.png",
+            "Immutable Strings"
+        ]
+    },
+    {
+        "name": "Immutable Strings",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/String/Immutable Strings.md",
+        "links": [
+            "Pasted image 20240609125934.png",
+            "Pasted image 20240609130133.png"
+        ]
+    },
+    {
+        "name": "JavaScript Events",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript Events.md",
+        "links": ["JavaScript"]
+    },
+    {
+        "name": "JavaScript Basics",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript Basics.md",
+        "links": ["JavaScript"]
+    },
+    {
+        "name": "JavaScript Errors",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript Errors.md",
+        "links": ["JavaScript"]
+    },
+    {
+        "name": "JavaScript",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript.md",
+        "links": [
+            "JavaScript Basics",
+            "JavaScript Loops",
+            "JavaScript Data Types",
+            "JavaScript Arrays",
+            "JavaScript Global Functions",
+            "JavaScript Events",
+            "JavaScript JSON",
+            "JavaScript Errors",
+            "jQuery"
+        ]
+    },
+    {
+        "name": "JavaScript Data Types",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript Data Types.md",
+        "links": ["JavaScript"]
+    },
+    {
+        "name": "JavaScript Global Functions",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript Global Functions.md",
+        "links": ["JavaScript"]
+    },
+    {
+        "name": "JavaScript Arrays",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript Arrays.md",
+        "links": ["JavaScript"]
+    },
+    {
+        "name": "JavaScript Loops",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript Loops.md",
+        "links": ["JavaScript"]
+    },
+    {
         "name": "JavaScript JSON",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript JSON.md",
         "links": ["JavaScript"]
+    },
+    {
+        "name": "Git Cloning",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/Git Cloning.md",
+        "links": []
+    },
+    {
+        "name": "Generating a new SSH key and adding it to the ssh-agent",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/Generating a new SSH key and adding it to the ssh-agent.md",
+        "links": ["GIT"]
+    },
+    {
+        "name": "Git Forking and Pull Requests",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/Git Forking and Pull Requests.md",
+        "links": ["Pasted image 20240702183809.png"]
+    },
+    {
+        "name": "Git Branching and Merging",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/Git Branching and Merging.md",
+        "links": []
+    },
+    {
+        "name": "GIT",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/GIT.md",
+        "links": [
+            "GIT Shell Commands",
+            "GitHub and Remote Repositories",
+            "Gitignore",
+            "Git Cloning",
+            "Git Branching and Merging",
+            "Git Forking and Pull Requests",
+            "Generating a new SSH key and adding it to the ssh-agent"
+        ]
+    },
+    {
+        "name": "Gitignore",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/Gitignore.md",
+        "links": []
+    },
+    {
+        "name": "GitHub and Remote Repositories",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/GitHub and Remote Repositories.md",
+        "links": [
+            "Pasted image 20240702175113.png",
+            "Pasted image 20240702175928.png"
+        ]
+    },
+    {
+        "name": "SQL Basics",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/SQL/SQL Basics.md",
+        "links": []
     }
 ]
