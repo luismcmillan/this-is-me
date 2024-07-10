@@ -84,6 +84,11 @@
       font-size: 40px;
     }
 
+    .circle-content {
+      width: 600px;
+      font-size: 10px;
+    }
+
     .price-adapt {
       font-size: 20px;
       display: flex;
@@ -204,6 +209,14 @@
       margin: 0;
       font-size: 24px;
     }
+
+    .scrollable-div {
+            width: 300px;
+            height: 100px;
+            border: 1px solid black;
+            overflow: auto; /* Ermöglicht das Scrollen */
+            padding: 10px;
+        }
   </style>
 </head>
 
@@ -238,7 +251,9 @@
       </h5>
     </div>
 
-    
+    <div id="circle-content" class="scrollable-div">
+      Please Click on one of the circles under me :)
+    </div>
 
     <div class="price-adapt">
       <div>
@@ -247,6 +262,12 @@
       </div>
     </div>
   </div>
+
+  
+
+  
+
+  
 
   <!-- The Modal -->
   <div id="myModal" class="modal">

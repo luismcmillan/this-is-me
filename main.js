@@ -25,7 +25,8 @@ for (const element of jsoncontent) {
         ctx_width * 0.45 * Math.sin((i / jsoncontent.length) * 2 * Math.PI),
       ctx_height / 2 +
         ctx_width * 0.45 * Math.cos((i / jsoncontent.length) * 2 * Math.PI),
-      circle_size
+      circle_size,
+      element.content
     )
   );
   i++;
@@ -189,6 +190,8 @@ canvas.addEventListener("mousemove", (e) => {
     if (element.hovered) {
       found_hovered = true;
       general_hovered = true;
+      console.log(element);
+      document.getElementById("circle-content").innerHTML = element.give_content();
       if (element.dragging == true) {
         element.x = mouse_x;
         element.y = mouse_y;

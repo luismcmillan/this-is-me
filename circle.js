@@ -1,12 +1,13 @@
 export default class circle {
     
-    constructor(id,name,x, y,size) {
+    constructor(id,name,x, y,size, content) {
       this.id = id;
       this.x = x;
       this.y = y;
       this.vx = 2;
       this.vy = 2;
       this.radius = size;
+      this.content = content;
       this.color = "grey";
       this.dragging = false;
       this.name = name;
@@ -159,6 +160,10 @@ export default class circle {
 
     change_parent_links(links){
         this.parent_links = links;
+    }
+
+    give_content(){
+        return this.content;
     }
 
   }
