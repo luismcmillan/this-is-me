@@ -190,7 +190,6 @@ canvas.addEventListener("mousemove", (e) => {
     if (element.hovered) {
       found_hovered = true;
       general_hovered = true;
-      console.log(element);
       document.getElementById("circle-content").innerHTML = element.give_content();
       if (element.dragging == true) {
         element.x = mouse_x;
