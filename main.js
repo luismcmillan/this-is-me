@@ -8,6 +8,7 @@ var ctx_width = canvas.getAttribute("width");
 var ctx_height = canvas.getAttribute("height");
 ctx.strokeStyle = "gray";
 let raf;
+let general_dragged = false;
 let general_hovered = false;
 let running = false;
 const balls = [];
@@ -49,7 +50,6 @@ let matrix = Array.from({ length: balls.length }, () =>
 );
 for(const ball of balls){
   let children_links = ball.get_child_links();
-  console.log(ball);
   for (let i = 0; i < children_links.length; i++) {
     matrix[ball.id][map.get(children_links[i].name)] = 1;
   } 
@@ -148,7 +148,6 @@ function draw() {
     for (let j = 0; j < matrix.length; j++) {
       if (matrix[j][i] == 1) {
         balls[i].follow(balls[j]);
-        balls[j].follow(balls[i]);
       }
     }
   }
@@ -178,12 +177,14 @@ canvas.addEventListener("mousemove", (e) => {
     draw_all_lines(matrix);
   }
   const rect = canvas.getBoundingClientRect();
-  const mouse_x = e.clientX - rect.left;
-  const mouse_y = e.clientY - rect.top;
+  const scaleX = canvas.width / rect.width;
+  const scaleY = canvas.height / rect.height;
+  const mouse_x = (e.clientX - rect.left)*scaleX;
+  const mouse_y = (e.clientY - rect.top)*scaleY;
   let found_hovered = false;
 
   for (const element of balls) {
-    element.hovered = element.isPointInside(mouse_x, mouse_y);
+    element.hovered = element.dragging ||element.isPointInside(mouse_x, mouse_y);
     element.draw()
     if (element.hovered) {
       found_hovered = true;
@@ -221,15 +222,23 @@ canvas.addEventListener("mouseout", (e) => {
 });
 
 canvas.addEventListener("mousedown", (e) => {
+  let found_dragged = false;
   const rect = canvas.getBoundingClientRect();
-  const mouseX = e.clientX - rect.left;
-  const mouseY = e.clientY - rect.top;
+  const scaleX = canvas.width / rect.width;
+  const scaleY = canvas.height / rect.height;
+  const mouse_x = (e.clientX - rect.left)*scaleX;
+  const mouse_y = (e.clientY - rect.top)*scaleY;
 
-  for (const element of balls) {
-    if (element.isPointInside(mouseX, mouseY)) {
-      element.dragging = true;
+  if (!general_dragged){
+    for (const element of balls) {
+      if (element.isPointInside(mouse_x, mouse_y)) {
+        element.dragging = true;
+        found_dragged = true;
+      }
     }
   }
+  
+  found_dragged ? general_dragged = true : general_dragged = false;
 });
 
 function draw_all_lines(matrix) {
@@ -245,7 +254,9 @@ function draw_all_lines(matrix) {
 
 
 canvas.addEventListener("mouseup", (e) => {
+  general_dragged = false;
   for (const element of balls) {
     element.dragging = false;
+    element.hovered = false;
   }
 });

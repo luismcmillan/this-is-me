@@ -18,8 +18,6 @@ export default class circle {
     }
 
     draw() {
-        const canvas = document.getElementById("canvas");
-        const ctx = canvas.getContext("2d");
         if(this.hovered){
             this.draw_me_once("black");
             this.show_text()
@@ -76,10 +74,10 @@ export default class circle {
 
     follow(parent){
       var distance = Math.sqrt((parent.x-this.x)**2 + (parent.y-this.y)**2);
-      if (distance > this.attraction) {
+      if (!this.dragging && distance > this.attraction) {
           this.x = this.x - this.vx*((this.x-parent.x)/(Math.abs(this.x-parent.x) + Math.abs(this.y-parent.y)))
           this.y = this.y - this.vy*((this.y-parent.y)/(Math.abs(this.x-parent.x) + Math.abs(this.y-parent.y)))
-      } else if (distance < this.rejection ){
+      } else if (!this.dragging && distance < this.rejection ){
           this.x = this.x + this.vx*((this.x-parent.x)/(Math.abs(this.x-parent.x) + Math.abs(this.y-parent.y)))
           this.y = this.y + this.vy*((this.y-parent.y)/(Math.abs(this.x-parent.x) + Math.abs(this.y-parent.y)))
       }
