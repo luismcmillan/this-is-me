@@ -1,115 +1,171 @@
 [
     {
+        "children": ["CSS Cascading Style Sheets"],
         "name": "Font Properties",
         "location": "/Users/luismcmillan/Documents/My_obsidian/CSS/Font Properties.md",
-        "links": ["CSS Cascading Style Sheets"]
+        "id": 0,
+        "parents": ["CSS Cascading Style Sheets"]
     },
     {
-        "name": "CSS Cascading Style Sheets",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/CSS/CSS Cascading Style Sheets.md",
-        "links": [
+        "children": [
             "HTML Hypertext Markup Language",
             "CSS Selectors",
             "Font Properties"
+        ],
+        "name": "CSS Cascading Style Sheets",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/CSS/CSS Cascading Style Sheets.md",
+        "id": 1,
+        "parents": [
+            "Font Properties",
+            "Changing Styles of HTML Elements",
+            "CSS Selectors"
         ]
     },
     {
+        "children": ["CSS Cascading Style Sheets"],
         "name": "CSS Selectors",
         "location": "/Users/luismcmillan/Documents/My_obsidian/CSS/CSS Selectors.md",
-        "links": ["CSS Cascading Style Sheets"]
+        "id": 2,
+        "parents": ["CSS Cascading Style Sheets"]
     },
     {
-        "name": "Java Shell Commands",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Shell/Java Shell Commands.md",
-        "links": [
+        "children": [
             "Shell",
             "Java",
             "pom.xml"
+        ],
+        "name": "Java Shell Commands",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Shell/Java Shell Commands.md",
+        "id": 3,
+        "parents": [
+            "Shell",
+            "Java"
         ]
     },
     {
-        "name": "GIT Shell Commands",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Shell/GIT Shell Commands.md",
-        "links": [
+        "children": [
             "GIT",
             "GitHub and Remote Repositories",
             "Gitignore",
             "Git Cloning",
             "Git Branching and Merging",
             "Git Forking and Pull Requests"
+        ],
+        "name": "GIT Shell Commands",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Shell/GIT Shell Commands.md",
+        "id": 4,
+        "parents": [
+            "Shell",
+            "GIT"
         ]
     },
     {
-        "name": "Shell",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Shell/Shell.md",
-        "links": [
+        "children": [
             "reporting.sh",
             "Umgebungsvariablen setzen",
             "Java Shell Commands",
             "GIT Shell Commands",
             "Node.js Shell Commands",
             "Important linux commands"
+        ],
+        "name": "Shell",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Shell/Shell.md",
+        "id": 5,
+        "parents": [
+            "Java Shell Commands",
+            "Important linux commands",
+            "Umgebungsvariablen setzen",
+            "Express Shell Commands",
+            "Node.js Shell Commands",
+            "reporting.sh"
         ]
     },
     {
+        "children": ["Shell"],
         "name": "Important linux commands",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Shell/Important linux commands.md",
-        "links": ["Shell"]
+        "id": 6,
+        "parents": ["Shell"]
     },
     {
+        "children": ["Shell"],
         "name": "Umgebungsvariablen setzen",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Shell/Umgebungsvariablen setzen.md",
-        "links": ["Shell"]
+        "id": 7,
+        "parents": ["Shell"]
     },
     {
+        "children": ["Shell"],
         "name": "reporting.sh",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Shell/reporting.sh.md",
-        "links": ["Shell"]
+        "id": 8,
+        "parents": ["Shell"]
     },
     {
-        "name": "Date & Time",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Date & Time/Date & Time.md",
-        "links": [
+        "children": [
             "LocalDate",
             "LocalTime",
             "LocalDateTime",
             "Period",
             "DateTimeFormatter"
+        ],
+        "name": "Date & Time",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Date & Time/Date & Time.md",
+        "id": 9,
+        "parents": [
+            "LocalDateTime",
+            "LocalTime",
+            "Period",
+            "LocalDate",
+            "DateTimeFormatter",
+            "Java"
         ]
     },
     {
+        "children": ["Date & Time"],
         "name": "LocalDateTime",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Date & Time/LocalDateTime.md",
-        "links": ["Date & Time"]
+        "id": 10,
+        "parents": ["Date & Time"]
     },
     {
+        "children": ["Interfaces"],
         "name": "Functional Interface",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Functional Interface.md",
-        "links": ["Interfaces"]
+        "id": 11,
+        "parents": ["Interfaces"]
     },
     {
-        "name": "Lambda Expressions",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Lambda/Lambda Expressions.md",
-        "links": [
+        "children": [
             "Anonymous Class",
             "Lambda syntax",
             "Predicate"
+        ],
+        "name": "Lambda Expressions",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Lambda/Lambda Expressions.md",
+        "id": 12,
+        "parents": [
+            "Predicate",
+            "Lambda syntax"
         ]
     },
     {
-        "name": "Java.io",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java.io/Java.io.md",
-        "links": [
+        "children": [
             "Writing Files",
             "Reading Files"
+        ],
+        "name": "Java.io",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java.io/Java.io.md",
+        "id": 13,
+        "parents": [
+            "Writing Files",
+            "Reading Files",
+            "Java"
         ]
     },
     {
-        "name": "Interfaces",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Interfaces.md",
-        "links": [
+        "children": [
             "Abstract Classes",
-            "Pasted image 20240613202538.png",
             "Default Methods",
             "Default Methods",
             "Static methods",
@@ -120,131 +176,219 @@
             "Marker Interface",
             "Functional Interface",
             "Functional Interface"
+        ],
+        "name": "Interfaces",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Interfaces.md",
+        "id": 14,
+        "parents": [
+            "Functional Interface",
+            "Static methods",
+            "Implementing Interfaces",
+            "Marker Interface",
+            "Default Methods",
+            "Java"
         ]
     },
     {
+        "children": [],
         "name": "pom.xml",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Maven/pom.xml.md",
-        "links": []
+        "id": 15,
+        "parents": [
+            "Java Shell Commands",
+            "Maven"
+        ]
     },
     {
-        "name": "Static methods",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Static methods.md",
-        "links": [
+        "children": [],
+        "name": "Anonymous Class",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Lambda/Anonymous Class.md",
+        "id": 16,
+        "parents": ["Lambda Expressions"]
+    },
+    {
+        "children": [
             "Interfaces",
             "Default Methods",
+            "Static Imports"
+        ],
+        "name": "Static methods",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Static methods.md",
+        "id": 17,
+        "parents": [
+            "Interfaces",
             "Static Imports"
         ]
     },
     {
+        "children": ["Date & Time"],
         "name": "LocalTime",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Date & Time/LocalTime.md",
-        "links": ["Date & Time"]
+        "id": 18,
+        "parents": ["Date & Time"]
     },
     {
+        "children": ["The Java Platform Cont."],
         "name": "The Java Platform",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/The Java Platform.md",
-        "links": [
-            "Pasted image 20240531105128.png",
-            "The Java Platform Cont."
-        ]
+        "id": 19,
+        "parents": ["Java"]
     },
     {
+        "children": [],
         "name": "Abstract Classes",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Abstract Classes.md",
-        "links": []
+        "id": 20,
+        "parents": [
+            "Interfaces",
+            "Java"
+        ]
     },
     {
+        "children": ["Interfaces"],
         "name": "Implementing Interfaces",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Implementing Interfaces.md",
-        "links": ["Interfaces"]
+        "id": 21,
+        "parents": ["Interfaces"]
     },
     {
+        "children": [
+            "Lambda Expressions",
+            "Functional Interface",
+            "Generics"
+        ],
         "name": "Predicate",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Lambda/Predicate.md",
-        "links": [
-            "Lambda Expressions",
-            "functional interface",
-            "Generics"
-        ]
+        "id": 22,
+        "parents": ["Lambda Expressions"]
     },
     {
+        "children": ["Interfaces"],
         "name": "Marker Interface",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Marker Interface.md",
-        "links": ["Interfaces"]
+        "id": 23,
+        "parents": ["Interfaces"]
     },
     {
+        "children": ["Date & Time"],
         "name": "Period",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Date & Time/Period.md",
-        "links": ["Date & Time"]
+        "id": 24,
+        "parents": ["Date & Time"]
     },
     {
+        "children": [],
         "name": "Java Development Kit (JDK)",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/Java Development Kit (JDK).md",
-        "links": []
+        "id": 25,
+        "parents": ["Java"]
     },
     {
+        "children": ["Date & Time"],
         "name": "LocalDate",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Date & Time/LocalDate.md",
-        "links": ["Date & Time"]
+        "id": 26,
+        "parents": ["Date & Time"]
     },
     {
-        "name": "Lambda syntax",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Lambda/Lambda syntax.md",
-        "links": [
-            "Lambda Expressions",
-            "Pasted image 20240626145032.png"
+        "children": ["Reading Directory"],
+        "name": "Java.nio",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java.nio/Java.nio.md",
+        "id": 27,
+        "parents": [
+            "Reading Directory",
+            "Java"
         ]
     },
     {
+        "children": ["Lambda Expressions"],
+        "name": "Lambda syntax",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Lambda/Lambda syntax.md",
+        "id": 28,
+        "parents": ["Lambda Expressions"]
+    },
+    {
+        "children": ["Java.nio"],
+        "name": "Reading Directory",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java.nio/Reading Directory.md",
+        "id": 29,
+        "parents": ["Java.nio"]
+    },
+    {
+        "children": [],
         "name": "The Java Platform Cont.",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/The Java Platform Cont..md",
-        "links": ["Pasted image 20240531113256.png"]
+        "id": 30,
+        "parents": ["The Java Platform"]
     },
     {
+        "children": ["Interfaces"],
         "name": "Default Methods",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Default Methods.md",
-        "links": ["Interfaces"]
+        "id": 31,
+        "parents": [
+            "Interfaces",
+            "Static methods"
+        ]
     },
     {
+        "children": [],
+        "name": "Generics",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Lambda/Generics.md",
+        "id": 32,
+        "parents": ["Predicate"]
+    },
+    {
+        "children": ["Java.io"],
         "name": "Writing Files",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java.io/Writing Files.md",
-        "links": ["Java.io"]
+        "id": 33,
+        "parents": ["Java.io"]
     },
     {
+        "children": ["Date & Time"],
         "name": "DateTimeFormatter",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Date & Time/DateTimeFormatter.md",
-        "links": ["Date & Time"]
+        "id": 34,
+        "parents": ["Date & Time"]
     },
     {
+        "children": ["pom.xml"],
         "name": "Maven",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Maven/Maven.md",
-        "links": ["pom.xml"]
+        "id": 35,
+        "parents": []
     },
     {
+        "children": ["SQL Basics"],
         "name": "Java DataBase Connection (JDBC)",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/Java DataBase Connection (JDBC).md",
-        "links": ["SQL Basics"]
+        "id": 36,
+        "parents": ["Java"]
     },
     {
+        "children": ["Java"],
         "name": "Lernplan",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/Lernplan.md",
-        "links": ["Java"]
+        "id": 37,
+        "parents": ["Java"]
     },
     {
+        "children": ["Java.io"],
         "name": "Reading Files",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java.io/Reading Files.md",
-        "links": ["Java.io"]
+        "id": 38,
+        "parents": ["Java.io"]
     },
     {
+        "children": ["Static methods"],
         "name": "Static Imports",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Abstract Classes and Interfaces/Static Imports.md",
-        "links": ["Static methods"]
+        "id": 39,
+        "parents": ["Static methods"]
     },
     {
-        "name": "Java",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/Java.md",
-        "links": [
+        "children": [
             "Lernplan",
             "The Java Platform",
             "Hello World",
@@ -254,84 +398,110 @@
             "Abstract Classes",
             "Interfaces",
             "Java.io",
+            "Java.nio",
             "Date & Time",
             "String",
             "Passing by Value"
+        ],
+        "name": "Java",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/Java.md",
+        "id": 40,
+        "parents": [
+            "Java Shell Commands",
+            "Lernplan"
         ]
     },
     {
+        "children": [],
         "name": "Passing by Value",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/Passing by Value.md",
-        "links": [
-            "Pasted image 20240609131605.png",
-            "Pasted image 20240609132244.png",
-            "Pasted image 20240609132500.png",
-            "Pasted image 20240609132849.png",
-            "Pasted image 20240609133445.png",
-            "Pasted image 20240609133622.png",
-            "Pasted image 20240609131110.png"
-        ]
+        "id": 41,
+        "parents": ["Java"]
     },
     {
+        "children": [],
         "name": "Hello World",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Oracle Java/Java General/Hello World.md",
-        "links": []
+        "id": 42,
+        "parents": ["Java"]
     },
     {
+        "children": ["HTML Hypertext Markup Language"],
         "name": "HTML Heading Elements",
         "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/HTML Heading Elements.md",
-        "links": ["HTML Hypertext Markup Language"]
+        "id": 43,
+        "parents": ["HTML Hypertext Markup Language"]
     },
     {
+        "children": ["HTML Hypertext Markup Language"],
         "name": "The List Element",
         "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/The List Element.md",
-        "links": ["HTML Hypertext Markup Language"]
+        "id": 44,
+        "parents": ["HTML Hypertext Markup Language"]
     },
     {
-        "name": "Anchor Elements",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/Anchor Elements.md",
-        "links": [
+        "children": [
             "HTML Hypertext Markup Language",
             "HTML Attributes"
-        ]
+        ],
+        "name": "Anchor Elements",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/Anchor Elements.md",
+        "id": 45,
+        "parents": ["HTML Hypertext Markup Language"]
     },
     {
-        "name": "Self Closing Tags",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/Self Closing Tags.md",
-        "links": [
+        "children": [
             "HTML Hypertext Markup Language",
             "Image Elements"
+        ],
+        "name": "Self Closing Tags",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/Self Closing Tags.md",
+        "id": 46,
+        "parents": ["HTML Hypertext Markup Language"]
+    },
+    {
+        "children": ["HTML Hypertext Markup Language"],
+        "name": "HTML Paragraph Elements",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/HTML Paragraph Elements.md",
+        "id": 47,
+        "parents": ["HTML Hypertext Markup Language"]
+    },
+    {
+        "children": ["HTML Hypertext Markup Language"],
+        "name": "Nesting and Indentation",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/Nesting and Indentation.md",
+        "id": 48,
+        "parents": ["HTML Hypertext Markup Language"]
+    },
+    {
+        "children": ["HTML Hypertext Markup Language"],
+        "name": "Image Elements",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/Image Elements.md",
+        "id": 49,
+        "parents": [
+            "Self Closing Tags",
+            "HTML Hypertext Markup Language"
         ]
     },
     {
-        "name": "HTML Paragraph Elements",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/HTML Paragraph Elements.md",
-        "links": ["HTML Hypertext Markup Language"]
-    },
-    {
-        "name": "Nesting and Indentation",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/Nesting and Indentation.md",
-        "links": ["HTML Hypertext Markup Language"]
-    },
-    {
-        "name": "Image Elements",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/Image Elements.md",
-        "links": ["HTML Hypertext Markup Language"]
-    },
-    {
+        "children": ["HTML Hypertext Markup Language"],
         "name": "HTML Boilerplate",
         "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/HTML Boilerplate.md",
-        "links": ["HTML Hypertext Markup Language"]
+        "id": 50,
+        "parents": ["HTML Hypertext Markup Language"]
     },
     {
+        "children": ["HTML Hypertext Markup Language"],
         "name": "HTML Attributes",
         "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/HTML Attributes.md",
-        "links": ["HTML Hypertext Markup Language"]
+        "id": 51,
+        "parents": [
+            "Anchor Elements",
+            "HTML Hypertext Markup Language"
+        ]
     },
     {
-        "name": "HTML Hypertext Markup Language",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/HTML Hypertext Markup Language.md",
-        "links": [
+        "children": [
             "HTML Heading Elements",
             "HTML Paragraph Elements",
             "HTML Attributes",
@@ -341,17 +511,36 @@
             "Nesting and Indentation",
             "Self Closing Tags",
             "The List Element"
+        ],
+        "name": "HTML Hypertext Markup Language",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/HTML/HTML Hypertext Markup Language.md",
+        "id": 52,
+        "parents": [
+            "HTML Heading Elements",
+            "The List Element",
+            "Anchor Elements",
+            "Self Closing Tags",
+            "CSS Cascading Style Sheets",
+            "Selecting HTML Elements with JavaScript",
+            "HTML Paragraph Elements",
+            "Nesting and Indentation",
+            "Image Elements",
+            "HTML Boilerplate",
+            "HTML Attributes"
         ]
     },
     {
+        "children": [],
         "name": "Active Directory (AD)",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Advanced Identity/Active Directory (AD).md",
-        "links": []
+        "id": 53,
+        "parents": [
+            "AWS IAM Identity Center",
+            "AWS Directory Services"
+        ]
     },
     {
-        "name": "Security & Compliance Summary",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/Security & Compliance Summary.md",
-        "links": [
+        "children": [
             "AWS Shield",
             "AWS WAF - Web Application Firewall",
             "AWS KMS (Key Management Service)",
@@ -370,74 +559,100 @@
             "Root user",
             "IAM Access Analyzer",
             "AWS Firewall Manager"
-        ]
+        ],
+        "name": "Security & Compliance Summary",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/Security & Compliance Summary.md",
+        "id": 54,
+        "parents": []
     },
     {
+        "children": [],
         "name": "Disaster Recovery Strategies",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Other Services/Disaster Recovery Strategies.md",
-        "links": [
-            "Pasted image 20240525180113.png",
-            "Pasted image 20240525180145.png",
-            "Pasted image 20240525180223.png",
-            "Pasted image 20240525180352.png"
+        "id": 55,
+        "parents": ["AWS Cloud Adoption Framework (AWS CAF)"]
+    },
+    {
+        "children": [],
+        "name": "AWS Glue",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/AWS Glue.md",
+        "id": 56,
+        "parents": ["Databases & Analytics Summary"]
+    },
+    {
+        "children": [],
+        "name": "CloudFormation",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/CloudFormation.md",
+        "id": 57,
+        "parents": [
+            "AWS CodePipeline",
+            "Deployment - Summary",
+            "Pricing Models in AWS",
+            "AWS Application Composer"
         ]
     },
     {
-        "name": "AWS Glue",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/AWS Glue.md",
-        "links": ["Pasted image 20240522154942.png"]
-    },
-    {
-        "name": "CloudFormation",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/CloudFormation.md",
-        "links": []
-    },
-    {
-        "name": "AWS Budgets",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Budgets.md",
-        "links": [
+        "children": [
             "EC2 - Elastic Compute Cloud",
             "Amazon ElastiCache",
             "Amazon RDS",
             "Redshift"
+        ],
+        "name": "AWS Budgets",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Budgets.md",
+        "id": 58,
+        "parents": [
+            "Billing and Costing Tools - Summary",
+            "Billing and Costing Tools",
+            "Billing Alarms"
         ]
     },
     {
+        "children": [],
         "name": "AWS Artifact",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS Artifact.md",
-        "links": []
+        "id": 59,
+        "parents": ["Security & Compliance Summary"]
     },
     {
-        "name": "AWS Right sizing",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/AWS Right sizing.md",
-        "links": [
+        "children": [
             "EC2 - Elastic Compute Cloud",
             "CloudWatch",
             "Cost Explorer",
             "Trusted Advisor"
-        ]
+        ],
+        "name": "AWS Right sizing",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/AWS Right sizing.md",
+        "id": 60,
+        "parents": []
     },
     {
+        "children": ["Auto Scaling Group"],
         "name": "Why use an Elastic Load Balancer",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/ELB & ASG/Why use an Elastic Load Balancer.md",
-        "links": [
-            "Pasted image 20240522094827.png",
-            "Auto Scaling Group"
+        "id": 61,
+        "parents": [
+            "Scalability vs Elasticity vs Agility vs Availability",
+            "EC2 - Elastic Compute Cloud"
         ]
     },
     {
-        "name": "AWS WAF - Web Application Firewall",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS WAF - Web Application Firewall.md",
-        "links": [
+        "children": [
             "Amazon API Gateway",
             "CloudFront",
             "IP Addresses in AWS"
+        ],
+        "name": "AWS WAF - Web Application Firewall",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS WAF - Web Application Firewall.md",
+        "id": 62,
+        "parents": [
+            "Security & Compliance Summary",
+            "AWS Firewall Manager",
+            "DDoS Protection, WAF & Shield"
         ]
     },
     {
-        "name": "Billing and Costing Tools - Summary",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Billing and Costing Tools - Summary.md",
-        "links": [
+        "children": [
             "AWS Compute Optimizer",
             "AWS Pricing Calculator",
             "AWS Billing Dashboard",
@@ -448,20 +663,21 @@
             "AWS Budgets",
             "Savings Plan",
             "AWS Cost Anomaly Detection"
-        ]
+        ],
+        "name": "Billing and Costing Tools - Summary",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Billing and Costing Tools - Summary.md",
+        "id": 63,
+        "parents": []
     },
     {
+        "children": ["ML"],
         "name": "AWS WaveLength",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/AWS WaveLength.md",
-        "links": [
-            "ML",
-            "Pasted image 20240523182734.png"
-        ]
+        "id": 64,
+        "parents": ["Summary"]
     },
     {
-        "name": "AWS CodeStar",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Pipeline/AWS CodeStar.md",
-        "links": [
+        "children": [
             "AWS CodeCommit",
             "AWS CodePipeline",
             "AWS CodeBuild",
@@ -469,17 +685,26 @@
             "AWS Elastic Beanstalk",
             "EC2 - Elastic Compute Cloud",
             "AWS Cloud9"
+        ],
+        "name": "AWS CodeStar",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Pipeline/AWS CodeStar.md",
+        "id": 65,
+        "parents": ["Deployment - Summary"]
+    },
+    {
+        "children": [],
+        "name": "Trusted Advisor",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Trusted Advisor.md",
+        "id": 66,
+        "parents": [
+            "AWS Right sizing",
+            "AWS Basic Support Plan",
+            "Account Best Practices - Summary",
+            "AWS Business Support Plan"
         ]
     },
     {
-        "name": "Trusted Advisor",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Trusted Advisor.md",
-        "links": []
-    },
-    {
-        "name": "Summary",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/Summary.md",
-        "links": [
+        "children": [
             "Amazon Route 53",
             "CloudFront",
             "S3 Transfer Acceleration",
@@ -487,89 +712,126 @@
             "AWS Outposts",
             "AWS WaveLength",
             "AWS Local Zones"
-        ]
+        ],
+        "name": "Summary",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/Summary.md",
+        "id": 67,
+        "parents": []
     },
     {
+        "children": [],
         "name": "Amazon S3 - Versioning",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/Amazon S3 - Versioning.md",
-        "links": []
+        "id": 68,
+        "parents": ["Amazon S3"]
     },
     {
+        "children": [
+            "VPC Summary",
+            "Site to Site VPN & Direct Connect"
+        ],
         "name": "AWS Network Firewall",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS Network Firewall.md",
-        "links": [
-            "VPC Summary",
-            "Site to Site VPN & Direct Connect",
-            "Pasted image 20240524125857.png"
+        "id": 69,
+        "parents": [
+            "Security & Compliance Summary",
+            "AWS Firewall Manager"
         ]
     },
     {
-        "name": "Amazon RDS",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon RDS/Amazon RDS.md",
-        "links": [
+        "children": [
             "EC2 - Elastic Compute Cloud",
             "EBS (Elastic Block Store) Volume"
+        ],
+        "name": "Amazon RDS",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon RDS/Amazon RDS.md",
+        "id": 70,
+        "parents": [
+            "AWS Budgets",
+            "AWS Elastic Beanstalk",
+            "AWS Secrets Manager",
+            "Penetration Testing on AWS Cloud",
+            "AWS KMS (Key Management Service)",
+            "AWS  GuardDuty",
+            "Databases & Analytics Summary",
+            "AWS Local Zones"
         ]
     },
     {
-        "name": "AWS Compute Optimizer",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Compute Optimizer.md",
-        "links": [
+        "children": [
             "EC2 - Elastic Compute Cloud",
             "EBS (Elastic Block Store) Volume",
             "Lambda"
-        ]
+        ],
+        "name": "AWS Compute Optimizer",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Compute Optimizer.md",
+        "id": 71,
+        "parents": ["Billing and Costing Tools - Summary"]
     },
     {
+        "children": [],
         "name": "EC2 Instance Store",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/EC2 Instance Store.md",
-        "links": []
+        "id": 72,
+        "parents": ["EC2 - Elastic Compute Cloud"]
     },
     {
+        "children": [],
         "name": "Operational Excellence",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/Operational Excellence.md",
-        "links": ["Pasted image 20240525182745.png"]
+        "id": 73,
+        "parents": ["Well Architected Framework"]
     },
     {
+        "children": [],
         "name": "Scaling Groups - Scaling Strategies",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/ELB & ASG/Scaling Groups - Scaling Strategies.md",
-        "links": []
+        "id": 74,
+        "parents": ["Auto Scaling Group"]
     },
     {
-        "name": "AWS Batch",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Other compute Services/AWS Batch.md",
-        "links": [
+        "children": [
             "EC2 - Elastic Compute Cloud",
             "Docker",
             "ECS - Elastic Container Service",
-            "Pasted image 20240523091956.png",
             "Docker",
             "EBS (Elastic Block Store) Volume"
-        ]
+        ],
+        "name": "AWS Batch",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Other compute Services/AWS Batch.md",
+        "id": 75,
+        "parents": []
     },
     {
-        "name": "AWS Organizations",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Organizations.md",
-        "links": [
+        "children": [
             "EC2 - Elastic Compute Cloud",
             "Service Control Policies (SCP)",
             "VPC Summary",
-            "Pasted image 20240524172025.png",
-            "Pasted image 20240524172115.png",
             "AWS CloudTrail",
             "Amazon S3",
             "CloudWatch"
+        ],
+        "name": "AWS Organizations",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Organizations.md",
+        "id": 76,
+        "parents": [
+            "Advanced Identity - Summary",
+            "AWS Control Tower",
+            "Account Best Practices - Summary",
+            "AWS IAM Identity Center",
+            "AWS Backup",
+            "AWS Resource Access Manager (AWS RAM)"
         ]
     },
     {
+        "children": [],
         "name": "Amazon Neptune",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon Neptune.md",
-        "links": ["Pasted image 20240522153903.png"]
+        "id": 77,
+        "parents": ["Databases & Analytics Summary"]
     },
     {
-        "name": "Other Services",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Other Services/Other Services.md",
-        "links": [
+        "children": [
             "AWS IQ",
             "AWS IoT Core",
             "Amazon WorkSpaces",
@@ -578,126 +840,155 @@
             "Amazon AppStream 2.0",
             "AWS Customer Carbon Footprint Tool",
             "AWS Device Farm"
-        ]
+        ],
+        "name": "Other Services",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Other Services/Other Services.md",
+        "id": 78,
+        "parents": ["Cloud Computing"]
     },
     {
+        "children": ["EC2 - Elastic Compute Cloud"],
         "name": "AWS STS (Security Token Service)",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Advanced Identity/AWS STS (Security Token Service).md",
-        "links": [
-            "EC2 - Elastic Compute Cloud",
-            "Pasted image 20240525120235.png"
-        ]
+        "id": 79,
+        "parents": ["Advanced Identity - Summary"]
     },
     {
-        "name": "AWS Basic Support Plan",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Basic Support Plan.md",
-        "links": [
+        "children": [
             "Trusted Advisor",
             "AWS Health Dashboard"
+        ],
+        "name": "AWS Basic Support Plan",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Basic Support Plan.md",
+        "id": 80,
+        "parents": [
+            "Support Plans",
+            "AWS Developer Support Plan"
         ]
     },
     {
+        "children": ["ML"],
         "name": "Amazon Kendra",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/Amazon Kendra.md",
-        "links": [
-            "ML",
-            "Pasted image 20240524164955.png"
-        ]
+        "id": 81,
+        "parents": ["ML"]
     },
     {
+        "children": [],
         "name": "Security Groups",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/Security Groups.md",
-        "links": [
-            "Pasted image 20240421180626.png",
-            "Pasted image 20240421182245.png"
+        "id": 82,
+        "parents": [
+            "EC2 - Elastic Compute Cloud",
+            "Network ACL & Security Groups"
         ]
     },
     {
+        "children": [],
         "name": "Amazon EventBridge",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Monitoring Section/Amazon EventBridge.md",
-        "links": [
-            "Pasted image 20240524091337.png",
-            "Pasted image 20240524091421.png",
-            "Pasted image 20240524091703.png",
-            "Pasted image 20240524094034.png"
+        "id": 83,
+        "parents": [
+            "Amazon Inspector",
+            "AWS  GuardDuty"
         ]
     },
     {
-        "name": "AWS CodePipeline",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Pipeline/AWS CodePipeline.md",
-        "links": [
+        "children": [
             "AWS CodeCommit",
             "AWS CodeBuild",
             "AWS CodeDeploy",
             "AWS Elastic Beanstalk",
-            "CloudFormation",
-            "Pasted image 20240523104509.png"
+            "CloudFormation"
+        ],
+        "name": "AWS CodePipeline",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Pipeline/AWS CodePipeline.md",
+        "id": 84,
+        "parents": [
+            "AWS CodeStar",
+            "Deployment - Summary"
         ]
     },
     {
-        "name": "Advanced Identity - Summary",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Advanced Identity/Advanced Identity - Summary.md",
-        "links": [
+        "children": [
             "IAM",
             "AWS Organizations",
             "AWS STS (Security Token Service)",
             "Amazon Cognito",
             "AWS Directory Services",
             "AWS IAM Identity Center"
-        ]
+        ],
+        "name": "Advanced Identity - Summary",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Advanced Identity/Advanced Identity - Summary.md",
+        "id": 85,
+        "parents": []
     },
     {
-        "name": "Docker",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Container/Docker.md",
-        "links": [
-            "Pasted image 20240522225458.png",
+        "children": [
             "ECR - Elastic Container Registry",
             "ECS - Elastic Container Service",
             "Fargate"
-        ]
+        ],
+        "name": "Docker",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Container/Docker.md",
+        "id": 86,
+        "parents": ["AWS Batch"]
     },
     {
+        "children": [],
         "name": "Global Application Architecture",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/Global Application Architecture.md",
-        "links": [
-            "Pasted image 20240523183814.png",
-            "Pasted image 20240523183835.png",
-            "Pasted image 20240523183909.png",
-            "Pasted image 20240523183930.png"
-        ]
+        "id": 87,
+        "parents": ["Account Best Practices - Summary"]
     },
     {
+        "children": [],
         "name": "Amazon ElastiCache",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon ElastiCache.md",
-        "links": ["Pasted image 20240522145907.png"]
-    },
-    {
-        "name": "AWS Enterprise Support Plan",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Enterprise Support Plan.md",
-        "links": ["AWS Business Support Plan"]
-    },
-    {
-        "name": "AWS CodeCommit",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Pipeline/AWS CodeCommit.md",
-        "links": []
-    },
-    {
-        "name": "AWS Control Tower",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Control Tower.md",
-        "links": [
-            "AWS Organizations",
-            "Service Control Policies (SCP)"
+        "id": 88,
+        "parents": [
+            "AWS Budgets",
+            "Databases & Analytics Summary",
+            "AWS Local Zones"
         ]
     },
     {
-        "name": "AWS IoT Core",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Other Services/AWS IoT Core.md",
-        "links": ["Pasted image 20240525173303.png"]
+        "children": ["AWS Business Support Plan"],
+        "name": "AWS Enterprise Support Plan",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Enterprise Support Plan.md",
+        "id": 89,
+        "parents": ["Support Plans"]
     },
     {
-        "name": "Amazon Detective",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/Amazon Detective.md",
-        "links": [
+        "children": [],
+        "name": "AWS CodeCommit",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Pipeline/AWS CodeCommit.md",
+        "id": 90,
+        "parents": [
+            "AWS CodeStar",
+            "AWS CodePipeline",
+            "Deployment - Summary"
+        ]
+    },
+    {
+        "children": [
+            "AWS Organizations",
+            "Service Control Policies (SCP)"
+        ],
+        "name": "AWS Control Tower",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Control Tower.md",
+        "id": 91,
+        "parents": ["Account Best Practices - Summary"]
+    },
+    {
+        "children": [],
+        "name": "AWS IoT Core",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Other Services/AWS IoT Core.md",
+        "id": 92,
+        "parents": ["Other Services"]
+    },
+    {
+        "children": [
             "AWS  GuardDuty",
             "Amazon Macie",
             "AWS Security Hub",
@@ -705,82 +996,117 @@
             "VPC Flow Logs",
             "AWS CloudTrail",
             "AWS  GuardDuty"
+        ],
+        "name": "Amazon Detective",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/Amazon Detective.md",
+        "id": 93,
+        "parents": ["Security & Compliance Summary"]
+    },
+    {
+        "children": [],
+        "name": "AWS X-Ray",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Monitoring Section/AWS X-Ray.md",
+        "id": 94,
+        "parents": ["Monitoring Summary"]
+    },
+    {
+        "children": [],
+        "name": "Amazon S3 - Replication (CRR & SRR)",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/Amazon S3 - Replication (CRR & SRR).md",
+        "id": 95,
+        "parents": ["Amazon S3"]
+    },
+    {
+        "children": [],
+        "name": "Savings Plan",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Savings Plan.md",
+        "id": 96,
+        "parents": [
+            "Billing and Costing Tools - Summary",
+            "Cost Explorer"
         ]
     },
     {
-        "name": "AWS X-Ray",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Monitoring Section/AWS X-Ray.md",
-        "links": ["Pasted image 20240524095401.png"]
-    },
-    {
-        "name": "Amazon S3 - Replication (CRR & SRR)",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/Amazon S3 - Replication (CRR & SRR).md",
-        "links": []
-    },
-    {
-        "name": "Savings Plan",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Savings Plan.md",
-        "links": []
-    },
-    {
-        "name": "VPC Flow Logs",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/VPC Flow Logs.md",
-        "links": [
+        "children": [
             "Amazon S3",
             "CloudWatch",
             "Amazon Kinesis"
+        ],
+        "name": "VPC Flow Logs",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/VPC Flow Logs.md",
+        "id": 97,
+        "parents": [
+            "Amazon Detective",
+            "VPC Summary",
+            "AWS  GuardDuty"
         ]
     },
     {
+        "children": [],
         "name": "EC2 Instance Connect",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/EC2 Instance Connect.md",
-        "links": []
+        "id": 98,
+        "parents": ["EC2 - Elastic Compute Cloud"]
     },
     {
-        "name": "Support Plans",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Support Plans.md",
-        "links": [
+        "children": [
             "AWS Basic Support Plan",
             "AWS Developer Support Plan",
             "AWS Business Support Plan",
             "AWS Enterprise On-Ramp Support Plan",
             "AWS Enterprise Support Plan"
+        ],
+        "name": "Support Plans",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Support Plans.md",
+        "id": 99,
+        "parents": [
+            "AWS Developer Support Plan",
+            "AWS Business Support Plan"
         ]
     },
     {
+        "children": [],
         "name": "Site to Site VPN & Direct Connect",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/Site to Site VPN & Direct Connect.md",
-        "links": [
-            "Pasted image 20240524120116.png",
-            "Pasted image 20240524115616.png"
+        "id": 100,
+        "parents": [
+            "AWS Network Firewall",
+            "VPC Summary",
+            "AWS Local Zones"
         ]
     },
     {
+        "children": [],
         "name": "Amazon Aurora",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon Aurora.md",
-        "links": []
+        "id": 101,
+        "parents": [
+            "Penetration Testing on AWS Cloud",
+            "AWS Resource Access Manager (AWS RAM)",
+            "AWS  GuardDuty",
+            "Databases & Analytics Summary"
+        ]
     },
     {
+        "children": ["ML"],
         "name": "Amazon SageMaker",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/Amazon SageMaker.md",
-        "links": [
-            "ML",
-            "Pasted image 20240524164354.png"
-        ]
+        "id": 102,
+        "parents": ["ML"]
     },
     {
+        "children": ["Savings Plan"],
         "name": "Cost Explorer",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Cost Explorer.md",
-        "links": [
-            "Savings Plan",
-            "Pasted image 20240525102720.png",
-            "Pasted image 20240525102745.png"
+        "id": 103,
+        "parents": [
+            "AWS Right sizing",
+            "Billing and Costing Tools - Summary",
+            "Billing and Costing Tools"
         ]
     },
     {
-        "name": "Account Best Practices - Summary",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Account Best Practices - Summary.md",
-        "links": [
+        "children": [
             "AWS Organizations",
             "Service Control Policies (SCP)",
             "AWS Control Tower",
@@ -789,154 +1115,224 @@
             "Trusted Advisor",
             "Global Application Architecture",
             "AWS Well-Architected Tool"
-        ]
+        ],
+        "name": "Account Best Practices - Summary",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Account Best Practices - Summary.md",
+        "id": 104,
+        "parents": []
     },
     {
+        "children": [],
         "name": "AWS rePost",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/AWS rePost.md",
-        "links": []
+        "id": 105,
+        "parents": ["Other Services"]
     },
     {
+        "children": [],
         "name": "Amazon Transcribe",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/Amazon Transcribe.md",
-        "links": []
+        "id": 106,
+        "parents": ["ML"]
     },
     {
+        "children": ["Disaster Recovery Strategies"],
         "name": "AWS Cloud Adoption Framework (AWS CAF)",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/AWS Cloud Adoption Framework (AWS CAF).md",
-        "links": ["Disaster Recovery Strategies"]
+        "id": 107,
+        "parents": ["Cloud Computing"]
     },
     {
+        "children": [],
         "name": "Amazon S3 - Security",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/Amazon S3 - Security.md",
-        "links": []
+        "id": 108,
+        "parents": ["Amazon S3"]
     },
     {
+        "children": [],
         "name": "Amazon CloudWatch Alarms",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Monitoring Section/Amazon CloudWatch Alarms.md",
-        "links": []
-    },
-    {
-        "name": "AWS Pricing Calculator",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Pricing Calculator.md",
-        "links": ["Pasted image 20240525101425.png"]
-    },
-    {
-        "name": "AWS Billing Dashboard",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Billing Dashboard.md",
-        "links": ["Pasted image 20240525101526.png"]
-    },
-    {
-        "name": "Amazon Personalize",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/Amazon Personalize.md",
-        "links": [
-            "ML",
-            "Pasted image 20240524165409.png"
+        "id": 109,
+        "parents": [
+            "AWS Service Quotas",
+            "CloudWatch"
         ]
     },
     {
-        "name": "Well Architected Framework",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/Well Architected Framework.md",
-        "links": [
+        "children": [],
+        "name": "AWS Pricing Calculator",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Pricing Calculator.md",
+        "id": 110,
+        "parents": [
+            "Billing and Costing Tools - Summary",
+            "Billing and Costing Tools"
+        ]
+    },
+    {
+        "children": [],
+        "name": "AWS Billing Dashboard",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Billing Dashboard.md",
+        "id": 111,
+        "parents": [
+            "Billing and Costing Tools - Summary",
+            "Billing and Costing Tools"
+        ]
+    },
+    {
+        "children": ["ML"],
+        "name": "Amazon Personalize",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/Amazon Personalize.md",
+        "id": 112,
+        "parents": ["ML"]
+    },
+    {
+        "children": [
             "Operational Excellence",
             "Security",
             "Reliability",
             "Performance Efficiency",
             "Cost Optimization",
             "Sustainability"
+        ],
+        "name": "Well Architected Framework",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/Well Architected Framework.md",
+        "id": 113,
+        "parents": []
+    },
+    {
+        "children": ["AWS Business Support Plan"],
+        "name": "AWS Enterprise On-Ramp Support Plan",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Enterprise On-Ramp Support Plan.md",
+        "id": 114,
+        "parents": ["Support Plans"]
+    },
+    {
+        "children": [],
+        "name": "Amazon QuickSight",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon QuickSight.md",
+        "id": 115,
+        "parents": [
+            "Cost and Usage Reports",
+            "Databases & Analytics Summary"
         ]
     },
     {
-        "name": "AWS Enterprise On-Ramp Support Plan",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Enterprise On-Ramp Support Plan.md",
-        "links": ["AWS Business Support Plan"]
-    },
-    {
-        "name": "Amazon QuickSight",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon QuickSight.md",
-        "links": []
-    },
-    {
-        "name": "AWS Elastic Beanstalk",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/AWS Elastic Beanstalk.md",
-        "links": [
+        "children": [
             "EC2 - Elastic Compute Cloud",
             "Auto Scaling Group",
             "Amazon RDS"
+        ],
+        "name": "AWS Elastic Beanstalk",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/AWS Elastic Beanstalk.md",
+        "id": 116,
+        "parents": [
+            "AWS CodeStar",
+            "AWS CodePipeline",
+            "AWS Amplify",
+            "Deployment - Summary",
+            "Pricing Models in AWS",
+            "Penetration Testing on AWS Cloud",
+            "Amazon CloudWatch Logs"
         ]
     },
     {
+        "children": ["CloudFront - Pricing Storage"],
         "name": "CloudFront",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/CloudFront.md",
-        "links": [
-            "Pasted image 20240523151341.png",
-            "Pasted image 20240523151656.png",
-            "CloudFront - Pricing Storage"
+        "id": 117,
+        "parents": [
+            "AWS WAF - Web Application Firewall",
+            "Summary",
+            "AWS Shield",
+            "Penetration Testing on AWS Cloud",
+            "AWS Certificate Manager (ACM)",
+            "DDoS Protection, WAF & Shield"
         ]
     },
     {
+        "children": [],
         "name": "AWS Service Catalog",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Service Catalog.md",
-        "links": ["Pasted image 20240524182001.png"]
+        "id": 118,
+        "parents": ["Other Services"]
     },
     {
-        "name": "AWS Config",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS Config.md",
-        "links": [
+        "children": [
             "Amazon S3",
             "Amazon Athena",
             "Amazon SNS - Simple Notification Service"
+        ],
+        "name": "AWS Config",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS Config.md",
+        "id": 119,
+        "parents": [
+            "Security & Compliance Summary",
+            "Account Best Practices - Summary",
+            "AWS Security Hub"
         ]
     },
     {
+        "children": [],
         "name": "AWS Organization - Consolidated Billing",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Organization - Consolidated Billing.md",
-        "links": ["Pasted image 20240524180850.png"]
+        "id": 120,
+        "parents": ["Pricing Models in AWS"]
     },
     {
+        "children": [],
         "name": "Sustainability",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/Sustainability.md",
-        "links": ["Pasted image 20240525225825.png"]
+        "id": 121,
+        "parents": ["Well Architected Framework"]
     },
     {
-        "name": "AWS IAM Identity Center",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Advanced Identity/AWS IAM Identity Center.md",
-        "links": [
+        "children": [
             "AWS Organizations",
             "Active Directory (AD)"
-        ]
+        ],
+        "name": "AWS IAM Identity Center",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Advanced Identity/AWS IAM Identity Center.md",
+        "id": 122,
+        "parents": ["Advanced Identity - Summary"]
     },
     {
+        "children": ["AWS Elastic Beanstalk"],
         "name": "AWS Amplify",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Other Services/AWS Amplify.md",
-        "links": [
-            "AWS Elastic Beanstalk",
-            "Pasted image 20240525174843.png"
-        ]
+        "id": 123,
+        "parents": ["AWS AppSync"]
     },
     {
+        "children": [],
         "name": "Amazon Translate",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/Amazon Translate.md",
-        "links": []
+        "id": 124,
+        "parents": ["ML"]
     },
     {
-        "name": "Cost and Usage Reports",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Cost and Usage Reports.md",
-        "links": [
+        "children": [
             "Amazon Athena",
             "Redshift",
             "Amazon QuickSight"
+        ],
+        "name": "Cost and Usage Reports",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Cost and Usage Reports.md",
+        "id": 125,
+        "parents": [
+            "Billing and Costing Tools - Summary",
+            "Billing and Costing Tools"
         ]
     },
     {
+        "children": [],
         "name": "Amazon QLDB",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon QLDB.md",
-        "links": []
+        "id": 126,
+        "parents": ["Databases & Analytics Summary"]
     },
     {
-        "name": "Amazon S3",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/Amazon S3.md",
-        "links": [
+        "children": [
             "S3 Storage Classes",
             "Amazon S3 - Buckets",
             "Amazon S3 - Objects",
@@ -946,40 +1342,61 @@
             "Amazon S3 - Replication (CRR & SRR)",
             "AWS Storage Gateway",
             "Shared Responibility Model for S3"
+        ],
+        "name": "Amazon S3",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/Amazon S3.md",
+        "id": 127,
+        "parents": [
+            "AWS Organizations",
+            "VPC Flow Logs",
+            "AWS Config",
+            "IAM Access Analyzer",
+            "VPC Endpoints",
+            "AWS KMS (Key Management Service)",
+            "Cloud Computing",
+            "AWS CloudTrail"
         ]
     },
     {
+        "children": [],
         "name": "Amazon Managed Blockchain",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon Managed Blockchain.md",
-        "links": []
+        "id": 128,
+        "parents": ["Databases & Analytics Summary"]
     },
     {
+        "children": ["AWS Snow Family"],
         "name": "S3 Storage Classes",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/S3 Storage Classes.md",
-        "links": ["AWS Snow Family"]
+        "id": 129,
+        "parents": ["Amazon S3"]
     },
     {
+        "children": ["Amazon CloudWatch Alarms"],
         "name": "AWS Service Quotas",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Service Quotas.md",
-        "links": [
-            "Amazon CloudWatch Alarms",
-            "Pasted image 20240525103949.png"
+        "id": 130,
+        "parents": []
+    },
+    {
+        "children": [],
+        "name": "CloudFront - Pricing Storage",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/CloudFront - Pricing Storage.md",
+        "id": 131,
+        "parents": [
+            "CloudFront",
+            "Pricing Models in AWS"
         ]
     },
     {
-        "name": "CloudFront - Pricing Storage",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/CloudFront - Pricing Storage.md",
-        "links": []
-    },
-    {
+        "children": [],
         "name": "DMS - Database Migration Service",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/DMS - Database Migration Service.md",
-        "links": ["Pasted image 20240522155700.png"]
+        "id": 132,
+        "parents": ["Databases & Analytics Summary"]
     },
     {
-        "name": "Billing and Costing Tools",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Billing and Costing Tools.md",
-        "links": [
+        "children": [
             "AWS Pricing Calculator",
             "AWS Billing Dashboard",
             "Cost Allocation Tags",
@@ -987,12 +1404,14 @@
             "Cost Explorer",
             "Billing Alarms",
             "AWS Budgets"
-        ]
+        ],
+        "name": "Billing and Costing Tools",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Billing and Costing Tools.md",
+        "id": 133,
+        "parents": []
     },
     {
-        "name": "VPC Summary",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/VPC Summary.md",
-        "links": [
+        "children": [
             "VPC & Subnets",
             "Internet Gateway",
             "NAT Gateway",
@@ -1004,56 +1423,94 @@
             "AWS Client VPN",
             "Site to Site VPN & Direct Connect",
             "Transit Gateway"
+        ],
+        "name": "VPC Summary",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/VPC Summary.md",
+        "id": 134,
+        "parents": [
+            "AWS Network Firewall",
+            "AWS Organizations",
+            "VPC Endpoints",
+            "Pricing Models in AWS",
+            "AWS Resource Access Manager (AWS RAM)",
+            "AWS Client VPN",
+            "Internet Gateway",
+            "AWS  GuardDuty",
+            "AWS Local Zones"
         ]
     },
     {
+        "children": [],
         "name": "Amazon Timestream",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon Timestream.md",
-        "links": []
+        "id": 135,
+        "parents": ["Databases & Analytics Summary"]
     },
     {
-        "name": "AWS Firewall Manager",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS Firewall Manager.md",
-        "links": [
+        "children": [
             "Network ACL & Security Groups",
             "EC2 - Elastic Compute Cloud",
             "AWS WAF - Web Application Firewall",
             "AWS Shield",
             "AWS Network Firewall"
+        ],
+        "name": "AWS Firewall Manager",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS Firewall Manager.md",
+        "id": 136,
+        "parents": [
+            "Security & Compliance Summary",
+            "AWS Security Hub"
         ]
     },
     {
+        "children": [],
         "name": "Amazon AppStream 2.0",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Other Services/Amazon AppStream 2.0.md",
-        "links": []
+        "id": 137,
+        "parents": ["Other Services"]
     },
     {
-        "name": "IAM Access Analyzer",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/IAM Access Analyzer.md",
-        "links": [
+        "children": [
             "Amazon S3",
             "IAM Roles for Services",
             "AWS KMS (Key Management Service)",
             "Lambda",
             "SQS - Simple Queue Service",
-            "AWS Secrets Manager",
-            "Pasted image 20240524153955.png"
+            "AWS Secrets Manager"
+        ],
+        "name": "IAM Access Analyzer",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/IAM Access Analyzer.md",
+        "id": 138,
+        "parents": ["Security & Compliance Summary"]
+    },
+    {
+        "children": [],
+        "name": "EFS - Elastic File System",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/EFS - Elastic File System.md",
+        "id": 139,
+        "parents": [
+            "Pricing Models in AWS",
+            "AWS KMS (Key Management Service)",
+            "EC2 - Elastic Compute Cloud"
         ]
     },
     {
-        "name": "EFS - Elastic File System",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/EFS - Elastic File System.md",
-        "links": []
-    },
-    {
+        "children": ["EBS Snapshots"],
         "name": "EBS (Elastic Block Store) Volume",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/EBS/EBS (Elastic Block Store) Volume.md",
-        "links": ["EBS Snapshots"]
+        "id": 140,
+        "parents": [
+            "Amazon RDS",
+            "AWS Compute Optimizer",
+            "AWS Batch",
+            "AWS KMS (Key Management Service)",
+            "EC2 - Elastic Compute Cloud",
+            "AWS  GuardDuty",
+            "AWS Local Zones"
+        ]
     },
     {
-        "name": "Deployment - Summary",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Deployment - Summary.md",
-        "links": [
+        "children": [
             "CloudFormation",
             "AWS Elastic Beanstalk",
             "AWS CodeDeploy",
@@ -1066,103 +1523,138 @@
             "AWS CodeStar",
             "AWS Cloud9",
             "AWS Cloud Development Kit (CDK)"
-        ]
+        ],
+        "name": "Deployment - Summary",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Deployment - Summary.md",
+        "id": 141,
+        "parents": []
     },
     {
+        "children": [],
         "name": "Amazon FSx",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/Amazon FSx.md",
-        "links": []
+        "id": 142,
+        "parents": ["EC2 - Elastic Compute Cloud"]
     },
     {
+        "children": ["AWS Organizations"],
         "name": "AWS Backup",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Other Services/AWS Backup.md",
-        "links": [
-            "AWS Organizations",
-            "Pasted image 20240525175752.png"
-        ]
+        "id": 143,
+        "parents": []
     },
     {
-        "name": "VPC Endpoints",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/VPC Endpoints.md",
-        "links": [
-            "Pasted image 20240524114623.png",
+        "children": [
             "Amazon S3",
             "DynamoDB",
             "VPC Summary"
-        ]
+        ],
+        "name": "VPC Endpoints",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/VPC Endpoints.md",
+        "id": 144,
+        "parents": ["VPC Summary"]
     },
     {
+        "children": [],
         "name": "Deployment Models of the Cloud",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/General/Deployment Models of the Cloud.md",
-        "links": []
+        "id": 145,
+        "parents": ["Cloud Computing"]
     },
     {
+        "children": [],
         "name": "Amazon Cognito",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Advanced Identity/Amazon Cognito.md",
-        "links": ["Pasted image 20240525120448.png"]
+        "id": 146,
+        "parents": ["Advanced Identity - Summary"]
     },
     {
+        "children": [
+            "Policies Structure",
+            "IAM Best Practices"
+        ],
         "name": "Permissions",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/IAM/Permissions.md",
-        "links": [
-            "Policies Structure",
-            "Pasted image 20240408203701.png",
-            "IAM Best Practices"
+        "id": 147,
+        "parents": [
+            "IAM",
+            "Amazon CloudWatch Logs"
         ]
     },
     {
+        "children": [],
         "name": "Transit Gateway",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/Transit Gateway.md",
-        "links": []
+        "id": 148,
+        "parents": [
+            "VPC Summary",
+            "AWS Resource Access Manager (AWS RAM)"
+        ]
     },
     {
-        "name": "AWS AppSync",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Other Services/AWS AppSync.md",
-        "links": [
+        "children": [
             "DynamoDB",
             "AWS Amplify"
-        ]
+        ],
+        "name": "AWS AppSync",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Other Services/AWS AppSync.md",
+        "id": 149,
+        "parents": []
     },
     {
+        "children": [],
         "name": "Serverless",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Other compute Services/Serverless.md",
-        "links": []
+        "id": 150,
+        "parents": ["Lambda"]
     },
     {
+        "children": [],
         "name": "Amazon Athena",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon Athena.md",
-        "links": []
-    },
-    {
-        "name": "Amazon ForeCast",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/Amazon ForeCast.md",
-        "links": [
-            "ML",
-            "Pasted image 20240524164622.png"
+        "id": 151,
+        "parents": [
+            "AWS Config",
+            "Cost and Usage Reports",
+            "Databases & Analytics Summary"
         ]
     },
     {
-        "name": "Amazon EMR - Elastic MapReduce",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon EMR - Elastic MapReduce.md",
-        "links": []
+        "children": ["ML"],
+        "name": "Amazon ForeCast",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/Amazon ForeCast.md",
+        "id": 152,
+        "parents": ["ML"]
     },
     {
-        "name": "IAM",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/IAM/IAM.md",
-        "links": [
+        "children": [],
+        "name": "Amazon EMR - Elastic MapReduce",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon EMR - Elastic MapReduce.md",
+        "id": 153,
+        "parents": ["Databases & Analytics Summary"]
+    },
+    {
+        "children": [
             "IAM Access advicer",
-            "Pasted image 20240408202615.png",
             "IAM Security Tools",
             "IAM Roles for Services",
             "Permissions",
             "IAM Best Practices"
+        ],
+        "name": "IAM",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/IAM/IAM.md",
+        "id": 154,
+        "parents": [
+            "Advanced Identity - Summary",
+            "Pricing Models in AWS",
+            "Service Control Policies (SCP)",
+            "Security",
+            "AWS Security Hub",
+            "Cloud Computing"
         ]
     },
     {
-        "name": "Pricing Models in AWS",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Pricing Models in AWS.md",
-        "links": [
-            "Pasted image 20240525095620.png",
+        "children": [
             "IAM",
             "VPC Summary",
             "AWS Organization - Consolidated Billing",
@@ -1180,159 +1672,233 @@
             "EBS - Storage Pricing",
             "RDS - Database Pricing",
             "CloudFront - Pricing Storage"
-        ]
+        ],
+        "name": "Pricing Models in AWS",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Pricing Models in AWS.md",
+        "id": 155,
+        "parents": []
     },
     {
+        "children": [],
         "name": "AWS CodeBuild",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Pipeline/AWS CodeBuild.md",
-        "links": ["Pasted image 20240523103755.png"]
-    },
-    {
-        "name": "AWS Directory Services",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Advanced Identity/AWS Directory Services.md",
-        "links": [
-            "Active Directory (AD)",
-            "Pasted image 20240525130046.png"
+        "id": 156,
+        "parents": [
+            "AWS CodeStar",
+            "AWS CodePipeline",
+            "Deployment - Summary"
         ]
     },
     {
-        "name": "Monitoring Summary",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Monitoring Section/Monitoring Summary.md",
-        "links": [
+        "children": ["Active Directory (AD)"],
+        "name": "AWS Directory Services",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Advanced Identity/AWS Directory Services.md",
+        "id": 157,
+        "parents": ["Advanced Identity - Summary"]
+    },
+    {
+        "children": [
             "CloudWatch",
             "AWS CloudTrail",
             "AWS X-Ray",
             "AWS Health Dashboard",
             "AWS Health Dashboard",
             "Amazon CodeGuru"
-        ]
+        ],
+        "name": "Monitoring Summary",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Monitoring Section/Monitoring Summary.md",
+        "id": 158,
+        "parents": []
     },
     {
+        "children": [],
         "name": "Amazon WorkSpaces",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Other Services/Amazon WorkSpaces.md",
-        "links": [
-            "Pasted image 20240525171504.png",
-            "Pasted image 20240525172053.png"
-        ]
+        "id": 159,
+        "parents": ["Other Services"]
     },
     {
-        "name": "AWS Shield",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS Shield.md",
-        "links": [
+        "children": [
             "EC2 - Elastic Compute Cloud",
             "CloudFront",
             "AWS Global Accelerator",
             "Amazon Route 53"
+        ],
+        "name": "AWS Shield",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS Shield.md",
+        "id": 160,
+        "parents": [
+            "Security & Compliance Summary",
+            "AWS Firewall Manager",
+            "DDoS Protection, WAF & Shield"
         ]
     },
     {
+        "children": ["IAM"],
         "name": "Service Control Policies (SCP)",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Service Control Policies (SCP).md",
-        "links": [
-            "IAM",
-            "Pasted image 20240524180035.png"
+        "id": 161,
+        "parents": [
+            "AWS Organizations",
+            "AWS Control Tower",
+            "Account Best Practices - Summary"
         ]
     },
     {
+        "children": [],
         "name": "EC2 Shared Responsibility Model",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/EC2 Shared Responsibility Model.md",
-        "links": []
+        "id": 162,
+        "parents": ["EC2 - Elastic Compute Cloud"]
     },
     {
+        "children": [
+            "AWS KMS (Key Management Service)",
+            "CloudHSM"
+        ],
         "name": "CloudHSM",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/CloudHSM.md",
-        "links": [
-            "AWS KMS (Key Management Service)",
+        "id": 163,
+        "parents": [
+            "Security & Compliance Summary",
             "CloudHSM",
-            "Pasted image 20240524142802.png"
-        ]
-    },
-    {
-        "name": "RDS Deployments Options",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/RDS Deployments Options.md",
-        "links": []
-    },
-    {
-        "name": "Amazon Lightsail",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Other compute Services/Amazon Lightsail.md",
-        "links": []
-    },
-    {
-        "name": "AWS Health Dashboard",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Monitoring Section/AWS Health Dashboard.md",
-        "links": ["Pasted image 20240524101002.png"]
-    },
-    {
-        "name": "AWS Developer Support Plan",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Developer Support Plan.md",
-        "links": [
-            "AWS Basic Support Plan",
-            "Support Plans"
-        ]
-    },
-    {
-        "name": "Amazon Kinesis",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Integrations/Amazon Kinesis.md",
-        "links": [
-            "ML",
-            "Pasted image 20240523193108.png"
-        ]
-    },
-    {
-        "name": "CloudWatch",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Monitoring Section/CloudWatch.md",
-        "links": [
-            "Pasted image 20240524085440.png",
-            "EC2 - Elastic Compute Cloud",
-            "Amazon CloudWatch Alarms"
-        ]
-    },
-    {
-        "name": "Amazon Macie",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/Amazon Macie.md",
-        "links": ["Pasted image 20240524151829.png"]
-    },
-    {
-        "name": "IAM Best Practices",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/IAM/IAM Best Practices.md",
-        "links": []
-    },
-    {
-        "name": "AWS Global Accelerator",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/AWS Global Accelerator.md",
-        "links": [
-            "Pasted image 20240523173701.png",
-            "Pasted image 20240523173354.png"
-        ]
-    },
-    {
-        "name": "DocumentDB",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/DocumentDB.md",
-        "links": []
-    },
-    {
-        "name": "AWS Customer Carbon Footprint Tool",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/AWS Customer Carbon Footprint Tool.md",
-        "links": []
-    },
-    {
-        "name": "AWS Secrets Manager",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS Secrets Manager.md",
-        "links": [
-            "Lambda",
-            "Amazon RDS",
             "AWS KMS (Key Management Service)"
         ]
     },
     {
-        "name": "Redshift",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Redshift.md",
-        "links": []
+        "children": [],
+        "name": "RDS Deployments Options",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/RDS Deployments Options.md",
+        "id": 164,
+        "parents": ["Databases & Analytics Summary"]
     },
     {
-        "name": "ML",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/ML.md",
-        "links": [
+        "children": [],
+        "name": "Amazon Lightsail",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Other compute Services/Amazon Lightsail.md",
+        "id": 165,
+        "parents": ["Penetration Testing on AWS Cloud"]
+    },
+    {
+        "children": [],
+        "name": "AWS Health Dashboard",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Monitoring Section/AWS Health Dashboard.md",
+        "id": 166,
+        "parents": [
+            "AWS Basic Support Plan",
+            "Monitoring Summary",
+            "AWS Security Hub"
+        ]
+    },
+    {
+        "children": [
+            "AWS Basic Support Plan",
+            "Support Plans"
+        ],
+        "name": "AWS Developer Support Plan",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Developer Support Plan.md",
+        "id": 167,
+        "parents": ["Support Plans"]
+    },
+    {
+        "children": ["ML"],
+        "name": "Amazon Kinesis",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Integrations/Amazon Kinesis.md",
+        "id": 168,
+        "parents": [
+            "VPC Flow Logs",
+            "Summary"
+        ]
+    },
+    {
+        "children": [
+            "EC2 - Elastic Compute Cloud",
+            "Amazon CloudWatch Alarms"
+        ],
+        "name": "CloudWatch",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Monitoring Section/CloudWatch.md",
+        "id": 169,
+        "parents": [
+            "AWS Right sizing",
+            "AWS Organizations",
+            "VPC Flow Logs",
+            "Monitoring Summary",
+            "Cost Optimization"
+        ]
+    },
+    {
+        "children": [],
+        "name": "Amazon Macie",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/Amazon Macie.md",
+        "id": 170,
+        "parents": [
+            "Security & Compliance Summary",
+            "Amazon Detective",
+            "AWS Security Hub"
+        ]
+    },
+    {
+        "children": [],
+        "name": "IAM Best Practices",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/IAM/IAM Best Practices.md",
+        "id": 171,
+        "parents": [
+            "Permissions",
+            "IAM",
+            "Policies Structure",
+            "IAM Security Tools",
+            "IAM Roles for Services"
+        ]
+    },
+    {
+        "children": [],
+        "name": "AWS Global Accelerator",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/AWS Global Accelerator.md",
+        "id": 172,
+        "parents": [
+            "Summary",
+            "AWS Shield"
+        ]
+    },
+    {
+        "children": [],
+        "name": "DocumentDB",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/DocumentDB.md",
+        "id": 173,
+        "parents": ["Databases & Analytics Summary"]
+    },
+    {
+        "children": [],
+        "name": "AWS Customer Carbon Footprint Tool",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/AWS Customer Carbon Footprint Tool.md",
+        "id": 174,
+        "parents": ["Other Services"]
+    },
+    {
+        "children": [
+            "Lambda",
+            "Amazon RDS",
+            "AWS KMS (Key Management Service)"
+        ],
+        "name": "AWS Secrets Manager",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS Secrets Manager.md",
+        "id": 175,
+        "parents": ["IAM Access Analyzer"]
+    },
+    {
+        "children": [],
+        "name": "Redshift",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Redshift.md",
+        "id": 176,
+        "parents": [
+            "AWS Budgets",
+            "Cost and Usage Reports",
+            "AWS KMS (Key Management Service)",
+            "Databases & Analytics Summary"
+        ]
+    },
+    {
+        "children": [
             "Amazon Recognition",
             "Amazon Transcribe",
             "Amazon Polly",
@@ -1344,63 +1910,96 @@
             "Amazon Kendra",
             "Amazon Personalize",
             "Amazon Textract"
+        ],
+        "name": "ML",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/ML.md",
+        "id": 177,
+        "parents": [
+            "AWS WaveLength",
+            "Amazon Kendra",
+            "Amazon Detective",
+            "Amazon SageMaker",
+            "Amazon Personalize",
+            "Amazon ForeCast",
+            "Amazon Kinesis",
+            "Amazon Recognition",
+            "AWS Cost Anomaly Detection",
+            "Amazon Comprehend",
+            "Amazon CodeGuru",
+            "Amazon Textract"
         ]
     },
     {
+        "children": ["ML"],
         "name": "Amazon Recognition",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/Amazon Recognition.md",
-        "links": ["ML"]
+        "id": 178,
+        "parents": ["ML"]
     },
     {
+        "children": ["ML"],
         "name": "AWS Cost Anomaly Detection",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Cost Anomaly Detection.md",
-        "links": [
-            "ML",
-            "Pasted image 20240525103713.png"
-        ]
+        "id": 179,
+        "parents": ["Billing and Costing Tools - Summary"]
     },
     {
+        "children": [],
         "name": "Classic Ports to know",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/Classic Ports to know.md",
-        "links": []
+        "id": 180,
+        "parents": ["EC2 - Elastic Compute Cloud"]
     },
     {
+        "children": ["ML"],
         "name": "Amazon Comprehend",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/Amazon Comprehend.md",
-        "links": ["ML"]
+        "id": 181,
+        "parents": ["ML"]
     },
     {
+        "children": [],
         "name": "EBS Snapshots",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/EBS/EBS Snapshots.md",
-        "links": []
-    },
-    {
-        "name": "Systems Manager parameter Store",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Systems Manager parameter Store.md",
-        "links": ["Pasted image 20240523112755.png"]
-    },
-    {
-        "name": "Scalability vs Elasticity vs Agility vs Availability",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/ELB & ASG/Scalability vs Elasticity vs Agility vs Availability.md",
-        "links": [
-            "Auto Scaling Group",
-            "Why use an Elastic Load Balancer"
+        "id": 182,
+        "parents": [
+            "EBS (Elastic Block Store) Volume",
+            "EBS - Storage Pricing"
         ]
     },
     {
+        "children": [],
+        "name": "Systems Manager parameter Store",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Systems Manager parameter Store.md",
+        "id": 183,
+        "parents": ["AWS Systems Manager (SSM)"]
+    },
+    {
+        "children": [
+            "Auto Scaling Group",
+            "Why use an Elastic Load Balancer"
+        ],
+        "name": "Scalability vs Elasticity vs Agility vs Availability",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/ELB & ASG/Scalability vs Elasticity vs Agility vs Availability.md",
+        "id": 184,
+        "parents": []
+    },
+    {
+        "children": [],
         "name": "Types of Cloud Computing",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/General/Types of Cloud Computing.md",
-        "links": ["Pasted image 20240408190310.png"]
+        "id": 185,
+        "parents": ["Cloud Computing"]
     },
     {
+        "children": [],
         "name": "AWS Outposts",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/AWS Outposts.md",
-        "links": ["Pasted image 20240523174658.png"]
+        "id": 186,
+        "parents": ["Summary"]
     },
     {
-        "name": "Penetration Testing on AWS Cloud",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/Penetration Testing on AWS Cloud.md",
-        "links": [
+        "children": [
             "EC2 - Elastic Compute Cloud",
             "Amazon RDS",
             "CloudFront",
@@ -1410,122 +2009,179 @@
             "Amazon Lightsail",
             "AWS Elastic Beanstalk",
             "Amazon Route 53"
-        ]
+        ],
+        "name": "Penetration Testing on AWS Cloud",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/Penetration Testing on AWS Cloud.md",
+        "id": 187,
+        "parents": []
     },
     {
+        "children": ["AWS Budgets"],
         "name": "Billing Alarms",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Billing Alarms.md",
-        "links": ["AWS Budgets"]
+        "id": 188,
+        "parents": [
+            "Billing and Costing Tools - Summary",
+            "Billing and Costing Tools"
+        ]
     },
     {
+        "children": ["Serverless"],
         "name": "Lambda",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Other compute Services/Lambda.md",
-        "links": [
-            "Serverless",
-            "Pasted image 20240522232940.png"
+        "id": 189,
+        "parents": [
+            "AWS Compute Optimizer",
+            "IAM Access Analyzer",
+            "Pricing Models in AWS",
+            "AWS Secrets Manager",
+            "Penetration Testing on AWS Cloud",
+            "Amazon Inspector",
+            "AWS Step Functions",
+            "AWS  GuardDuty",
+            "Amazon CloudWatch Logs"
         ]
     },
     {
+        "children": ["EC2 - Elastic Compute Cloud"],
         "name": "AWS CodeDeploy",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Pipeline/AWS CodeDeploy.md",
-        "links": ["EC2 - Elastic Compute Cloud"]
-    },
-    {
-        "name": "RDS - Database Pricing",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon RDS/RDS - Database Pricing.md",
-        "links": []
-    },
-    {
-        "name": "DynamoDB",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/DynamoDB.md",
-        "links": [
-            "Pasted image 20240522150728.png",
-            "DynamoDB Accelerator - DAX",
-            "DynamoDB - Global Tables"
+        "id": 190,
+        "parents": [
+            "AWS CodeStar",
+            "AWS CodePipeline",
+            "Deployment - Summary"
         ]
     },
     {
-        "name": "Amazon Inspector",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/Amazon Inspector.md",
-        "links": [
-            "Pasted image 20240524150500.png",
+        "children": [],
+        "name": "RDS - Database Pricing",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon RDS/RDS - Database Pricing.md",
+        "id": 191,
+        "parents": ["Pricing Models in AWS"]
+    },
+    {
+        "children": [
+            "DynamoDB Accelerator - DAX",
+            "DynamoDB - Global Tables"
+        ],
+        "name": "DynamoDB",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/DynamoDB.md",
+        "id": 192,
+        "parents": [
+            "VPC Endpoints",
+            "AWS AppSync",
+            "Databases & Analytics Summary"
+        ]
+    },
+    {
+        "children": [
             "EC2 - Elastic Compute Cloud",
             "AWS Systems Manager (SSM)",
             "ECR - Elastic Container Registry",
             "Lambda",
             "Amazon EventBridge"
+        ],
+        "name": "Amazon Inspector",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/Amazon Inspector.md",
+        "id": 193,
+        "parents": [
+            "Security & Compliance Summary",
+            "AWS Security Hub"
         ]
     },
     {
-        "name": "AWS Resource Access Manager (AWS RAM)",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Resource Access Manager (AWS RAM).md",
-        "links": [
+        "children": [
             "AWS Organizations",
             "Amazon Aurora",
             "VPC Summary",
             "Transit Gateway",
             "Amazon Route 53",
-            "EC2 - Elastic Compute Cloud",
-            "Pasted image 20240524181708.png"
-        ]
+            "EC2 - Elastic Compute Cloud"
+        ],
+        "name": "AWS Resource Access Manager (AWS RAM)",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Resource Access Manager (AWS RAM).md",
+        "id": 194,
+        "parents": []
     },
     {
+        "children": ["IAM Best Practices"],
         "name": "Policies Structure",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/IAM/Policies Structure.md",
-        "links": ["IAM Best Practices"]
+        "id": 195,
+        "parents": ["Permissions"]
     },
     {
+        "children": [],
         "name": "Compute Pricing - EC2",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/Compute Pricing - EC2.md",
-        "links": []
+        "id": 196,
+        "parents": ["Pricing Models in AWS"]
     },
     {
+        "children": [],
         "name": "AWS Device Farm",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Other Services/AWS Device Farm.md",
-        "links": ["Pasted image 20240525175500.png"]
+        "id": 197,
+        "parents": ["Other Services"]
     },
     {
+        "children": ["EC2 - Elastic Compute Cloud"],
         "name": "AMI (Amazon Machine Image)",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/AMI (Amazon Machine Image).md",
-        "links": ["EC2 - Elastic Compute Cloud"]
+        "id": 198,
+        "parents": ["EC2 - Elastic Compute Cloud"]
     },
     {
+        "children": [],
         "name": "ECR - Elastic Container Registry",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Container/ECR - Elastic Container Registry.md",
-        "links": []
-    },
-    {
-        "name": "Reliability",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/Reliability.md",
-        "links": ["Pasted image 20240525224331.png"]
-    },
-    {
-        "name": "Security",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/Security.md",
-        "links": [
-            "IAM",
-            "Pasted image 20240525223734.png"
+        "id": 199,
+        "parents": [
+            "Docker",
+            "Amazon Inspector"
         ]
     },
     {
+        "children": [],
+        "name": "Reliability",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/Reliability.md",
+        "id": 200,
+        "parents": ["Well Architected Framework"]
+    },
+    {
+        "children": ["IAM"],
+        "name": "Security",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/Security.md",
+        "id": 201,
+        "parents": ["Well Architected Framework"]
+    },
+    {
+        "children": [],
         "name": "EC2 Instances Purchasing Options",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/EC2 Instances Purchasing Options.md",
-        "links": []
+        "id": 202,
+        "parents": ["EC2 - Elastic Compute Cloud"]
     },
     {
+        "children": [],
         "name": "AWS PrivateLink",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/AWS PrivateLink.md",
-        "links": ["Pasted image 20240524115225.png"]
+        "id": 203,
+        "parents": ["VPC Summary"]
     },
     {
+        "children": [],
         "name": "DynamoDB Accelerator - DAX",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/DynamoDB Accelerator - DAX.md",
-        "links": ["Pasted image 20240522151255.png"]
+        "id": 204,
+        "parents": [
+            "DynamoDB",
+            "Databases & Analytics Summary"
+        ]
     },
     {
-        "name": "AWS KMS (Key Management Service)",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS KMS (Key Management Service).md",
-        "links": [
+        "children": [
             "EBS (Elastic Block Store) Volume",
             "Amazon S3",
             "Redshift",
@@ -1535,122 +2191,160 @@
             "Amazon S3",
             "AWS Storage Gateway",
             "CloudHSM"
+        ],
+        "name": "AWS KMS (Key Management Service)",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS KMS (Key Management Service).md",
+        "id": 205,
+        "parents": [
+            "Security & Compliance Summary",
+            "IAM Access Analyzer",
+            "CloudHSM",
+            "AWS Secrets Manager"
         ]
     },
     {
+        "children": ["CloudFront"],
         "name": "AWS Certificate Manager (ACM)",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS Certificate Manager (ACM).md",
-        "links": [
-            "CloudFront",
-            "Pasted image 20240524143857.png"
-        ]
+        "id": 206,
+        "parents": ["Security & Compliance Summary"]
     },
     {
+        "children": [],
         "name": "VPC Peering",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/VPC Peering.md",
-        "links": []
+        "id": 207,
+        "parents": ["VPC Summary"]
     },
     {
+        "children": [],
         "name": "IP Addresses in AWS",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/IP Addresses in AWS.md",
-        "links": []
+        "id": 208,
+        "parents": [
+            "AWS WAF - Web Application Firewall",
+            "VPC Summary"
+        ]
     },
     {
+        "children": [],
         "name": "AWS CodeArtifact",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Pipeline/AWS CodeArtifact.md",
-        "links": []
+        "id": 209,
+        "parents": ["Deployment - Summary"]
     },
     {
+        "children": [],
         "name": "NAT Gateway",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/NAT Gateway.md",
-        "links": ["Pasted image 20240524110028.png"]
+        "id": 210,
+        "parents": ["VPC Summary"]
     },
     {
+        "children": [],
         "name": "ECS - Elastic Container Service",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Container/ECS - Elastic Container Service.md",
-        "links": []
+        "id": 211,
+        "parents": [
+            "AWS Batch",
+            "Docker",
+            "Pricing Models in AWS",
+            "AWS Step Functions",
+            "AWS Local Zones",
+            "Amazon CloudWatch Logs"
+        ]
     },
     {
+        "children": [],
         "name": "Root user",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/Root user.md",
-        "links": []
+        "id": 212,
+        "parents": ["Security & Compliance Summary"]
     },
     {
+        "children": [
+            "EC2 - Elastic Compute Cloud",
+            "VPC Summary"
+        ],
         "name": "AWS Client VPN",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/AWS Client VPN.md",
-        "links": [
-            "EC2 - Elastic Compute Cloud",
-            "VPC Summary",
-            "Pasted image 20240524120537.png"
-        ]
+        "id": 213,
+        "parents": ["VPC Summary"]
     },
     {
+        "children": ["ML"],
         "name": "Amazon CodeGuru",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Monitoring Section/Amazon CodeGuru.md",
-        "links": [
-            "ML",
-            "Pasted image 20240524100043.png"
-        ]
+        "id": 214,
+        "parents": ["Monitoring Summary"]
     },
     {
-        "name": "AWS Business Support Plan",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Business Support Plan.md",
-        "links": [
+        "children": [
             "Trusted Advisor",
             "Support Plans"
+        ],
+        "name": "AWS Business Support Plan",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/AWS Business Support Plan.md",
+        "id": 215,
+        "parents": [
+            "AWS Enterprise Support Plan",
+            "Support Plans",
+            "AWS Enterprise On-Ramp Support Plan"
         ]
     },
     {
+        "children": ["VPC Summary"],
         "name": "Internet Gateway",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/Internet Gateway.md",
-        "links": [
-            "VPC Summary",
-            "Pasted image 20240524110028.png"
-        ]
+        "id": 216,
+        "parents": ["VPC Summary"]
     },
     {
+        "children": [],
         "name": "AWS Storage Gateway",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/AWS Storage Gateway.md",
-        "links": []
+        "id": 217,
+        "parents": [
+            "Amazon S3",
+            "AWS KMS (Key Management Service)"
+        ]
     },
     {
+        "children": [],
         "name": "Amazon S3 - Buckets",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/Amazon S3 - Buckets.md",
-        "links": []
+        "id": 218,
+        "parents": ["Amazon S3"]
     },
     {
+        "children": ["ML"],
         "name": "Amazon Textract",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/Amazon Textract.md",
-        "links": [
-            "ML",
-            "Pasted image 20240524165604.png"
-        ]
+        "id": 219,
+        "parents": ["ML"]
     },
     {
+        "children": ["CloudWatch"],
         "name": "Cost Optimization",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/Cost Optimization.md",
-        "links": [
-            "CloudWatch",
-            "Pasted image 20240525225207.png"
-        ]
+        "id": 220,
+        "parents": ["Well Architected Framework"]
     },
     {
-        "name": "DDoS Protection, WAF & Shield",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/DDoS Protection, WAF & Shield.md",
-        "links": [
-            "Pasted image 20240524124023.png",
+        "children": [
             "AWS Shield",
             "AWS Shield",
             "AWS WAF - Web Application Firewall",
             "CloudFront",
-            "Amazon Route 53",
-            "Pasted image 20240524124525.png"
-        ]
+            "Amazon Route 53"
+        ],
+        "name": "DDoS Protection, WAF & Shield",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/DDoS Protection, WAF & Shield.md",
+        "id": 221,
+        "parents": []
     },
     {
-        "name": "EC2 - Elastic Compute Cloud",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/EC2 - Elastic Compute Cloud.md",
-        "links": [
+        "children": [
             "EBS (Elastic Block Store) Volume",
             "EC2 Instance Types - Overview",
             "Security Groups",
@@ -1663,89 +2357,151 @@
             "Amazon FSx",
             "EFS - Elastic File System",
             "Why use an Elastic Load Balancer"
+        ],
+        "name": "EC2 - Elastic Compute Cloud",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/EC2 - Elastic Compute Cloud.md",
+        "id": 222,
+        "parents": [
+            "AWS Budgets",
+            "AWS Right sizing",
+            "AWS CodeStar",
+            "Amazon RDS",
+            "AWS Compute Optimizer",
+            "AWS Batch",
+            "AWS Organizations",
+            "AWS STS (Security Token Service)",
+            "AWS Elastic Beanstalk",
+            "AWS Firewall Manager",
+            "Pricing Models in AWS",
+            "AWS Shield",
+            "CloudWatch",
+            "Penetration Testing on AWS Cloud",
+            "AWS CodeDeploy",
+            "Amazon Inspector",
+            "AWS Resource Access Manager (AWS RAM)",
+            "AMI (Amazon Machine Image)",
+            "AWS Client VPN",
+            "Network ACL & Security Groups",
+            "AWS Step Functions",
+            "Cloud Computing",
+            "Auto Scaling Group",
+            "AWS Local Zones",
+            "Amazon CloudWatch Logs",
+            "AWS Systems Manager (SSM)"
         ]
     },
     {
+        "children": [],
         "name": "AWS IQ",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/AWS IQ.md",
-        "links": ["Pasted image 20240525232134.png"]
+        "id": 223,
+        "parents": ["Other Services"]
     },
     {
+        "children": [],
         "name": "S3 Transfer Acceleration",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/S3 Transfer Acceleration.md",
-        "links": ["Pasted image 20240523152257.png"]
-    },
-    {
-        "name": "AWS Abuse",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS Abuse.md",
-        "links": []
-    },
-    {
-        "name": "Amazon API Gateway",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Other compute Services/Amazon API Gateway.md",
-        "links": ["Pasted image 20240523091329.png"]
-    },
-    {
-        "name": "Performance Efficiency",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/Performance Efficiency.md",
-        "links": ["Pasted image 20240525224726.png"]
-    },
-    {
-        "name": "Network ACL & Security Groups",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/Network ACL & Security Groups.md",
-        "links": [
-            "Security Groups",
-            "EC2 - Elastic Compute Cloud",
-            "Pasted image 20240524111544.png",
-            "Pasted image 20240524111703.png"
+        "id": 224,
+        "parents": [
+            "Summary",
+            "S3 - Storage Pricing"
         ]
     },
     {
+        "children": [],
+        "name": "AWS Abuse",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS Abuse.md",
+        "id": 225,
+        "parents": ["Security & Compliance Summary"]
+    },
+    {
+        "children": [],
+        "name": "Amazon API Gateway",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Other compute Services/Amazon API Gateway.md",
+        "id": 226,
+        "parents": [
+            "AWS WAF - Web Application Firewall",
+            "Penetration Testing on AWS Cloud",
+            "AWS Step Functions"
+        ]
+    },
+    {
+        "children": [],
+        "name": "Performance Efficiency",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/Performance Efficiency.md",
+        "id": 227,
+        "parents": ["Well Architected Framework"]
+    },
+    {
+        "children": [
+            "Security Groups",
+            "EC2 - Elastic Compute Cloud"
+        ],
+        "name": "Network ACL & Security Groups",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/Network ACL & Security Groups.md",
+        "id": 228,
+        "parents": ["AWS Firewall Manager"]
+    },
+    {
+        "children": ["CloudFormation"],
         "name": "AWS Application Composer",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Other Services/AWS Application Composer.md",
-        "links": ["CloudFormation"]
+        "id": 229,
+        "parents": []
     },
     {
+        "children": [],
         "name": "AWS Global Infrastructure",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/General/AWS Global Infrastructure.md",
-        "links": []
+        "id": 230,
+        "parents": ["Cloud Computing"]
     },
     {
-        "name": "AWS Step Functions",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Other Services/AWS Step Functions.md",
-        "links": [
+        "children": [
             "Lambda",
             "EC2 - Elastic Compute Cloud",
             "ECS - Elastic Container Service",
             "Amazon API Gateway",
-            "SQS - Simple Queue Service",
-            "Pasted image 20240525180755.png"
+            "SQS - Simple Queue Service"
+        ],
+        "name": "AWS Step Functions",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Other Services/AWS Step Functions.md",
+        "id": 231,
+        "parents": []
+    },
+    {
+        "children": [],
+        "name": "Fargate",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Container/Fargate.md",
+        "id": 232,
+        "parents": [
+            "Docker",
+            "Pricing Models in AWS"
         ]
     },
     {
-        "name": "Fargate",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Container/Fargate.md",
-        "links": []
-    },
-    {
+        "children": [],
         "name": "Amazon Aurora Serverless",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Amazon Aurora Serverless.md",
-        "links": []
+        "id": 233,
+        "parents": ["Databases & Analytics Summary"]
     },
     {
+        "children": [],
         "name": "EC2 Instance Types - Overview",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/EC2 Instance Types - Overview.md",
-        "links": []
+        "id": 234,
+        "parents": ["EC2 - Elastic Compute Cloud"]
     },
     {
+        "children": [],
         "name": "Amazon S3 - Static Website Hosting",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/Amazon S3 - Static Website Hosting.md",
-        "links": []
+        "id": 235,
+        "parents": ["Amazon S3"]
     },
     {
-        "name": "AWS  GuardDuty",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS  GuardDuty.md",
-        "links": [
+        "children": [
             "AWS CloudTrail",
             "AWS CloudTrail",
             "VPC Summary",
@@ -1756,43 +2512,65 @@
             "EBS (Elastic Block Store) Volume",
             "Lambda",
             "Amazon EventBridge",
-            "Amazon SNS - Simple Notification Service",
-            "Pasted image 20240524150212.png"
+            "Amazon SNS - Simple Notification Service"
+        ],
+        "name": "AWS  GuardDuty",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS  GuardDuty.md",
+        "id": 236,
+        "parents": [
+            "Security & Compliance Summary",
+            "Amazon Detective",
+            "AWS Security Hub"
         ]
     },
     {
+        "children": ["IAM Best Practices"],
         "name": "IAM Security Tools",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/IAM/IAM Security Tools.md",
-        "links": ["IAM Best Practices"]
+        "id": 237,
+        "parents": ["IAM"]
     },
     {
+        "children": [],
         "name": "SQS - Simple Queue Service",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Integrations/SQS - Simple Queue Service.md",
-        "links": [
-            "Pasted image 20240523192024.png",
-            "Pasted image 20240523192431.png",
-            "Pasted image 20240523192524.png"
+        "id": 238,
+        "parents": [
+            "IAM Access Analyzer",
+            "AWS Step Functions",
+            "Summary",
+            "Amazon MQ"
         ]
     },
     {
+        "children": [],
         "name": "AWS Cloud9",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/Pipeline/AWS Cloud9.md",
-        "links": ["Pasted image 20240523111346.png"]
+        "id": 239,
+        "parents": [
+            "AWS CodeStar",
+            "Deployment - Summary"
+        ]
     },
     {
+        "children": [],
         "name": "DynamoDB - Global Tables",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/DynamoDB - Global Tables.md",
-        "links": ["Pasted image 20240522151723.png"]
+        "id": 240,
+        "parents": [
+            "DynamoDB",
+            "Databases & Analytics Summary"
+        ]
     },
     {
+        "children": [],
         "name": "AWS Snow Family",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/AWS Snow Family.md",
-        "links": []
+        "id": 241,
+        "parents": ["S3 Storage Classes"]
     },
     {
-        "name": "Databases & Analytics Summary",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Databases & Analytics Summary.md",
-        "links": [
+        "children": [
             "Amazon RDS",
             "Amazon Aurora",
             "Amazon Aurora Serverless",
@@ -1812,36 +2590,42 @@
             "DMS - Database Migration Service",
             "Amazon Neptune",
             "Amazon Timestream"
-        ]
+        ],
+        "name": "Databases & Analytics Summary",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Databases & Analytics/Databases & Analytics Summary.md",
+        "id": 242,
+        "parents": []
     },
     {
+        "children": [],
         "name": "AWS Cloud Development Kit (CDK)",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/AWS Cloud Development Kit (CDK).md",
-        "links": [
-            "Pasted image 20240523100950.png",
-            "Pasted image 20240523101030.png"
-        ]
+        "id": 243,
+        "parents": ["Deployment - Summary"]
     },
     {
+        "children": [],
         "name": "Amazon Route 53",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/Amazon Route 53.md",
-        "links": [
-            "Pasted image 20240523120021.png",
-            "Pasted image 20240523120153.png",
-            "Pasted image 20240523120255.png",
-            "Pasted image 20240523120408.png",
-            "Pasted image 20240523120459.png"
+        "id": 244,
+        "parents": [
+            "Summary",
+            "AWS Shield",
+            "Penetration Testing on AWS Cloud",
+            "AWS Resource Access Manager (AWS RAM)",
+            "DDoS Protection, WAF & Shield",
+            "Amazon CloudWatch Logs"
         ]
     },
     {
+        "children": [],
         "name": "Amazon Polly",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/Amazon Polly.md",
-        "links": []
+        "id": 245,
+        "parents": ["ML"]
     },
     {
-        "name": "AWS Security Hub",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS Security Hub.md",
-        "links": [
+        "children": [
             "AWS Config",
             "AWS  GuardDuty",
             "Amazon Inspector",
@@ -1850,14 +2634,18 @@
             "AWS Systems Manager (SSM)",
             "AWS Firewall Manager",
             "AWS Health Dashboard",
-            "AWS Config",
-            "Pasted image 20240524152331.png"
+            "AWS Config"
+        ],
+        "name": "AWS Security Hub",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Security & Compliance/AWS Security Hub.md",
+        "id": 246,
+        "parents": [
+            "Security & Compliance Summary",
+            "Amazon Detective"
         ]
     },
     {
-        "name": "Cloud Computing",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/General/Cloud Computing.md",
-        "links": [
+        "children": [
             "Types of Cloud Computing",
             "Deployment Models of the Cloud",
             "AWS Global Infrastructure",
@@ -1866,183 +2654,262 @@
             "Amazon S3",
             "AWS Cloud Adoption Framework (AWS CAF)",
             "Other Services"
-        ]
+        ],
+        "name": "Cloud Computing",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/General/Cloud Computing.md",
+        "id": 247,
+        "parents": []
     },
     {
+        "children": ["EBS Snapshots"],
         "name": "EBS - Storage Pricing",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/EC2/EBS/EBS - Storage Pricing.md",
-        "links": ["EBS Snapshots"]
+        "id": 248,
+        "parents": ["Pricing Models in AWS"]
     },
     {
-        "name": "Auto Scaling Group",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/ELB & ASG/Auto Scaling Group.md",
-        "links": [
+        "children": [
             "EC2 - Elastic Compute Cloud",
             "Scaling Groups - Scaling Strategies"
+        ],
+        "name": "Auto Scaling Group",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/ELB & ASG/Auto Scaling Group.md",
+        "id": 249,
+        "parents": [
+            "Why use an Elastic Load Balancer",
+            "AWS Elastic Beanstalk",
+            "Pricing Models in AWS",
+            "Scalability vs Elasticity vs Agility vs Availability"
         ]
     },
     {
+        "children": ["IAM Best Practices"],
         "name": "IAM Roles for Services",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/IAM/IAM Roles for Services.md",
-        "links": [
-            "Pasted image 20240419213831.png",
-            "IAM Best Practices"
+        "id": 250,
+        "parents": [
+            "IAM Access Analyzer",
+            "IAM"
         ]
     },
     {
+        "children": [],
         "name": "Cost Allocation Tags",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Account Management, Billing & Support/Cost Allocation Tags.md",
-        "links": []
+        "id": 251,
+        "parents": [
+            "Billing and Costing Tools - Summary",
+            "Account Best Practices - Summary",
+            "Billing and Costing Tools"
+        ]
     },
     {
+        "children": [],
         "name": "Amazon Lex & Connect",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Machine Learning/Amazon Lex & Connect.md",
-        "links": ["Pasted image 20240524163406.png"]
+        "id": 252,
+        "parents": ["ML"]
     },
     {
-        "name": "Summary",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Integrations/Summary.md",
-        "links": [
+        "children": [
             "SQS - Simple Queue Service",
             "Amazon SNS - Simple Notification Service",
             "Amazon Kinesis",
             "Amazon MQ"
-        ]
+        ],
+        "name": "Summary",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Integrations/Summary.md",
+        "id": 253,
+        "parents": []
     },
     {
-        "name": "AWS Local Zones",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/AWS Local Zones.md",
-        "links": [
+        "children": [
             "VPC Summary",
             "EC2 - Elastic Compute Cloud",
             "Amazon RDS",
             "ECS - Elastic Container Service",
             "EBS (Elastic Block Store) Volume",
             "Amazon ElastiCache",
-            "Site to Site VPN & Direct Connect",
-            "Pasted image 20240523183124.png"
-        ]
+            "Site to Site VPN & Direct Connect"
+        ],
+        "name": "AWS Local Zones",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Leveraging the AWS Global Infrastructure/AWS Local Zones.md",
+        "id": 254,
+        "parents": ["Summary"]
     },
     {
+        "children": [],
         "name": "IAM Access advicer",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/IAM Access advicer.md",
-        "links": []
+        "id": 255,
+        "parents": ["IAM"]
     },
     {
+        "children": [],
         "name": "Amazon S3 - Objects",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/Amazon S3 - Objects.md",
-        "links": []
+        "id": 256,
+        "parents": ["Amazon S3"]
     },
     {
+        "children": ["S3 Transfer Acceleration"],
         "name": "S3 - Storage Pricing",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/S3 - Storage Pricing.md",
-        "links": ["S3 Transfer Acceleration"]
+        "id": 257,
+        "parents": ["Pricing Models in AWS"]
     },
     {
+        "children": [],
         "name": "Amazon SNS - Simple Notification Service",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Integrations/Amazon SNS - Simple Notification Service.md",
-        "links": [
-            "Pasted image 20240523193357.png",
-            "Pasted image 20240523193744.png"
+        "id": 258,
+        "parents": [
+            "AWS Config",
+            "AWS  GuardDuty",
+            "Summary",
+            "Amazon MQ"
         ]
     },
     {
+        "children": [],
         "name": "AWS Well-Architected Tool",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/AWS Architecting & Ecosystem/AWS Well-Architected Tool.md",
-        "links": []
+        "id": 259,
+        "parents": ["Account Best Practices - Summary"]
     },
     {
+        "children": [],
         "name": "VPC & Subnets",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/VPC & Networking/VPC & Subnets.md",
-        "links": [
-            "Pasted image 20240524105553.png",
-            "Pasted image 20240524105423.png"
-        ]
+        "id": 260,
+        "parents": ["VPC Summary"]
     },
     {
-        "name": "Amazon CloudWatch Logs",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Monitoring Section/Amazon CloudWatch Logs.md",
-        "links": [
+        "children": [
             "AWS Elastic Beanstalk",
             "ECS - Elastic Container Service",
             "Lambda",
             "AWS CloudTrail",
             "EC2 - Elastic Compute Cloud",
             "Amazon Route 53",
-            "Permissions",
-            "Pasted image 20240524091012.png"
-        ]
+            "Permissions"
+        ],
+        "name": "Amazon CloudWatch Logs",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Monitoring Section/Amazon CloudWatch Logs.md",
+        "id": 261,
+        "parents": ["AWS CloudTrail"]
     },
     {
-        "name": "AWS CloudTrail",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Monitoring Section/AWS CloudTrail.md",
-        "links": [
+        "children": [
             "Amazon CloudWatch Logs",
             "Amazon S3"
+        ],
+        "name": "AWS CloudTrail",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Monitoring Section/AWS CloudTrail.md",
+        "id": 262,
+        "parents": [
+            "Security & Compliance Summary",
+            "AWS Organizations",
+            "Amazon Detective",
+            "Monitoring Summary",
+            "AWS KMS (Key Management Service)",
+            "AWS  GuardDuty",
+            "Amazon CloudWatch Logs"
         ]
     },
     {
-        "name": "Amazon MQ",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Integrations/Amazon MQ.md",
-        "links": [
+        "children": [
             "SQS - Simple Queue Service",
             "Amazon SNS - Simple Notification Service"
-        ]
+        ],
+        "name": "Amazon MQ",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Cloud Integrations/Amazon MQ.md",
+        "id": 263,
+        "parents": ["Summary"]
     },
     {
+        "children": [
+            "EC2 - Elastic Compute Cloud",
+            "Systems Manager parameter Store"
+        ],
         "name": "AWS Systems Manager (SSM)",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Deployments & Managing Infrastructure at Scale/AWS Systems Manager (SSM).md",
-        "links": [
-            "EC2 - Elastic Compute Cloud",
-            "Systems Manager parameter Store",
-            "Pasted image 20240523112017.png",
-            "Pasted image 20240523112516.png"
+        "id": 264,
+        "parents": [
+            "Deployment - Summary",
+            "Amazon Inspector",
+            "AWS Security Hub"
         ]
     },
     {
+        "children": [],
         "name": "Shared Responibility Model for S3",
         "location": "/Users/luismcmillan/Documents/My_obsidian/AWS/Amazon S3/Shared Responibility Model for S3.md",
-        "links": []
+        "id": 265,
+        "parents": ["Amazon S3"]
     },
     {
+        "children": ["jQuery"],
         "name": "jQuery ready",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery ready.md",
-        "links": ["jQuery"]
+        "id": 266,
+        "parents": ["jQuery"]
     },
     {
+        "children": [],
         "name": "jQuery Manipulating Text",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery Manipulating Text.md",
-        "links": []
+        "id": 267,
+        "parents": ["jQuery"]
     },
     {
+        "children": ["Node.js Shell Commands"],
         "name": "Node.js",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Node.js.md",
-        "links": ["Node.js Shell Commands"]
+        "id": 268,
+        "parents": [
+            "NPM Node Package Manager",
+            "Node.js Shell Commands",
+            "NPM Shell Commands"
+        ]
     },
     {
+        "children": [],
         "name": "NPM Server Foundation",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/NPM Server Foundation.md",
-        "links": []
+        "id": 269,
+        "parents": [
+            "REST PATCH Route",
+            "REST POST Route",
+            "Express",
+            "REST PUT Route",
+            "REST DELETE Route",
+            "REST GET Route"
+        ]
     },
     {
+        "children": [],
         "name": "jQuery Adding and Removing Elements",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery Adding and Removing Elements.md",
-        "links": []
+        "id": 270,
+        "parents": ["jQuery"]
     },
     {
+        "children": [],
         "name": "jQuery Manipulating Styles",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery Manipulating Styles.md",
-        "links": []
+        "id": 271,
+        "parents": ["jQuery"]
     },
     {
+        "children": [],
         "name": "jQuery Manipulating  Attributes",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery Manipulating  Attributes.md",
-        "links": []
+        "id": 272,
+        "parents": ["jQuery"]
     },
     {
-        "name": "jQuery",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery.md",
-        "links": [
+        "children": [
             "JavaScript",
             "CDN",
             "jQuery ready",
@@ -2052,211 +2919,295 @@
             "jQuery Manipulating  Attributes",
             "jQuery Event Listeners",
             "jQuery Adding and Removing Elements"
+        ],
+        "name": "jQuery",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery.md",
+        "id": 273,
+        "parents": [
+            "jQuery ready",
+            "JavaScript"
         ]
     },
     {
-        "name": "REST API",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/REST API.md",
-        "links": [
+        "children": [
             "REST GET Route",
             "REST POST Route",
             "REST PUT Route",
             "REST PATCH Route",
             "REST DELETE Route"
-        ]
+        ],
+        "name": "REST API",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/REST API.md",
+        "id": 274,
+        "parents": []
     },
     {
-        "name": "Higher Order Functions and Passing Functions as Arguments",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Higher Order Functions and Passing Functions as Arguments.md",
-        "links": [
+        "children": [
             "DOM Document Object Model",
             "JavaScript"
+        ],
+        "name": "Higher Order Functions and Passing Functions as Arguments",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Higher Order Functions and Passing Functions as Arguments.md",
+        "id": 275,
+        "parents": []
+    },
+    {
+        "children": ["NPM Node Package Manager"],
+        "name": "package.json",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/package.json.md",
+        "id": 276,
+        "parents": [
+            "Express Shell Commands",
+            "NPM Node Package Manager"
         ]
     },
     {
-        "name": "package.json",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/package.json.md",
-        "links": ["NPM Node Package Manager"]
-    },
-    {
+        "children": ["CSS Cascading Style Sheets"],
         "name": "Changing Styles of HTML Elements",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Changing Styles of HTML Elements.md",
-        "links": ["CSS Cascading Style Sheets"]
+        "id": 277,
+        "parents": ["DOM Document Object Model"]
     },
     {
-        "name": "Express Shell Commands",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Express Shell Commands.md",
-        "links": [
+        "children": [
             "Express",
             "Shell",
             "NPM Shell Commands",
             "package.json"
+        ],
+        "name": "Express Shell Commands",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Express Shell Commands.md",
+        "id": 278,
+        "parents": [
+            "Node.js Shell Commands",
+            "Express"
         ]
     },
     {
-        "name": "JavaScript EventListeners",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/JavaScript EventListeners.md",
-        "links": [
+        "children": [
             "DOM Document Object Model",
             "JavaScript"
-        ]
+        ],
+        "name": "JavaScript EventListeners",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/JavaScript EventListeners.md",
+        "id": 279,
+        "parents": ["jQuery Event Listeners"]
     },
     {
+        "children": ["NPM Server Foundation"],
         "name": "REST PATCH Route",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/REST PATCH Route.md",
-        "links": ["NPM Server Foundation"]
+        "id": 280,
+        "parents": ["REST API"]
     },
     {
+        "children": [],
         "name": "jQuery Selecting Elements",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery Selecting Elements.md",
-        "links": []
+        "id": 281,
+        "parents": ["jQuery"]
     },
     {
-        "name": "NPM Node Package Manager",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/NPM Node Package Manager.md",
-        "links": [
+        "children": [
             "Node.js",
             "NPM Shell Commands",
             "package.json"
-        ]
+        ],
+        "name": "NPM Node Package Manager",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/NPM Node Package Manager.md",
+        "id": 282,
+        "parents": ["package.json"]
     },
     {
+        "children": ["JavaScript"],
         "name": "Adding Javascript to Website",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Adding Javascript to Website.md",
-        "links": ["JavaScript"]
+        "id": 283,
+        "parents": ["DOM Document Object Model"]
     },
     {
+        "children": ["Express"],
         "name": "Middleware",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Middleware.md",
-        "links": ["Express"]
+        "id": 284,
+        "parents": ["Express"]
     },
     {
-        "name": "Node.js Shell Commands",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Node.js Shell Commands.md",
-        "links": [
+        "children": [
             "Node.js",
             "Shell",
             "JavaScript",
             "NPM Shell Commands",
             "Express Shell Commands"
+        ],
+        "name": "Node.js Shell Commands",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Node.js Shell Commands.md",
+        "id": 285,
+        "parents": [
+            "Node.js",
+            "Shell"
         ]
     },
     {
+        "children": ["NPM Server Foundation"],
         "name": "REST POST Route",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/REST POST Route.md",
-        "links": ["NPM Server Foundation"]
+        "id": 286,
+        "parents": ["REST API"]
     },
     {
-        "name": "Text Manipulation and the Text Content Property",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Text Manipulation and the Text Content Property.md",
-        "links": [
+        "children": [
             "DOM Document Object Model",
             "JavaScript"
-        ]
+        ],
+        "name": "Text Manipulation and the Text Content Property",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Text Manipulation and the Text Content Property.md",
+        "id": 287,
+        "parents": ["DOM Document Object Model"]
     },
     {
-        "name": "DOM Document Object Model",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/DOM Document Object Model.md",
-        "links": [
+        "children": [
             "Adding Javascript to Website",
             "Selecting HTML Elements with JavaScript",
             "Changing Styles of HTML Elements",
             "Text Manipulation and the Text Content Property"
+        ],
+        "name": "DOM Document Object Model",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/DOM Document Object Model.md",
+        "id": 288,
+        "parents": [
+            "Higher Order Functions and Passing Functions as Arguments",
+            "JavaScript EventListeners",
+            "Text Manipulation and the Text Content Property",
+            "Manipulating HTML Element Attributes"
         ]
     },
     {
+        "children": ["Node.js"],
         "name": "NPM Shell Commands",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/NPM Shell Commands.md",
-        "links": ["Node.js"]
+        "id": 289,
+        "parents": [
+            "Express Shell Commands",
+            "NPM Node Package Manager",
+            "Node.js Shell Commands"
+        ]
     },
     {
-        "name": "Express",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Express.md",
-        "links": [
+        "children": [
             "Middleware",
             "Express Shell Commands",
             "NPM Server Foundation",
             "HTTP Requests"
+        ],
+        "name": "Express",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Express.md",
+        "id": 290,
+        "parents": [
+            "Express Shell Commands",
+            "Middleware",
+            "HTTP Requests"
         ]
     },
     {
-        "name": "Selecting HTML Elements with JavaScript",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Selecting HTML Elements with JavaScript.md",
-        "links": [
+        "children": [
             "HTML Hypertext Markup Language",
             "JavaScript"
-        ]
+        ],
+        "name": "Selecting HTML Elements with JavaScript",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Selecting HTML Elements with JavaScript.md",
+        "id": 291,
+        "parents": ["DOM Document Object Model"]
     },
     {
+        "children": ["NPM Server Foundation"],
         "name": "REST PUT Route",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/REST PUT Route.md",
-        "links": ["NPM Server Foundation"]
+        "id": 292,
+        "parents": ["REST API"]
     },
     {
+        "children": ["NPM Server Foundation"],
         "name": "REST DELETE Route",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/REST DELETE Route.md",
-        "links": ["NPM Server Foundation"]
+        "id": 293,
+        "parents": ["REST API"]
     },
     {
+        "children": [],
+        "name": "CDN",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/CDN.md",
+        "id": 294,
+        "parents": ["jQuery"]
+    },
+    {
+        "children": ["JavaScript EventListeners"],
         "name": "jQuery Event Listeners",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/jQuery Event Listeners.md",
-        "links": ["JavaScript EventListeners"]
+        "id": 295,
+        "parents": ["jQuery"]
     },
     {
+        "children": ["NPM Server Foundation"],
         "name": "REST GET Route",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/REST GET Route.md",
-        "links": ["NPM Server Foundation"]
+        "id": 296,
+        "parents": ["REST API"]
     },
     {
+        "children": ["Express"],
         "name": "HTTP Requests",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/HTTP Requests.md",
-        "links": ["Express"]
+        "id": 297,
+        "parents": []
     },
     {
-        "name": "Manipulating HTML Element Attributes",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Manipulating HTML Element Attributes.md",
-        "links": [
+        "children": [
             "DOM Document Object Model",
             "JavaScript"
-        ]
+        ],
+        "name": "Manipulating HTML Element Attributes",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Web Development/Manipulating HTML Element Attributes.md",
+        "id": 298,
+        "parents": []
     },
     {
+        "children": ["Immutable Strings"],
         "name": "String",
         "location": "/Users/luismcmillan/Documents/My_obsidian/String/String.md",
-        "links": [
-            "Pasted image 20240609124429.png",
-            "Pasted image 20240609125024.png",
-            "Pasted image 20240609125250.png",
-            "Immutable Strings"
-        ]
+        "id": 299,
+        "parents": ["Java"]
     },
     {
+        "children": [],
         "name": "Immutable Strings",
         "location": "/Users/luismcmillan/Documents/My_obsidian/String/Immutable Strings.md",
-        "links": [
-            "Pasted image 20240609125934.png",
-            "Pasted image 20240609130133.png"
-        ]
+        "id": 300,
+        "parents": ["String"]
     },
     {
+        "children": ["JavaScript"],
         "name": "JavaScript Events",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript Events.md",
-        "links": ["JavaScript"]
+        "id": 301,
+        "parents": ["JavaScript"]
     },
     {
+        "children": ["JavaScript"],
         "name": "JavaScript Basics",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript Basics.md",
-        "links": ["JavaScript"]
+        "id": 302,
+        "parents": ["JavaScript"]
     },
     {
+        "children": ["JavaScript"],
         "name": "JavaScript Errors",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript Errors.md",
-        "links": ["JavaScript"]
+        "id": 303,
+        "parents": ["JavaScript"]
     },
     {
-        "name": "JavaScript",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript.md",
-        "links": [
+        "children": [
             "JavaScript Basics",
             "JavaScript Loops",
             "JavaScript Data Types",
@@ -2266,57 +3217,103 @@
             "JavaScript JSON",
             "JavaScript Errors",
             "jQuery"
+        ],
+        "name": "JavaScript",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript.md",
+        "id": 304,
+        "parents": [
+            "jQuery",
+            "Higher Order Functions and Passing Functions as Arguments",
+            "JavaScript Events",
+            "JavaScript EventListeners",
+            "JavaScript Basics",
+            "JavaScript Errors",
+            "JavaScript Data Types",
+            "Adding Javascript to Website",
+            "Node.js Shell Commands",
+            "JavaScript Global Functions",
+            "Text Manipulation and the Text Content Property",
+            "Selecting HTML Elements with JavaScript",
+            "JavaScript Arrays",
+            "JavaScript Loops",
+            "Manipulating HTML Element Attributes",
+            "JavaScript JSON"
         ]
     },
     {
+        "children": ["JavaScript"],
         "name": "JavaScript Data Types",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript Data Types.md",
-        "links": ["JavaScript"]
+        "id": 305,
+        "parents": ["JavaScript"]
     },
     {
+        "children": ["JavaScript"],
         "name": "JavaScript Global Functions",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript Global Functions.md",
-        "links": ["JavaScript"]
+        "id": 306,
+        "parents": ["JavaScript"]
     },
     {
+        "children": ["JavaScript"],
         "name": "JavaScript Arrays",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript Arrays.md",
-        "links": ["JavaScript"]
+        "id": 307,
+        "parents": ["JavaScript"]
     },
     {
+        "children": ["JavaScript"],
         "name": "JavaScript Loops",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript Loops.md",
-        "links": ["JavaScript"]
+        "id": 308,
+        "parents": ["JavaScript"]
     },
     {
+        "children": ["JavaScript"],
         "name": "JavaScript JSON",
         "location": "/Users/luismcmillan/Documents/My_obsidian/Javascript/JavaScript JSON.md",
-        "links": ["JavaScript"]
+        "id": 309,
+        "parents": ["JavaScript"]
     },
     {
+        "children": [],
         "name": "Git Cloning",
         "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/Git Cloning.md",
-        "links": []
+        "id": 310,
+        "parents": [
+            "GIT Shell Commands",
+            "GIT"
+        ]
     },
     {
+        "children": ["GIT"],
         "name": "Generating a new SSH key and adding it to the ssh-agent",
         "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/Generating a new SSH key and adding it to the ssh-agent.md",
-        "links": ["GIT"]
+        "id": 311,
+        "parents": ["GIT"]
     },
     {
+        "children": [],
         "name": "Git Forking and Pull Requests",
         "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/Git Forking and Pull Requests.md",
-        "links": ["Pasted image 20240702183809.png"]
+        "id": 312,
+        "parents": [
+            "GIT Shell Commands",
+            "GIT"
+        ]
     },
     {
+        "children": [],
         "name": "Git Branching and Merging",
         "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/Git Branching and Merging.md",
-        "links": []
+        "id": 313,
+        "parents": [
+            "GIT Shell Commands",
+            "GIT"
+        ]
     },
     {
-        "name": "GIT",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/GIT.md",
-        "links": [
+        "children": [
             "GIT Shell Commands",
             "GitHub and Remote Repositories",
             "Gitignore",
@@ -2324,24 +3321,40 @@
             "Git Branching and Merging",
             "Git Forking and Pull Requests",
             "Generating a new SSH key and adding it to the ssh-agent"
+        ],
+        "name": "GIT",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/GIT.md",
+        "id": 314,
+        "parents": [
+            "Generating a new SSH key and adding it to the ssh-agent",
+            "GIT Shell Commands"
         ]
     },
     {
+        "children": [],
         "name": "Gitignore",
         "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/Gitignore.md",
-        "links": []
-    },
-    {
-        "name": "GitHub and Remote Repositories",
-        "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/GitHub and Remote Repositories.md",
-        "links": [
-            "Pasted image 20240702175113.png",
-            "Pasted image 20240702175928.png"
+        "id": 315,
+        "parents": [
+            "GIT Shell Commands",
+            "GIT"
         ]
     },
     {
+        "children": [],
+        "name": "GitHub and Remote Repositories",
+        "location": "/Users/luismcmillan/Documents/My_obsidian/GIT/GitHub and Remote Repositories.md",
+        "id": 316,
+        "parents": [
+            "GIT Shell Commands",
+            "GIT"
+        ]
+    },
+    {
+        "children": [],
         "name": "SQL Basics",
         "location": "/Users/luismcmillan/Documents/My_obsidian/SQL/SQL Basics.md",
-        "links": []
+        "id": 317,
+        "parents": ["Java DataBase Connection (JDBC)"]
     }
 ]
