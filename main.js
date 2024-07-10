@@ -58,6 +58,7 @@ for(const ball of balls){
 
 
 for (const element of balls) {
+  element.change_circle_size();
   element.draw();
 }
 

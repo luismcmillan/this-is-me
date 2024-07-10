@@ -148,7 +148,7 @@ export default class circle {
     }
 
     change_circle_size(){
-        this.radius = document.getElementById("circle_size").value;
+        this.radius = document.getElementById("circle_size").value*(10+ this.get_child_links().length)/10;
     }
     get_child_links(){
         return this.child_links;
