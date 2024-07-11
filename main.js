@@ -208,6 +208,13 @@ canvas.addEventListener("click", (e) => {
   }
 });
 
+window.addEventListener("scroll", (e) => {
+  if (!running) {
+    raf = window.requestAnimationFrame(draw);
+    running = true;
+  }
+});
+
 document.getElementById("myModal"),
   addEventListener("click", (e) => {
     if (!running) {
