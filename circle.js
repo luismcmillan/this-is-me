@@ -1,9 +1,11 @@
 export default class circle {
     
-    constructor(id,name,x, y,size, content) {
+    constructor(id,name,x, y,target_x,target_y,size, content) {
       this.id = id;
       this.x = x;
       this.y = y;
+      this.target_x = target_x;
+      this.target_y = target_y;
       this.vx = 2;
       this.vy = 2;
       this.radius = size;
@@ -53,35 +55,26 @@ export default class circle {
         ctx.lineWidth = old_linewidth;  
     }
     
-    /*
-    
-    move() {
-      this.x += this.vx;
-      this.y += this.vy;
-      if (
-        this.y + this.vy > 300 - this.radius ||
-        this.y + this.vy < this.radius
-      ) {
-        this.vy = -this.vy;
-      }
-      if (
-        this.x + this.vx > 600 - this.radius ||
-        this.x + this.vx < this.radius
-      ) {
-        this.vx = -this.vx;
-      }
-    }
-    */
-
     follow(parent){
       var distance = Math.sqrt((parent.x-this.x)**2 + (parent.y-this.y)**2);
       if (!this.dragging && distance > this.attraction) {
-          this.x = this.x - this.vx*((this.x-parent.x)/(Math.abs(this.x-parent.x) + Math.abs(this.y-parent.y)))
-          this.y = this.y - this.vy*((this.y-parent.y)/(Math.abs(this.x-parent.x) + Math.abs(this.y-parent.y)))
+          this.x = this.x - this.vx*((this.x-parent.x)/(Math.abs(this.x-parent.x) + Math.abs(this.y-parent.y)));
+          this.y = this.y - this.vy*((this.y-parent.y)/(Math.abs(this.x-parent.x) + Math.abs(this.y-parent.y)));
       } else if (!this.dragging && distance < this.rejection ){
-          this.x = this.x + this.vx*((this.x-parent.x)/(Math.abs(this.x-parent.x) + Math.abs(this.y-parent.y)))
-          this.y = this.y + this.vy*((this.y-parent.y)/(Math.abs(this.x-parent.x) + Math.abs(this.y-parent.y)))
+          this.x = this.x + this.vx*((this.x-parent.x)/(Math.abs(this.x-parent.x) + Math.abs(this.y-parent.y)));
+          this.y = this.y + this.vy*((this.y-parent.y)/(Math.abs(this.x-parent.x) + Math.abs(this.y-parent.y)));
       }
+    }
+
+    follow(){
+        var distance = Math.sqrt((this.target_x-this.x)**2 + (this.target_y-this.y)**2);
+        if (!this.dragging && distance > 1.0) {
+            this.x = this.x - this.vx*((this.x-this.target_x)/(Math.abs(this.x-this.target_x) + Math.abs(this.y-this.target_y)));
+            this.y = this.y - this.vy*((this.y-this.target_y)/(Math.abs(this.x-this.target_x) + Math.abs(this.y-this.target_y)));
+        } else if (!this.dragging && distance < 1.0){
+            this.x = this.target_x;
+            this.y = this.target_y;
+        }
     }
 
     keep_distance_to(neighbor){

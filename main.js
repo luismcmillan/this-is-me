@@ -25,6 +25,8 @@ for (const element of jsoncontent) {
         ctx_width * 0.45 * Math.sin((i / jsoncontent.length) * 2 * Math.PI),
       ctx_height / 2 +
         ctx_width * 0.45 * Math.cos((i / jsoncontent.length) * 2 * Math.PI),
+      element.x_pos,
+      element.y_pos,
       circle_size,
       element.content
     )
@@ -80,78 +82,16 @@ function draw() {
   clear();
   draw_all_lines(matrix);
 
-  /*
-  ball2.keep_distance_to(ball3);
-  ball2.keep_distance_to(ball4);
-  ball2.keep_distance_to(ball5);
-  ball2.keep_distance_to(ball6);
-  ball2.keep_distance_to(ball7);
-  ball2.keep_distance_to(ball8);
-  ball2.keep_distance_to(ball9);
-
-  ball3.keep_distance_to(ball2);
-  ball3.keep_distance_to(ball4);
-  ball3.keep_distance_to(ball5);
-  ball3.keep_distance_to(ball6);
-  ball3.keep_distance_to(ball7);
-  ball3.keep_distance_to(ball8);
-  ball3.keep_distance_to(ball9);
-
-  ball4.keep_distance_to(ball2);
-  ball4.keep_distance_to(ball3);
-  ball4.keep_distance_to(ball5);
-  ball4.keep_distance_to(ball6);
-  ball4.keep_distance_to(ball7);
-  ball4.keep_distance_to(ball8);
-  ball4.keep_distance_to(ball9);
-
-  ball5.keep_distance_to(ball2);
-  ball5.keep_distance_to(ball4);
-  ball5.keep_distance_to(ball3);
-  ball5.keep_distance_to(ball6);
-  ball5.keep_distance_to(ball7);
-  ball5.keep_distance_to(ball8);
-  ball5.keep_distance_to(ball9);
-
-  ball6.keep_distance_to(ball2);
-  ball6.keep_distance_to(ball4);
-  ball6.keep_distance_to(ball5);
-  ball6.keep_distance_to(ball3);
-  ball6.keep_distance_to(ball7);
-  ball6.keep_distance_to(ball8);
-  ball6.keep_distance_to(ball9);
-
-  ball7.keep_distance_to(ball2);
-  ball7.keep_distance_to(ball4);
-  ball7.keep_distance_to(ball5);
-  ball7.keep_distance_to(ball6);
-  ball7.keep_distance_to(ball3);
-  ball7.keep_distance_to(ball8);
-  ball7.keep_distance_to(ball9);
-
-  ball8.keep_distance_to(ball2);
-  ball8.keep_distance_to(ball4);
-  ball8.keep_distance_to(ball5);
-  ball8.keep_distance_to(ball6);
-  ball8.keep_distance_to(ball7);
-  ball8.keep_distance_to(ball3);
-  ball8.keep_distance_to(ball9);
-
-  ball9.keep_distance_to(ball2);
-  ball9.keep_distance_to(ball4);
-  ball9.keep_distance_to(ball5);
-  ball9.keep_distance_to(ball6);
-  ball9.keep_distance_to(ball7);
-  ball9.keep_distance_to(ball8);
-  ball9.keep_distance_to(ball3);
-*/
 
   for (let i = 0; i < matrix.length; i++) {
+    balls[i].follow();
+    /*
     for (let j = 0; j < matrix.length; j++) {
       if (matrix[j][i] == 1) {
         balls[i].follow(balls[j]);
       }
     }
+    */
   }
 
   for (const element of balls) {
@@ -165,7 +105,7 @@ function draw() {
 
 async function loadJson() {
   try {
-    const response = await fetch("./obsidian.json");
+    const response = await fetch("./obsidian_with_position.json");
     const jsonData = await response.json();
     return jsonData;
   } catch (error) {
