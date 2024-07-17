@@ -1,6 +1,6 @@
 export default class circle {
     
-    constructor(id,name,x, y,target_x,target_y,size, content) {
+    constructor(id,category,name,x, y,target_x,target_y,size, content) {
       this.id = id;
       this.x = x;
       this.y = y;
@@ -10,9 +10,10 @@ export default class circle {
       this.vy = 2;
       this.radius = size;
       this.content = content;
-      this.color = "grey";
       this.dragging = false;
       this.name = name;
+      this.category = category;
+      this.color = this.set_color();
       this.parent_links = [];
       this.child_links = [];
       this.hovered = false;
@@ -99,7 +100,6 @@ export default class circle {
         const canvas = document.getElementById("canvas");
         const ctx = canvas.getContext("2d");
         const old_color = ctx.fillStyle;
-        this.color = "grey";
         ctx.fillStyle = this.color;
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2, true);
@@ -113,8 +113,7 @@ export default class circle {
         const canvas = document.getElementById("canvas");
         const ctx = canvas.getContext("2d");
         const old_color = ctx.fillStyle;
-        this.color = color;
-        ctx.fillStyle = this.color;
+        ctx.fillStyle = color;
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2, true);
         ctx.closePath();
@@ -157,6 +156,61 @@ export default class circle {
 
     give_content(){
         return this.content;
+    }
+
+    set_color(){
+        switch (this.category) {
+            case "C++":
+                return "Aquamarine";
+              // Code, der ausgeführt wird, wenn expression === value1
+              break;
+            case "Docker":
+                return "DodgerBlue";
+                // Code, der ausgeführt wird, wenn expression === value1
+              break;
+            case "CSS":
+                return "aqua";
+                // Code, der ausgeführt wird, wenn expression === value1
+              break;
+            case "Shell":
+                return "black";
+                // Code, der ausgeführt wird, wenn expression === value1
+              break;
+            case "Oracle Java":
+                return "red";
+              break;
+            case "HTML":
+                return "coral";
+                // Code, der ausgeführt wird, wenn expression === value1
+              break;
+            case "MongoDB":
+                return "Chartreuse";
+                // Code, der ausgeführt wird, wenn expression === value1
+              break;
+            case "AWS":
+                return "orange";
+                // Code, der ausgeführt wird, wenn expression === value1
+              break;
+            case "Web Development":
+                return "DimGrey"
+                // Code, der ausgeführt wird, wenn expression === value1
+              break;
+            case "Javascript":
+                return "DarkGreen";
+                // Code, der ausgeführt wird, wenn expression === value1
+              break;
+            case "GIT":
+                return "Olive";
+                // Code, der ausgeführt wird, wenn expression === value1
+              break;
+            case "SQL":
+                return "DarkMagenta";
+                // Code, der ausgeführt wird, wenn expression === value1
+              break;
+            // Weitere cases nach Bedarf
+            default:
+              // Code, der ausgeführt wird, wenn keiner der obigen Fälle zutrifft
+          }
     }
 
   }

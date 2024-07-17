@@ -20,6 +20,7 @@ for (const element of jsoncontent) {
   balls.push(
     new circle(
       element.id,
+      element.category,
       element.name,
       ctx_width / 2 +
         ctx_width * 0.45 * Math.sin((i / jsoncontent.length) * 2 * Math.PI),
