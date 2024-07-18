@@ -333,25 +333,6 @@
   </div>
 
   <script>
-    
-    function saveToServer(){
-    const data = [];
-	const jsonArr = {"name":"Wanderlust","children":[{"name":"Frankreich"},{"name":"Devon"}]};
-	data.push (jsonArr);
-
-    window.fetch ("./update.php", {
-    	method: 'post',
-    	headers: {'Content-Type' : 'application/json'},
-    	body: JSON.stringify(data)
-    })
-    .then ( (text) => {
-    	// log response text 
-    	console.log (text);
-    })
-    .catch ((error) => {
-    	console.log ("Error: ", error)
-    })
-}     
         
     function openModal() {
       document.getElementById("myModal").style.display = "block";
