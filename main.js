@@ -281,6 +281,7 @@ canvas.addEventListener("mousedown", (e) => {
 
 async function draw_all_lines(color) {
   
+  
   for (let i = 0; i < matrix.length; i++) {
     for (let j = 0; j < matrix.length; j++) {
       if (matrix[i][j] == 1) {
