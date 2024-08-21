@@ -209,6 +209,15 @@ export default class circle {
                 return "black";
                 // Code, der ausgeführt wird, wenn expression === value1
               break;
+
+              case "Python":
+                return "blue";
+                // Code, der ausgeführt wird, wenn expression === value1
+              break;
+              case "Machine Learning":
+                return "yellow";
+                // Code, der ausgeführt wird, wenn expression === value1
+              break;
             // Weitere cases nach Bedarf
             default:
               // Code, der ausgeführt wird, wenn keiner der obigen Fälle zutrifft
