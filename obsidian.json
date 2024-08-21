@@ -5354,12 +5354,12 @@
             "JavaScript Events",
             "Higher Order Functions and Passing Functions as Arguments",
             "JavaScript Loops",
-            "async & await",
             "JavaScript Basics",
             "JavaScript Data Types",
             "JavaScript Global Functions",
             "Selecting HTML Elements with JavaScript",
             "Node.js",
+            "async & await",
             "Node.js Client",
             "Text Manipulation and the Text Content Property",
             "Node.js Shell Commands"
@@ -5559,11 +5559,21 @@
         ]
     },
     {
+        "children": ["JavaScript"],
+        "is_boss": false,
+        "name": "async & await",
+        "location": "/Users/luis/Documents/My_obsidian/Javascript/async & await.md",
+        "id": 392,
+        "category": "Javascript",
+        "content": "[[JavaScript]]<br/>- Das `async`-Schlüsselwort wird verwendet, um eine Funktion zu deklarieren, die einen Promise zurückgibt. Eine Funktion, die als `async` deklariert ist, kann `await` verwenden, um auf die Erfüllung eines Promises zu warten.<br/>```Typescript<br/>async function fetchData() {<br/>  return \"Hello, World!\";<br/>}<br/>```<br/><br/>- Das `await`-Schlüsselwort kann nur innerhalb von `async`-Funktionen verwendet werden und pausiert die Ausführung der Funktion, bis der Promise erfüllt (oder abgelehnt) ist. Es ermöglicht das Schreiben von asynchronem Code, der wie synchroner Code aussieht.<br/>```TypeScript<br/>async function fetchData() {<br/>  const data = await fetch('https://api.example.com/data');<br/>  return data.json();<br/>}<br/><br/>```<br/>",
+        "parents": ["JavaScript"]
+    },
+    {
         "children": ["Mocking"],
         "is_boss": false,
         "name": "calculator.js",
         "location": "/Users/luis/Documents/My_obsidian/Javascript/calculator.js.md",
-        "id": 392,
+        "id": 393,
         "category": "Javascript",
         "content": "[[Mocking]]<br/>```Javascript<br/>// calculator.js<br/>const math = require('./math');<br/><br/>function calculateTotal(a, b) {<br/>\treturn math.add(a, b);<br/>}<br/>module.exports = { calculateTotal };<br/>```<br/><br/><br/>```Javascript<br/>// calculator.js<br/>const math = require('./math');<br/><br/>// Original function<br/>function calculateTotal(a, b) {<br/>  return math.add(a, b);<br/>}<br/><br/>// Mocking the add function directly in the code<br/>function mockAdd(a, b) {<br/>  console.log('Mocked add function called');<br/>  return a + b + 1;<br/>}<br/><br/>// Replace the original add function with the mock<br/>math.add = mockAdd;<br/><br/>// Demonstrating the calculateTotal function with the mocked add function<br/>const result = calculateTotal(1, 2);<br/>console.log('Result:', result); // Output should be 4 and log \"Mocked add function called\"<br/><br/>// If needed, restore the original add function<br/>// Store the original function<br/>const originalAdd = math.add;<br/><br/>// Function to reset the add function to the original implementation<br/>function resetAdd() {<br/>  math.add = originalAdd;<br/>}<br/><br/>// Reset to the original if needed<br/>resetAdd();<br/><br/>// Demonstrate calculateTotal with the original add function<br/>const originalResult = calculateTotal(1, 2);<br/>console.log('Original Result:', originalResult); // Output should be 3<br/><br/>```<br/>",
         "parents": ["Mocking"]
@@ -5573,7 +5583,7 @@
         "is_boss": false,
         "name": "NPM Server Foundation",
         "location": "/Users/luis/Documents/My_obsidian/Javascript/NPM Server Foundation.md",
-        "id": 393,
+        "id": 394,
         "category": "Javascript",
         "content": "```JavaScript<br/>import express from \"express\";<br/>import bodyParser from \"body-parser\";<br/><br/>const app = express();<br/>const port = 3000;<br/>const masterkey = \"lksfs-fnvök-dsnvöa-dlmvd-aälvm\"<br/>app.use(bodyParser.urlencoded({ extended: true})); //Middleware<br/><br/>app.listen(port, () => {<br/>\tconsole.log('Server running on port +${port}.');<br/>});<br/>```<br/>",
         "parents": [
@@ -5593,7 +5603,7 @@
         "is_boss": false,
         "name": "Node.js Client",
         "location": "/Users/luis/Documents/My_obsidian/Javascript/Node.js Client.md",
-        "id": 394,
+        "id": 395,
         "category": "Javascript",
         "content": "[[Express]]<br/>[[JavaScript]]<br/>```Javascript<br/>fetch('http://localhost:3000/') <br/>.then(response => { if (!response.ok) <br/>\t{ <br/>\t\tthrow new Error('Netzwerkantwort war nicht ok'); <br/>\t} <br/>\t\treturn response.json(); <br/>\t}).then(data => { console.log('Erhaltene Daten:', data); // Verarbeiten Sie die Daten weiter })<br/>\t.catch(error => { <br/>\t\tconsole.error('Es gab ein Problem mit Ihrer Fetch-Operation:', error); });<br/>```<br/>",
         "parents": [
@@ -5610,7 +5620,7 @@
         "is_boss": false,
         "name": "NPM Node Package Manager",
         "location": "/Users/luis/Documents/My_obsidian/Javascript/NPM Node Package Manager.md",
-        "id": 395,
+        "id": 396,
         "category": "Javascript",
         "content": "- [[Node.js]]<br/>![[NPM Shell Commands]]<br/><br/>![[package.json]]<br/>",
         "parents": [
@@ -5623,7 +5633,7 @@
         "is_boss": false,
         "name": "REST PATCH Route",
         "location": "/Users/luis/Documents/My_obsidian/Javascript/REST PATCH Route.md",
-        "id": 396,
+        "id": 397,
         "category": "Javascript",
         "content": "![[NPM Server Foundation]]<br/><br/>```JavaScript<br/>app.patch(\"/jokes/:id\", (req, res) => {<br/>\tconst id = parseInt(req.params.id);<br/>\tconst existingJoke = jokes.find((joke) => joke.id === id);<br/>\tconst replacementJoke = {<br/>\t\tid: id,<br/>\t\tjokeText: req.body.text || existingJoke.jokeText,  //Klappt wegen Middleware bodyParser<br/>\t\tjokeType: req.body.type || existingJoke.jokeType,<br/>\t};<br/>\tconst searchIndex = jokes.findIndex((joke) => joke.id === id);<br/>\tjokes[searchIndex] = replacementJoke;<br/>\tres.json(replacementJoke)<br/>})<br/>",
         "parents": ["REST API"]
@@ -5636,7 +5646,7 @@
         "is_boss": false,
         "name": "Node.js Postgres Shell",
         "location": "/Users/luis/Documents/My_obsidian/Javascript/Node.js Postgres Shell.md",
-        "id": 397,
+        "id": 398,
         "category": "Javascript",
         "content": "[[node.js Database]]<br/>[[NPM Shell Commands]]<br/>```Shell<br/>npm install pg<br/>```<br/>",
         "parents": ["NPM Shell Commands"]
@@ -5649,7 +5659,7 @@
         "is_boss": false,
         "name": "Node.js Mocking Shell",
         "location": "/Users/luis/Documents/My_obsidian/Javascript/Node.js Mocking Shell.md",
-        "id": 398,
+        "id": 399,
         "category": "Javascript",
         "content": "[[Mocking]]<br/>[[NPM Shell Commands]]<br/>```Shell<br/>npm install --save-dev jest<br/>npm test<br/>```<br/>",
         "parents": [
@@ -5668,7 +5678,7 @@
         "is_boss": false,
         "name": "Node.js Shell Commands",
         "location": "/Users/luis/Documents/My_obsidian/Javascript/Node.js Shell Commands.md",
-        "id": 399,
+        "id": 400,
         "category": "Javascript",
         "content": "[[Node.js]]<br/>[[Shell]]<br/>[[JavaScript]]<br/>```Shell<br/>curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - <br/>sudo apt-get install -y nodejs //Installing Node.js on Linux<br/><br/><br/><br/>node -v #version<br/>node # > *type your js code*<br/>node index.js # run javascript file index.js<br/>```<br/><br/><br/>![[NPM Shell Commands]]<br/><br/>![[Express Shell Commands]]<br/>",
         "parents": [
@@ -5681,7 +5691,7 @@
         "is_boss": false,
         "name": "REST GET Route",
         "location": "/Users/luis/Documents/My_obsidian/Javascript/REST GET Route.md",
-        "id": 400,
+        "id": 401,
         "category": "Javascript",
         "content": "![[NPM Server Foundation]]<br/><br/>```JavaScript<br/>app.get(\"/random\", (req, res) => {<br/>\tconst randomIndex = ...<br/>\tres.json(randomIndex)<br/>})<br/><br/><br/>app.get(\"/jokes/:id\", (req, res) => {<br/>\tconst id = parseInt(req.params.id);<br/>\tconst foundJoke = jokes.find((joke) => joke.id === id); // === compares value AND TYPE<br/>\tres.json(foundJoke);<br/>});<br/><br/>app.get(\"/filter\", (req, res) => {<br/>\tconst type = req.query.type;<br/>\tconst filteredActivities = jokes.filter((joke) => joke.jokeType === type);<br/>\tres.json(filteredActivities);<br/>})<br/>```<br/>",
         "parents": ["REST API"]
@@ -5691,7 +5701,7 @@
         "is_boss": false,
         "name": "REST PUT Route",
         "location": "/Users/luis/Documents/My_obsidian/Javascript/REST PUT Route.md",
-        "id": 401,
+        "id": 402,
         "category": "Javascript",
         "content": "![[NPM Server Foundation]]<br/><br/>```JavaScript<br/>app.put(\"/jokes/:id\", (req, res) => {<br/>\tconst id = parseInt(req.params.id);<br/>\tconst replacementJoke = {<br/>\t\tid: id,<br/>\t\tjokeText: req.body.text,  //Klappt wegen Middleware bodyParser<br/>\t\tjokeType: req.body.type,<br/>\t};<br/>\tconst searchIndex = jokes.findIndex((joke) => joke.id === id);<br/>\tjokes[searchIndex] = replacementJoke;<br/>\tres.json(replacementJoke)<br/>})<br/>",
         "parents": ["REST API"]
@@ -5701,7 +5711,7 @@
         "is_boss": false,
         "name": "Git Branching and Merging",
         "location": "/Users/luis/Documents/My_obsidian/GIT/Git Branching and Merging.md",
-        "id": 402,
+        "id": 403,
         "category": "GIT",
         "content": "[[GIT]]<br/>```Shell<br/>git branch name-of-branch<br/>git merge name-of-branch<br/>git branch #shows which branches you have<br/>git checkout branch-name #switches to branch-name<br/>git remote add origin git@github.com:Benutzername/Repository.git<br/>git remote -v //lists all remote addresses<br/>git push origin main -u #pushes local repository to remote repository on branch main<br/>git reset --hard <br/>```<br/>",
         "parents": [
@@ -5714,7 +5724,7 @@
         "is_boss": false,
         "name": "Generating a new SSH key and adding it to the ssh-agent MacOS",
         "location": "/Users/luis/Documents/My_obsidian/GIT/Generating a new SSH key and adding it to the ssh-agent MacOS.md",
-        "id": 403,
+        "id": 404,
         "category": "GIT",
         "content": "[[GIT]]<br/>```Shell<br/>ssh-keygen -t ed25519 -C \"mcmillan.luis@googlemail.com\"<br/>eval \"$(ssh-agent -s)\"<br/>nano ~/.ssh/config<br/><br/>Host github.com<br/>  AddKeysToAgent yes<br/>  UseKeychain yes  <br/>  IdentifyFile ~/.ssh/id_ed25519<br/>ssh-add --apple-use-keychain ~/.ssh/id_ed25519<br/>open ~/.ssh/ #Copy public key to github.com<br/>```<br/>",
         "parents": ["GIT"]
@@ -5724,7 +5734,7 @@
         "is_boss": false,
         "name": "Gitignore",
         "location": "/Users/luis/Documents/My_obsidian/GIT/Gitignore.md",
-        "id": 404,
+        "id": 405,
         "category": "GIT",
         "content": "```Shell<br/>touch .gitignore<br/><br/>#.gitignore<br/>.DS_Store<br/>secrets.txt<br/>*.log<br/><br/><br/>```<br/>",
         "parents": [
@@ -5737,7 +5747,7 @@
         "is_boss": false,
         "name": "GitHub and Remote Repositories",
         "location": "/Users/luis/Documents/My_obsidian/GIT/GitHub and Remote Repositories.md",
-        "id": 405,
+        "id": 406,
         "category": "GIT",
         "content": "[[GIT]]<br/>![[Pasted image 20240702175113.png]]<br/>```Shell<br/>git remote add origin https://github.com/Luis-Account/Test.git #add Remote Repository next to Local Repository<br/>```<br/>![[Pasted image 20240702175928.png]]<br/>```Shell<br/>git push -u origin main #Pushes Content of local Repository to remote Repository<br/>```<br/>",
         "parents": [
@@ -5750,7 +5760,7 @@
         "is_boss": false,
         "name": "Generating a new SSH key and adding it to the ssh-agent Linux",
         "location": "/Users/luis/Documents/My_obsidian/GIT/Generating a new SSH key and adding it to the ssh-agent Linux.md",
-        "id": 406,
+        "id": 407,
         "category": "GIT",
         "content": "[[GIT]]<br/>```Shell<br/>ssh-keygen -t ed25519 -C \"your_email@example.com\"<br/>Your identification has been saved in /home/your_username/.ssh/id_ed25519<br/>eval \"$(ssh-agent -s)\"<br/>ssh-add ~/.ssh/id_ed25519<br/>cat ~/.ssh/id_ed25519.pub # copy to github<br/>ssh -T git@github.com #test<br/>```<br/>",
         "parents": ["GIT"]
@@ -5769,7 +5779,7 @@
         "is_boss": true,
         "name": "GIT",
         "location": "/Users/luis/Documents/My_obsidian/GIT/GIT.md",
-        "id": 407,
+        "id": 408,
         "category": "GIT",
         "content": "[Boss]<br/>- [[GIT Shell Commands]]<br/>- [[GitHub and Remote Repositories]]<br/>- [[Gitignore]]<br/>- [[Git Cloning]]<br/>- [[Git Branching and Merging]]<br/>- [[Git Forking and Pull Requests]]<br/>- [[Generating a new SSH key and adding it to the ssh-agent MacOS]]<br/>- [[Generating a new SSH key and adding it to the ssh-agent Linux]]<br/>",
         "parents": [
@@ -5785,7 +5795,7 @@
         "is_boss": false,
         "name": "Git Forking and Pull Requests",
         "location": "/Users/luis/Documents/My_obsidian/GIT/Git Forking and Pull Requests.md",
-        "id": 408,
+        "id": 409,
         "category": "GIT",
         "content": "![[Pasted image 20240702183809.png]]<br/>",
         "parents": [
@@ -5798,7 +5808,7 @@
         "is_boss": false,
         "name": "Git Cloning",
         "location": "/Users/luis/Documents/My_obsidian/GIT/Git Cloning.md",
-        "id": 409,
+        "id": 410,
         "category": "GIT",
         "content": "```Shell<br/>git clone url<br/>```<br/>",
         "parents": [
@@ -5811,7 +5821,7 @@
         "is_boss": false,
         "name": "SQL CREATE TABLE",
         "location": "/Users/luis/Documents/My_obsidian/SQL/SQL CREATE TABLE.md",
-        "id": 410,
+        "id": 411,
         "category": "SQL",
         "content": "[[SQL]]<br/>```sql<br/>CREATE TABLE IF NOT EXISTS javaeetodo.profil (profil_id int NOT NULL PRIMARY KEY GENERATED ALWAYS AS IDENTITY,<br/>\t\t\t\t \tprofil_name character varying(30),<br/>\t\t\t\t\tprofil_password character varying(30));<br/><br/>CREATE TABLE IF NOT EXISTS javaeetodo.tag (tag_id int NOT NULL PRIMARY KEY,<br/>\t\t\t\t \ttag_description character varying(30));<br/>\t\t\t\t\t<br/>CREATE TABLE IF NOT EXISTS javaeetodo.todo(todo_id int NOT NULL PRIMARY KEY GENERATED ALWAYS AS IDENTITY,<br/>\t\t\t\t   todo_name character varying(30),<br/>\t\t\t\t   todo_description character varying(30),<br/>\t\t\t\t   creationdate character varying(10),<br/>\t\t\t\t   duedate character varying(10),<br/>\t\t\t\t   tag_id int REFERENCES javaeetodo.tag(tag_id),<br/>\t\t\t\t   profil_id int REFERENCES javaeetodo.profil(profil_id));<br/>\t\t\t\t   <br/>CREATE SEQUENCE javaeetodo.sq_tag_tagid<br/>    MINVALUE 0<br/>    INCREMENT BY 1<br/>    START WITH 0;\t\t<br/><br/>CREATE OR REPLACE FUNCTION generate_key_value() RETURNS TRIGGER AS $$<br/>    BEGIN<br/>        IF NEW.tag_id IS NULL THEN<br/>            SELECT NEXTVAL('javaeetodo.sq_tag_tagid') INTO NEW.tag_id;<br/>        END IF;<br/>        return NEW;<br/>    END;<br/>$$ LANGUAGE PLPGSQL;<br/><br/>CREATE TRIGGER trg_for_key BEFORE<br/>INSERT ON javaeetodo.tag FOR EACH ROW EXECUTE PROCEDURE generate_key_value()<br/>```<br/><br/><br/>",
         "parents": [
@@ -5822,9 +5832,19 @@
     {
         "children": ["SQL"],
         "is_boss": false,
+        "name": "SQL Inner Join",
+        "location": "/Users/luis/Documents/My_obsidian/SQL/SQL Inner Join.md",
+        "id": 412,
+        "category": "SQL",
+        "content": "[[SQL]]<br/>```SQL<br/>select c.id, c.name, c.schnauze from zoo.raubtier c<br/>inner join zoo.wolf w on w.alter = c.alter <br/>```<br/>",
+        "parents": ["SQL"]
+    },
+    {
+        "children": ["SQL"],
+        "is_boss": false,
         "name": "PostgreSQL",
         "location": "/Users/luis/Documents/My_obsidian/SQL/PostgreSQL.md",
-        "id": 411,
+        "id": 413,
         "category": "SQL",
         "content": "[[SQL]]<br/>```Shell<br/>sudo apt update<br/>sudo apt install postgresql postgresql-contrib<br/>sudo systemctl start postgresql<br/>sudo systemctl enable postgresql<br/>sudo systemctl status postgresql //überprüfen ob postgresql läuft<br/>sudo -i -u postgres //anmelden als standard-postgres user<br/>SELECT CURRENT_USER; // anzeigen welcher User aktiv ist<br/>psql //Postgres Shell starten<br/>psql -U obsidian_uploader -d datenbankname<br/>\\c obsidian_data //verbinden mit Datenbank<br/>CREATE USER neuer_benutzername WITH PASSWORD 'sicheres_passwort'; //Neuen Benutzer anlegen<br/>GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA public TO obsidian_uploader;<br/>\\l //um alle Datenbanken auf dem PostgreSQL-Server<br/>\\dt mein_schema.* //List all tables<br/>\\dn //List all schemas<br/>psql --version //welche Version<br/>psql -d meine_datenbank //Verbinden mit 'meine_datenbank'<br/>\\q //PostgreSQL-Shell verlassen<br/>exit //Verlassen Sie den `postgres`-Benutzer und kehren Sie zu Ihrem regulären Benutzer<br/>```<br/>",
         "parents": ["SQL"]
@@ -5834,7 +5854,7 @@
         "is_boss": false,
         "name": "SQL INSERT INTO",
         "location": "/Users/luis/Documents/My_obsidian/SQL/SQL INSERT INTO.md",
-        "id": 412,
+        "id": 414,
         "category": "SQL",
         "content": "[[SQL]]<br/>```Shell<br/>INSERT INTO mein_schema.meine_tabelle (name) VALUES ('Max Mustermann');<br/>```<br/>",
         "parents": ["SQL"]
@@ -5855,12 +5875,12 @@
         "is_boss": true,
         "name": "SQL",
         "location": "/Users/luis/Documents/My_obsidian/SQL/SQL.md",
-        "id": 413,
+        "id": 415,
         "category": "SQL",
         "content": "[Boss]<br/>[[MongoDB CRUD]]<br/><br/>![[PostgreSQL]]<br/><br/>![[Linux Postgres Config]]<br/><br/>![[SQL Neuer Benutzer]]<br/><br/>![[SQL Neue Datenbank]]<br/><br/>```shell<br/>\\dn //List of all schemas<br/>```<br/><br/>![[SQL Neues Schema]]<br/><br/>![[SQL CREATE TABLE]]<br/><br/>![[SQL INSERT INTO]]<br/><br/>![[SQL date]]<br/><br/>![[SQL Inner Join]]<br/>",
         "parents": [
-            "SQL Inner Join",
             "SQL CREATE TABLE",
+            "SQL Inner Join",
             "PostgreSQL",
             "SQL INSERT INTO",
             "SQL Neues Schema",
@@ -5875,7 +5895,7 @@
         "is_boss": false,
         "name": "SQL Neues Schema",
         "location": "/Users/luis/Documents/My_obsidian/SQL/SQL Neues Schema.md",
-        "id": 414,
+        "id": 416,
         "category": "SQL",
         "content": "[[SQL]]<br/>```sql<br/>CREATE SCHEMA mein_schema;<br/>```<br/>",
         "parents": ["SQL"]
@@ -5885,7 +5905,7 @@
         "is_boss": false,
         "name": "SQL Neuer Benutzer",
         "location": "/Users/luis/Documents/My_obsidian/SQL/SQL Neuer Benutzer.md",
-        "id": 415,
+        "id": 417,
         "category": "SQL",
         "content": "[[SQL]]<br/>```sql<br/>CREATE USER mein_benutzer WITH PASSWORD 'mein_passwort';<br/>GRANT ALL PRIVILEGES ON DATABASE meine_datenbank TO mein_benutzer;<br/><br/>```<br/>",
         "parents": ["SQL"]
@@ -5898,7 +5918,7 @@
         "is_boss": true,
         "name": "NoSQL",
         "location": "/Users/luis/Documents/My_obsidian/SQL/NoSQL.md",
-        "id": 416,
+        "id": 418,
         "category": "SQL",
         "content": "[Boss]<br/>[[SQL]]<br/>[[MongoDB CRUD]]<br/>",
         "parents": ["MongoDB CRUD"]
@@ -5908,7 +5928,7 @@
         "is_boss": false,
         "name": "SQL Neue Datenbank",
         "location": "/Users/luis/Documents/My_obsidian/SQL/SQL Neue Datenbank.md",
-        "id": 417,
+        "id": 419,
         "category": "SQL",
         "content": "[[SQL]]<br/>```sql<br/>CREATE DATABASE meine_datenbank;<br/>```<br/>",
         "parents": ["SQL"]
@@ -5918,7 +5938,7 @@
         "is_boss": false,
         "name": "SQL date",
         "location": "/Users/luis/Documents/My_obsidian/SQL/SQL date.md",
-        "id": 418,
+        "id": 420,
         "category": "SQL",
         "content": "[[SQL]]<br/>```SQL<br/>select '2024-01-01'::date + interval '6 month ago'<br/>```<br/>",
         "parents": ["SQL"]
