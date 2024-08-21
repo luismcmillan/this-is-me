@@ -218,6 +218,10 @@ export default class circle {
                 return "yellow";
                 // Code, der ausgeführt wird, wenn expression === value1
               break;
+              case "Visual Basic for Application":
+                return "green";
+                // Code, der ausgeführt wird, wenn expression === value1
+              break;
             // Weitere cases nach Bedarf
             default:
               // Code, der ausgeführt wird, wenn keiner der obigen Fälle zutrifft
