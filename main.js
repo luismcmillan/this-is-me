@@ -1,5 +1,4 @@
 import circle from "./circle.js";
-console.log("new version");
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 const ctx_width = canvas.width;
@@ -189,6 +188,67 @@ function handleMouseDown(e) {
   });
 }
 
+// Touch-Event-Handler hinzufügen
+
+function handleTouchStart(e) {
+  const touch = e.touches[0];
+  const { mouse_x, mouse_y } = getTouchPosition(touch);
+  general_dragged = balls.some(ball => {
+    if (ball.isPointInside(mouse_x, mouse_y)) {
+      ball.dragging = true;
+      return true;
+    }
+    ball.dragging = false;
+    return false;
+  });
+}
+
+function handleTouchMove(e) {
+  if (all_loaded && !running && !starting_animation_done) {
+    raf = window.requestAnimationFrame(animation);
+    running = true;
+  }
+
+  const touch = e.touches[0];
+  const { mouse_x, mouse_y } = getTouchPosition(touch);
+  let found_hovered = false;
+
+  balls.forEach(ball => {
+    ball.hovered = ball.dragging || ball.isPointInside(mouse_x, mouse_y);
+    ball.draw();
+    if (ball.hovered) {
+      found_hovered = true;
+      general_hovered = true;
+      document.getElementById("circle-content").innerHTML = ball.give_content();
+      if (ball.dragging) {
+        ball.x = mouse_x;
+        ball.y = mouse_y;
+      }
+    }
+  });
+
+  general_hovered = found_hovered;
+  e.preventDefault();  // Verhindert das Standardverhalten (z.B. Scrollen)
+}
+
+function handleTouchEnd() {
+  general_dragged = false;
+  balls.forEach(ball => {
+    ball.dragging = false;
+    ball.hovered = false;
+  });
+}
+
+function getTouchPosition(touch) {
+  const rect = canvas.getBoundingClientRect();
+  const scaleX = canvas.width / rect.width;
+  const scaleY = canvas.height / rect.height;
+  const mouse_x = (touch.clientX - rect.left) * scaleX;
+  const mouse_y = (touch.clientY - rect.top) * scaleY;
+  return { mouse_x, mouse_y };
+}
+
+// Event-Listener für Maus- und Touch-Events
 canvas.addEventListener("mousemove", handleMouseMove);
 canvas.addEventListener("mousedown", handleMouseDown);
 canvas.addEventListener("mouseup", () => {
@@ -200,6 +260,9 @@ canvas.addEventListener("mouseup", () => {
 });
 canvas.addEventListener("click", startAnimation);
 canvas.addEventListener("mouseout", startAnimation);
+canvas.addEventListener("touchstart", handleTouchStart);
+canvas.addEventListener("touchmove", handleTouchMove);
+canvas.addEventListener("touchend", handleTouchEnd);
 window.addEventListener("scroll", startAnimation);
 document.getElementById("myModal").addEventListener("click", startAnimation);
 
