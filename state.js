@@ -7,7 +7,7 @@ export const sharedState = {
     rotation_pos: 0,
     lines_disappear_animation_done: false,
     starting_animation_done: false,
-    animation_color: 65,
+    animation_color: 150,
     colors: {
         "C++": "Aquamarine",
         "Docker": "DodgerBlue",
