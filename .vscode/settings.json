@@ -74,5 +74,6 @@
         "numeric": "cpp",
         "ranges": "cpp",
         "algorithm": "cpp"
-    }
+    },
+    "liveServer.settings.port": 5502
 }
