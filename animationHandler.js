@@ -13,23 +13,34 @@ export async function animation() {
     if (!sharedState.all_loaded) return;
   
     if (sharedState.general_hovered || !sharedState.starting_animation_done) clear();
+    /*
     if (!sharedState.lines_disappear_animation_done && sharedState.animation_color < 215) {
         sharedState.animation_color += 10;
     } else if (sharedState.lines_disappear_animation_done && sharedState.animation_color > 65) {
         sharedState.animation_color -= 10;
     }
+        */
   
     draw_all_lines(getColor());
   
     let found_out_of_position = false;
     balls.forEach(ball => {
-      if (sharedState.animation_color === 215) ball.follow();
+      //if (sharedState.animation_color === 215) {
+        ball.new_target_position();
+        ball.follow();
+        ball.keep_distance();
+
+      //}
+        
+      ball.updateDistrict()
       ball.change_circle_gravity();
       ball.change_circle_size();
       ball.draw();
       
       // Text anzeigen
       ball.show_text();
+      
+      sharedState.rotation_pos = (sharedState.rotation_pos +0.000001)%360;
   
       if (!ball.in_position) found_out_of_position = true;
     });
