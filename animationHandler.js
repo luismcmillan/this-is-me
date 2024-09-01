@@ -26,11 +26,9 @@ export async function animation() {
     let found_out_of_position = false;
     balls.forEach(ball => {
       //if (sharedState.animation_color === 215) {
-        
         ball.new_target_position();
-        ball.keep_distance();
-        
         ball.follow();
+        ball.keep_distance();
 
       //}
         

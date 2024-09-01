@@ -25,6 +25,7 @@ async function main() {
   
   balls.forEach(ball => {
     location[ball.district_x][ball.district_y].push(ball.id);
+    location[ball.district_x][ball.district_y].push(ball.id);
     ball.change_circle_size();
     ball.draw();
   });
@@ -41,9 +42,6 @@ async function loadJson() {
 
 function createCircles(jsoncontent) {
   jsoncontent.forEach((element, i) => {
-    const pos_x = ctx_width / 2 + ctx_width * 0.4 * Math.sin((i / jsoncontent.length) * 2 * Math.PI);
-    const pos_y = ctx_height / 2 + ctx_width * 0.4 * Math.cos((i / jsoncontent.length) * 2 * Math.PI);
-
     map.set(element.name, element.id);
     balls.push(
       new Circle(
